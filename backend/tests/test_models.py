@@ -1,7 +1,7 @@
 from __future__ import annotations
 
 from app.db.base import Base
-from app.db.models import DeviceCredential
+from app.db.models import DeviceCredential, UserQuestionUsage
 
 
 def test_expected_tables_are_registered() -> None:
@@ -27,3 +27,7 @@ def test_device_credential_timestamps_are_timezone_aware() -> None:
     assert DeviceCredential.__table__.c.created_at.type.timezone is True
     assert DeviceCredential.__table__.c.last_seen_at.type.timezone is True
     assert DeviceCredential.__table__.c.revoked_at.type.timezone is True
+
+
+def test_question_usage_timestamp_is_timezone_aware() -> None:
+    assert UserQuestionUsage.__table__.c.first_used_at.type.timezone is True

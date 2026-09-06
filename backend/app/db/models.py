@@ -383,7 +383,11 @@ class UserQuestionUsage(Base):
         ForeignKey("matches.id", ondelete="RESTRICT"),
         nullable=False,
     )
-    first_used_at: Mapped[datetime] = mapped_column(server_default=func.now(), nullable=False)
+    first_used_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        nullable=False,
+    )
 
 
 class MatchLifeline(Base):

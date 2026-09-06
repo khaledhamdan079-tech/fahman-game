@@ -75,7 +75,12 @@ class GameBoardScreen extends ConsumerWidget {
       final opened = await ref
           .read(setupControllerProvider.notifier)
           .openQuestion(question.id);
-      if (opened && context.mounted) context.go('/question');
+      if (!context.mounted) return;
+      if (opened) {
+        context.go('/question');
+      } else {
+        _showOpenError(context, ref);
+      }
       return;
     }
     final doubleAvailable = match.lifelines.any(
@@ -159,7 +164,21 @@ class GameBoardScreen extends ConsumerWidget {
     final opened = await ref
         .read(setupControllerProvider.notifier)
         .openQuestion(question.id, doublePoints: useDouble);
-    if (opened && context.mounted) context.go('/question');
+    if (!context.mounted) return;
+    if (opened) {
+      context.go('/question');
+    } else {
+      _showOpenError(context, ref);
+    }
+  }
+
+  void _showOpenError(BuildContext context, WidgetRef ref) {
+    final message =
+        ref.read(setupControllerProvider).error ??
+        'تعذر فتح السؤال. حاول مرة أخرى.';
+    ScaffoldMessenger.of(context)
+      ..hideCurrentSnackBar()
+      ..showSnackBar(SnackBar(content: Text(message)));
   }
 }
 

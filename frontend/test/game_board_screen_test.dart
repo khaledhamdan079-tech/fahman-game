@@ -22,6 +22,19 @@ class _BoardTestController extends SetupController {
   );
 }
 
+class _FailingBoardTestController extends _BoardTestController {
+  @override
+  Future<bool> openQuestion(
+    String questionId, {
+    bool doublePoints = false,
+  }) async {
+    state = state.copyWith(
+      error: 'تعذر فتح السؤال. حدّث الجولة وحاول مرة أخرى.',
+    );
+    return false;
+  }
+}
+
 void main() {
   testWidgets('keeps all question rows usable on a landscape phone', (
     tester,
@@ -91,6 +104,53 @@ void main() {
     expect(find.text('سؤال بـ 400 نقطة'), findsOneWidget);
     expect(find.text('افتح السؤال'), findsOneWidget);
     expect(find.text('دبل النقاط ثم افتح'), findsOneWidget);
+    expect(tester.takeException(), isNull);
+  });
+
+  testWidgets('shows an error when opening a question fails', (tester) async {
+    tester.view.physicalSize = const Size(800, 360);
+    tester.view.devicePixelRatio = 1;
+    addTearDown(tester.view.resetPhysicalSize);
+    addTearDown(tester.view.resetDevicePixelRatio);
+
+    final router = GoRouter(
+      initialLocation: '/game',
+      routes: [
+        GoRoute(
+          path: '/game',
+          builder: (context, state) => const GameBoardScreen(),
+        ),
+        GoRoute(
+          path: '/question',
+          builder: (context, state) => const SizedBox.shrink(),
+        ),
+      ],
+    );
+    addTearDown(router.dispose);
+
+    await tester.pumpWidget(
+      ProviderScope(
+        overrides: [
+          setupControllerProvider.overrideWith(_FailingBoardTestController.new),
+        ],
+        child: MaterialApp.router(
+          theme: FahmanTheme.light,
+          locale: const Locale('ar'),
+          routerConfig: router,
+        ),
+      ),
+    );
+    await tester.pumpAndSettle();
+
+    await tester.tap(find.text('200').first);
+    await tester.pumpAndSettle();
+    await tester.tap(find.text('افتح السؤال'));
+    await tester.pumpAndSettle();
+
+    expect(
+      find.text('تعذر فتح السؤال. حدّث الجولة وحاول مرة أخرى.'),
+      findsOneWidget,
+    );
     expect(tester.takeException(), isNull);
   });
 }
