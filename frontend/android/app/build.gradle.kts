@@ -5,6 +5,8 @@ plugins {
     id("dev.flutter.flutter-gradle-plugin")
 }
 
+val fahmanCiDebugKeystore = System.getenv("FAHMAN_CI_DEBUG_KEYSTORE")
+
 android {
     namespace = "com.fahman.game.fahman"
     compileSdk = flutter.compileSdkVersion
@@ -28,6 +30,15 @@ android {
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
         versionName = flutter.versionName
+    }
+
+    if (!fahmanCiDebugKeystore.isNullOrBlank() && file(fahmanCiDebugKeystore).exists()) {
+        signingConfigs.getByName("debug") {
+            storeFile = file(fahmanCiDebugKeystore)
+            storePassword = "android"
+            keyAlias = "androiddebugkey"
+            keyPassword = "android"
+        }
     }
 
     buildTypes {
