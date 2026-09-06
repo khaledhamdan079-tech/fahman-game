@@ -1,0 +1,35 @@
+import 'package:flutter_secure_storage/flutter_secure_storage.dart';
+
+class SessionTokens {
+  const SessionTokens({required this.accessToken, required this.refreshToken});
+
+  final String accessToken;
+  final String refreshToken;
+}
+
+class TokenStore {
+  TokenStore([FlutterSecureStorage? storage])
+    : _storage = storage ?? const FlutterSecureStorage();
+
+  static const _accessKey = 'fahman_access_token';
+  static const _refreshKey = 'fahman_refresh_token';
+  final FlutterSecureStorage _storage;
+
+  Future<String?> readAccessToken() => _storage.read(key: _accessKey);
+
+  Future<String?> readRefreshToken() => _storage.read(key: _refreshKey);
+
+  Future<void> save(SessionTokens tokens) async {
+    await Future.wait([
+      _storage.write(key: _accessKey, value: tokens.accessToken),
+      _storage.write(key: _refreshKey, value: tokens.refreshToken),
+    ]);
+  }
+
+  Future<void> clear() async {
+    await Future.wait([
+      _storage.delete(key: _accessKey),
+      _storage.delete(key: _refreshKey),
+    ]);
+  }
+}
