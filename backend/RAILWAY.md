@@ -10,7 +10,7 @@ first deployment uses a Dockerfile plus service settings.
 3. Add the application repository as another service.
 4. Set the application service Root Directory to `/backend`.
 5. Railway will detect `backend/Dockerfile` automatically from that root.
-6. Set the pre-deploy command to `alembic upgrade head`.
+6. The container runs `alembic upgrade head` automatically before starting the API.
 7. Set the health-check path to `/health/ready`.
 8. Generate a public domain after the deployment succeeds.
 

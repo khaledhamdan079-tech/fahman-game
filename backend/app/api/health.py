@@ -19,5 +19,5 @@ async def ready(
     settings: SettingsDependency,
     session: SessionDependency,
 ) -> HealthResponse:
-    await session.execute(text("SELECT 1"))
+    await session.execute(text("SELECT 1 FROM device_credentials LIMIT 1"))
     return HealthResponse(service=settings.app_name, version=settings.app_version)

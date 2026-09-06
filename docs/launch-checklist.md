@@ -13,7 +13,7 @@
 
 - Set the Railway service root to `/backend`.
 - Use the repository Dockerfile.
-- Set the pre-deploy command to `alembic upgrade head`.
+- Confirm the container's automatic `alembic upgrade head` step succeeds.
 - Set the health-check path to `/health/ready`.
 - Configure every required variable in `backend/RAILWAY.md`.
 - Verify `/health/live` and `/health/ready` after deployment.

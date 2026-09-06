@@ -32,6 +32,9 @@ flutter test
 flutter run --dart-define=API_BASE_URL=http://10.0.2.2:8000/v1
 ```
 
+Without an override, the app connects to the deployed Railway API so APKs run
+correctly on physical phones.
+
 The app generates a random installation ID and secret on first launch and
 stores them in platform secure storage. No Google or hardware identifier setup
 is required:

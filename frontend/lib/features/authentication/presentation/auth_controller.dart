@@ -1,3 +1,6 @@
+import 'dart:developer' as developer;
+
+import 'package:dio/dio.dart';
 import 'package:fahman/core/network/api_client.dart';
 import 'package:fahman/core/storage/token_store.dart';
 import 'package:fahman/features/authentication/data/auth_repository.dart';
@@ -54,6 +57,26 @@ class AuthController extends Notifier<AuthState> {
       return true;
     } on AuthFailure catch (error) {
       state = AuthState(status: AuthStatus.error, message: error.message);
+    } on DioException catch (error, stackTrace) {
+      final responseData = error.response?.data;
+      final responseError = responseData is Map<String, dynamic>
+          ? responseData['error']
+          : null;
+      final code = responseError is Map<String, dynamic>
+          ? responseError['code']
+          : null;
+      developer.log(
+        'Device authentication failed: status=${error.response?.statusCode}, '
+        'code=$code, type=${error.type.name}',
+        name: 'fahman.auth',
+        error: error.message,
+        stackTrace: stackTrace,
+      );
+      state = AuthState(
+        status: AuthStatus.error,
+        message:
+            'تعذر تجهيز حساب هذا الهاتف (${error.response?.statusCode ?? error.type.name}).',
+      );
     } catch (_) {
       state = const AuthState(
         status: AuthStatus.error,

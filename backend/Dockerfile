@@ -20,4 +20,4 @@ USER app
 
 EXPOSE 8000
 
-CMD ["python", "-m", "app"]
+CMD ["sh", "-c", "alembic upgrade head && exec python -m app"]
