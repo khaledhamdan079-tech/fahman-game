@@ -86,44 +86,74 @@ class GameBoardScreen extends ConsumerWidget {
     );
     final useDouble = await showModalBottomSheet<bool>(
       context: context,
+      isScrollControlled: true,
+      useSafeArea: true,
       backgroundColor: Colors.transparent,
-      builder: (context) => Container(
-        padding: const EdgeInsets.fromLTRB(22, 18, 22, 28),
-        decoration: const BoxDecoration(
-          color: FahmanColors.cream,
-          borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
-        ),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.stretch,
-          children: [
-            Text(
-              'سؤال بـ ${question.points} نقطة',
-              style: Theme.of(context).textTheme.headlineMedium,
+      builder: (context) {
+        final compact = MediaQuery.sizeOf(context).height < 500;
+        return Container(
+          padding: EdgeInsets.fromLTRB(
+            compact ? 18 : 22,
+            compact ? 10 : 18,
+            compact ? 18 : 22,
+            compact ? 10 : 28,
+          ),
+          decoration: const BoxDecoration(
+            color: FahmanColors.cream,
+            borderRadius: BorderRadius.vertical(top: Radius.circular(30)),
+          ),
+          child: SingleChildScrollView(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Text(
+                  'سؤال بـ ${question.points} نقطة',
+                  style: Theme.of(context).textTheme.headlineMedium,
+                ),
+                SizedBox(height: compact ? 2 : 7),
+                const Text('هل تريد فتحه مباشرة أم مضاعفة نقاطه أولاً؟'),
+                SizedBox(height: compact ? 8 : 20),
+                FilledButton.icon(
+                  style: compact
+                      ? FilledButton.styleFrom(
+                          minimumSize: const Size(0, 42),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 14,
+                            vertical: 8,
+                          ),
+                        )
+                      : null,
+                  onPressed: () => Navigator.pop(context, false),
+                  icon: const Icon(Icons.visibility_rounded),
+                  label: const Text('افتح السؤال'),
+                ),
+                SizedBox(height: compact ? 6 : 10),
+                OutlinedButton.icon(
+                  style: compact
+                      ? OutlinedButton.styleFrom(
+                          minimumSize: const Size(0, 42),
+                          padding: const EdgeInsets.symmetric(
+                            horizontal: 14,
+                            vertical: 8,
+                          ),
+                        )
+                      : null,
+                  onPressed: doubleAvailable
+                      ? () => Navigator.pop(context, true)
+                      : null,
+                  icon: const Icon(Icons.exposure_plus_2_rounded),
+                  label: Text(
+                    doubleAvailable
+                        ? 'دبل النقاط ثم افتح'
+                        : 'تم استخدام دبل النقاط',
+                  ),
+                ),
+              ],
             ),
-            const SizedBox(height: 7),
-            const Text('هل تريد فتحه مباشرة أم مضاعفة نقاطه أولاً؟'),
-            const SizedBox(height: 20),
-            FilledButton.icon(
-              onPressed: () => Navigator.pop(context, false),
-              icon: const Icon(Icons.visibility_rounded),
-              label: const Text('افتح السؤال'),
-            ),
-            const SizedBox(height: 10),
-            OutlinedButton.icon(
-              onPressed: doubleAvailable
-                  ? () => Navigator.pop(context, true)
-                  : null,
-              icon: const Icon(Icons.exposure_plus_2_rounded),
-              label: Text(
-                doubleAvailable
-                    ? 'دبل النقاط ثم افتح'
-                    : 'تم استخدام دبل النقاط',
-              ),
-            ),
-          ],
-        ),
-      ),
+          ),
+        );
+      },
     );
     if (useDouble == null) return;
     final opened = await ref

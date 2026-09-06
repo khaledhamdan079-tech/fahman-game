@@ -84,5 +84,13 @@ void main() {
       greaterThanOrEqualTo(24),
     );
     expect(tester.takeException(), isNull);
+
+    await tester.tap(find.text('400').first);
+    await tester.pumpAndSettle();
+
+    expect(find.text('سؤال بـ 400 نقطة'), findsOneWidget);
+    expect(find.text('افتح السؤال'), findsOneWidget);
+    expect(find.text('دبل النقاط ثم افتح'), findsOneWidget);
+    expect(tester.takeException(), isNull);
   });
 }
