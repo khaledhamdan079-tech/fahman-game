@@ -119,8 +119,16 @@ class DeviceCredential(Base):
     installation_id: Mapped[uuid.UUID] = mapped_column(Uuid, unique=True, nullable=False)
     secret_hash: Mapped[str] = mapped_column(String(64), nullable=False)
     platform: Mapped[str | None] = mapped_column(String(32))
-    created_at: Mapped[datetime] = mapped_column(server_default=func.now(), nullable=False)
-    last_seen_at: Mapped[datetime] = mapped_column(server_default=func.now(), nullable=False)
+    created_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        nullable=False,
+    )
+    last_seen_at: Mapped[datetime] = mapped_column(
+        DateTime(timezone=True),
+        server_default=func.now(),
+        nullable=False,
+    )
     revoked_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
 
 
