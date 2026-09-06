@@ -5,8 +5,10 @@ import hashlib
 import json
 import random
 from pathlib import Path
+from typing import Any
 
 from arabic_question_relations import RELATION_CATEGORIES
+from arabic_question_relations_extra import EXTRA_RELATION_CATEGORIES
 
 OPTION_DEPENDENT_PHRASES = (
     "من الآتية",
@@ -282,7 +284,7 @@ CATEGORIES: dict[str, tuple[str, str]] = {
 }
 
 
-def shuffled_options(prompt: str, answer: str, wrong_answers: list[str]) -> list[dict[str, object]]:
+def shuffled_options(prompt: str, answer: str, wrong_answers: list[str]) -> list[dict[str, Any]]:
     options = list(dict.fromkeys([answer, *wrong_answers]))
     if not 2 <= len(options) <= 4:
         raise ValueError(f"Question must have 2-4 unique options: {prompt}")
@@ -302,7 +304,7 @@ def question_item(
     answer: str,
     points: int,
     wrong_answers: list[str],
-) -> dict[str, object]:
+) -> dict[str, Any]:
     return {
         "category_name_ar": category_name,
         "category_description_ar": description,
@@ -345,9 +347,9 @@ def parse_relations(raw_pairs: str) -> list[tuple[str, str]]:
 
 
 def add_item(
-    items: list[dict[str, object]],
+    items: list[dict[str, Any]],
     seen_prompts: set[tuple[str, str, int]],
-    item: dict[str, object],
+    item: dict[str, Any],
 ) -> None:
     key = (str(item["category_name_ar"]), str(item["prompt_ar"]), int(item["points"]))
     if key in seen_prompts:
@@ -357,7 +359,7 @@ def add_item(
 
 
 def add_existing_categories(
-    items: list[dict[str, object]], seen_prompts: set[tuple[str, str, int]]
+    items: list[dict[str, Any]], seen_prompts: set[tuple[str, str, int]]
 ) -> None:
 
     for category_name, (description, raw_questions) in CATEGORIES.items():
@@ -442,9 +444,10 @@ def add_existing_categories(
 
 
 def add_relation_categories(
-    items: list[dict[str, object]], seen_prompts: set[tuple[str, str, int]]
+    items: list[dict[str, Any]], seen_prompts: set[tuple[str, str, int]]
 ) -> None:
-    for category_name, config in RELATION_CATEGORIES.items():
+    relation_categories = RELATION_CATEGORIES | EXTRA_RELATION_CATEGORIES
+    for category_name, config in relation_categories.items():
         pairs = parse_relations(config["pairs"])
         right_values = list(dict.fromkeys(right for _, right in pairs))
         for index, (left, right) in enumerate(pairs):
@@ -473,6 +476,28 @@ def add_relation_categories(
                 if candidate_right != right and candidate_left != left
             ]
             rng.shuffle(reverse_candidates)
+            if category_name in EXTRA_RELATION_CATEGORIES:
+                is_true = statement_is_true(
+                    config["reverse"].format(left=left, right=right)
+                )
+                candidate_answer = right if is_true else forward_candidates[0]
+                add_item(
+                    items,
+                    seen_prompts,
+                    question_item(
+                        category_name=category_name,
+                        description=config["description"],
+                        prompt=(
+                            f"صح أم خطأ: إجابة السؤال «{forward_prompt}» "
+                            f"هي «{candidate_answer}»."
+                        ),
+                        answer="صح" if is_true else "خطأ",
+                        points=points,
+                        wrong_answers=["خطأ" if is_true else "صح"],
+                    ),
+                )
+                continue
+
             reverse_occurrence = sum(
                 1 for _, previous_right in pairs[:index] if previous_right == right
             )
@@ -513,7 +538,7 @@ def add_relation_categories(
 
 
 def add_quick_math(
-    items: list[dict[str, object]], seen_prompts: set[tuple[str, str, int]]
+    items: list[dict[str, Any]], seen_prompts: set[tuple[str, str, int]]
 ) -> None:
     category_name = "حساب سريع"
     description = "عمليات حسابية ذهنية متدرجة الصعوبة"
@@ -564,8 +589,8 @@ def add_quick_math(
         )
 
 
-def build_payload() -> dict[str, object]:
-    items: list[dict[str, object]] = []
+def build_payload() -> dict[str, Any]:
+    items: list[dict[str, Any]] = []
     seen_prompts: set[tuple[str, str, int]] = set()
     add_existing_categories(items, seen_prompts)
     add_relation_categories(items, seen_prompts)
@@ -576,8 +601,8 @@ def build_payload() -> dict[str, object]:
         key = (str(item["category_name_ar"]), int(item["points"]))
         counts[key] = counts.get(key, 0) + 1
     category_names = {name for name, _ in counts}
-    if len(category_names) != 30:
-        raise ValueError(f"Expected 30 categories, got {len(category_names)}")
+    if len(category_names) != 51:
+        raise ValueError(f"Expected 51 categories, got {len(category_names)}")
     for category_name in category_names:
         tier_counts = {points: counts.get((category_name, points), 0) for points in (200, 400, 600)}
         if tier_counts != {200: 16, 400: 16, 600: 16}:
@@ -613,7 +638,7 @@ def main() -> None:
         )
         output_paths.append(output_path)
     print(
-        f"Wrote {len(items)} questions across 30 categories "
+        f"Wrote {len(items)} questions across 51 categories "
         f"to {len(output_paths)} import batches in {output_directory}"
     )
 

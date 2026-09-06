@@ -1,0 +1,1493 @@
+{
+  "publish": true,
+  "items": [
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 14 + 5؟",
+      "answer_ar": "19",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "19",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "29",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 17 + 6؟",
+      "answer_ar": "23",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "23",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "22",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "33",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 20 + 7؟",
+      "answer_ar": "27",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "37",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "26",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "27",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "28",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 23 + 8؟",
+      "answer_ar": "31",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "31",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 26 + 9؟",
+      "answer_ar": "35",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "35",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "34",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 29 + 10؟",
+      "answer_ar": "39",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "40",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "38",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "49",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "39",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 32 + 11؟",
+      "answer_ar": "43",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "53",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "43",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "44",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 35 + 12؟",
+      "answer_ar": "47",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "57",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "46",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "47",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 38 + 13؟",
+      "answer_ar": "51",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "52",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "51",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "50",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "61",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 41 + 14؟",
+      "answer_ar": "55",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "65",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "54",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "56",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "55",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 44 + 15؟",
+      "answer_ar": "59",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "60",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "59",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "58",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "69",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 47 + 16؟",
+      "answer_ar": "63",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "73",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "63",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "64",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "62",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 50 + 17؟",
+      "answer_ar": "67",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "67",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "68",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "66",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 53 + 18؟",
+      "answer_ar": "71",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "71",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "81",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 56 + 19؟",
+      "answer_ar": "75",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "74",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "85",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "76",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "75",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 59 + 20؟",
+      "answer_ar": "79",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "78",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "79",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "89",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 6 × 3؟",
+      "answer_ar": "18",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "18",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 7 × 4؟",
+      "answer_ar": "28",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "24",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "30",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "32",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "28",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 8 × 5؟",
+      "answer_ar": "40",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "35",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "45",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "40",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 9 × 6؟",
+      "answer_ar": "54",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "60",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "56",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "48",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "54",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 10 × 7؟",
+      "answer_ar": "70",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "70",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "63",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "72",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 11 × 8؟",
+      "answer_ar": "88",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "96",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "88",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 12 × 9؟",
+      "answer_ar": "108",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "117",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "108",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "110",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "99",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 13 × 3؟",
+      "answer_ar": "39",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "36",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "41",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "42",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "39",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 14 × 4؟",
+      "answer_ar": "56",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "56",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "52",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "60",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "58",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 15 × 5؟",
+      "answer_ar": "75",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "77",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "70",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "75",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 16 × 6؟",
+      "answer_ar": "96",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "90",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "102",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "96",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "98",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 17 × 7؟",
+      "answer_ar": "119",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "121",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "112",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "119",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "126",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 18 × 8؟",
+      "answer_ar": "144",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "146",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "152",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "136",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "144",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 19 × 9؟",
+      "answer_ar": "171",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "180",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "162",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "173",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "171",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 20 × 3؟",
+      "answer_ar": "60",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "63",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "57",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "60",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "62",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "ما ناتج 21 × 4؟",
+      "answer_ar": "84",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "84",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "86",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "88",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "80",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 2س + 3 = 11، فما قيمة س؟",
+      "answer_ar": "4",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "4",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "3",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 3س + 4 = 19، فما قيمة س؟",
+      "answer_ar": "5",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "4",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "5",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 4س + 5 = 29، فما قيمة س؟",
+      "answer_ar": "6",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "6",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 5س + 6 = 41، فما قيمة س؟",
+      "answer_ar": "7",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "6",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 2س + 7 = 23، فما قيمة س؟",
+      "answer_ar": "8",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "8",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "7",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 3س + 8 = 35، فما قيمة س؟",
+      "answer_ar": "9",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "8",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "9",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 4س + 9 = 49، فما قيمة س؟",
+      "answer_ar": "10",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "9",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "10",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 5س + 10 = 65، فما قيمة س؟",
+      "answer_ar": "11",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "10",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "11",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 2س + 11 = 35، فما قيمة س؟",
+      "answer_ar": "12",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "11",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "12",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 3س + 12 = 51، فما قيمة س؟",
+      "answer_ar": "13",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "13",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "12",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 4س + 13 = 69، فما قيمة س؟",
+      "answer_ar": "14",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "14",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "13",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 5س + 14 = 89، فما قيمة س؟",
+      "answer_ar": "15",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "15",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 2س + 15 = 47، فما قيمة س؟",
+      "answer_ar": "16",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "15",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "16",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 3س + 16 = 67، فما قيمة س؟",
+      "answer_ar": "17",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "16",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "17",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 4س + 17 = 89، فما قيمة س؟",
+      "answer_ar": "18",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "19",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "17",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "18",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حساب سريع",
+      "category_description_ar": "عمليات حسابية ذهنية متدرجة الصعوبة",
+      "question_type": "text",
+      "prompt_ar": "إذا كان 5س + 18 = 113، فما قيمة س؟",
+      "answer_ar": "19",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "20",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "19",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "21",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "18",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    }
+  ]
+}

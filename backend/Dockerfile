@@ -15,6 +15,7 @@ RUN pip install --no-cache-dir .
 
 COPY alembic.ini ./
 COPY migrations ./migrations
+COPY examples ./examples
 
 USER app
 
