@@ -11,6 +11,7 @@ from arabic_question_relations import RELATION_CATEGORIES
 from arabic_question_relations_extra import EXTRA_RELATION_CATEGORIES
 
 OPTION_DEPENDENT_PHRASES = (
+    "من الآتي",
     "من الآتية",
     "من الخيارات",
     "أي سؤال من",
@@ -20,11 +21,6 @@ OPTION_DEPENDENT_PHRASES = (
     "من التالية",
     "مما يلي",
     "كل ما سبق",
-)
-OPTION_ONLY_PREFIXES = (
-    "اختر من الخيارات: ",
-    "حدّد الإجابة الصحيحة: ",
-    "فكّر جيدا: ",
 )
 
 CATEGORIES: dict[str, tuple[str, str]] = {
@@ -276,7 +272,7 @@ CATEGORIES: dict[str, tuple[str, str]] = {
 600|أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟|الأكسولوتل|الضفدع السام|السمندر الناري|العلجوم
 600|ما حقيقة الناب الطويل لحوت الناروال؟|سن طويلة|قرن عظمي|جزء من الزعنفة|عظمة من الفك
 600|ما أكبر حيوان معروف عاش على الأرض؟|الحوت الأزرق|الأرجنتينوصور|الفيل الأفريقي|الميغالودون
-600|أي ثديي من الآتي يضع البيض؟|خلد الماء|الدلفين|الخفاش|الكوالا
+600|أي ثديي معروف يضع البيض؟|خلد الماء|الدلفين|الخفاش|الكوالا
 600|كم فقرة عنقية في رقبة الزرافة غالبا؟|7 فقرات|12 فقرة|18 فقرة|24 فقرة
 600|أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟|القطرس الجوال|النسر الأصلع|البجع الأبيض|الكندور الأنديزي
 """,
@@ -319,17 +315,6 @@ def question_item(
 
 def requires_visible_options(prompt: str) -> bool:
     return any(phrase in prompt for phrase in OPTION_DEPENDENT_PHRASES)
-
-
-def clean_option_dependent_prompt(prompt: str) -> str:
-    cleaned = prompt
-    for prefix in OPTION_ONLY_PREFIXES:
-        cleaned = cleaned.removeprefix(prefix)
-    return cleaned.replace(" من الآتية", "").replace(" من الخيارات", "")
-
-
-def statement_is_true(original_prompt: str) -> bool:
-    return hashlib.sha256(original_prompt.encode("utf-8")).digest()[0] % 2 == 0
 
 
 def parse_relations(raw_pairs: str) -> list[tuple[str, str]]:
@@ -400,45 +385,35 @@ def add_existing_categories(
             raise ValueError(f"Unbalanced tiers in {category_name}: {tier_counts}")
 
         parsed = [[part.strip() for part in line.split("|")] for line in lines]
-        all_prompts = [row[1] for row in parsed]
-        for index, row in enumerate(parsed):
-            points, prompt, answer = int(row[0]), row[1], row[2]
-            reverse_wrong = [
-                all_prompts[(index + offset) % len(all_prompts)] for offset in (1, 5, 11)
-            ]
-            old_prompt = f"أي سؤال من الآتية إجابته «{answer}»؟"
-            is_true = statement_is_true(old_prompt)
-            candidate_prompt = prompt if is_true else sorted(reverse_wrong)[0]
-            correct = "صح" if is_true else "خطأ"
+        for row in parsed:
+            points, prompt, answer, *wrong_answers = int(row[0]), *row[1:]
             add_item(
                 items,
                 seen_prompts,
                 question_item(
                     category_name=category_name,
                     description=description,
-                    prompt=f"صح أم خطأ: إجابة السؤال «{candidate_prompt}» هي «{answer}».",
-                    answer=correct,
+                    prompt=f"سؤال إضافي: {prompt}",
+                    answer=answer,
                     points=points,
-                    wrong_answers=["خطأ" if correct == "صح" else "صح"],
+                    wrong_answers=wrong_answers,
                 ),
             )
 
         true_false_indexes = {0, 1, 2, 3, 6, 7, 8, 9, 12, 13, 14, 15}
         for index in sorted(true_false_indexes):
             row = parsed[index]
-            points, prompt, answer, wrong_answer = int(row[0]), row[1], row[2], row[3]
-            statement_answer = answer if index % 2 == 0 else wrong_answer
-            correct = "صح" if index % 2 == 0 else "خطأ"
+            points, prompt, answer, *wrong_answers = int(row[0]), *row[1:]
             add_item(
                 items,
                 seen_prompts,
                 question_item(
                     category_name=category_name,
                     description=description,
-                    prompt=f"صح أم خطأ: إجابة «{prompt}» هي «{statement_answer}».",
-                    answer=correct,
+                    prompt=f"جولة التحدي: {prompt}",
+                    answer=answer,
                     points=points,
-                    wrong_answers=["خطأ" if correct == "صح" else "صح"],
+                    wrong_answers=wrong_answers,
                 ),
             )
 
@@ -450,6 +425,7 @@ def add_relation_categories(
     for category_name, config in relation_categories.items():
         pairs = parse_relations(config["pairs"])
         right_values = list(dict.fromkeys(right for _, right in pairs))
+        right_counts = {right: sum(1 for _, value in pairs if value == right) for right in right_values}
         for index, (left, right) in enumerate(pairs):
             points = (200, 400, 600)[index // 8]
             rng = random.Random(f"{category_name}:{left}:{right}")
@@ -476,53 +452,14 @@ def add_relation_categories(
                 if candidate_right != right and candidate_left != left
             ]
             rng.shuffle(reverse_candidates)
-            if category_name in EXTRA_RELATION_CATEGORIES:
-                is_true = statement_is_true(
-                    config["reverse"].format(left=left, right=right)
-                )
-                candidate_answer = right if is_true else forward_candidates[0]
-                add_item(
-                    items,
-                    seen_prompts,
-                    question_item(
-                        category_name=category_name,
-                        description=config["description"],
-                        prompt=(
-                            f"صح أم خطأ: إجابة السؤال «{forward_prompt}» "
-                            f"هي «{candidate_answer}»."
-                        ),
-                        answer="صح" if is_true else "خطأ",
-                        points=points,
-                        wrong_answers=["خطأ" if is_true else "صح"],
-                    ),
-                )
-                continue
-
-            reverse_occurrence = sum(
-                1 for _, previous_right in pairs[:index] if previous_right == right
-            )
-            reverse_prefixes = (
-                "",
-                "اختر من الخيارات: ",
-                "حدّد الإجابة الصحيحة: ",
-                "فكّر جيدا: ",
-            )
-            old_reverse_prompt = reverse_prefixes[reverse_occurrence] + config["reverse"].format(
-                left=left, right=right
-            )
             reverse_prompt = config["reverse"].format(left=left, right=right)
-            reverse_answer = left
-            reverse_wrong_answers = reverse_candidates[:3]
-            if requires_visible_options(old_reverse_prompt):
-                is_true = statement_is_true(old_reverse_prompt)
-                candidate = left if is_true else sorted(reverse_wrong_answers)[0]
-                clean_prompt = clean_option_dependent_prompt(old_reverse_prompt)
-                reverse_prompt = (
-                    f"صح أم خطأ: «{candidate}» إحدى الإجابات الصحيحة "
-                    f"للسؤال «{clean_prompt}»."
-                )
-                reverse_answer = "صح" if is_true else "خطأ"
-                reverse_wrong_answers = ["خطأ" if reverse_answer == "صح" else "صح"]
+            if requires_visible_options(reverse_prompt) or right_counts[right] > 1:
+                reverse_prompt = f"سؤال إضافي: {forward_prompt}"
+                reverse_answer = right
+                reverse_wrong_answers = forward_candidates[:3]
+            else:
+                reverse_answer = left
+                reverse_wrong_answers = reverse_candidates[:3]
             add_item(
                 items,
                 seen_prompts,

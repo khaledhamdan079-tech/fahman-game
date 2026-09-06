@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import sys
 from collections import Counter
 from pathlib import Path
@@ -26,6 +27,8 @@ def test_generated_question_bank_is_balanced_and_standalone() -> None:
         for item in items
         if any(phrase in item["prompt_ar"] for phrase in OPTION_DEPENDENT_PHRASES)
     ]
+    assert not [item["prompt_ar"] for item in items if item["prompt_ar"].startswith("صح أم خطأ")]
+    assert not [item["answer_ar"] for item in items if item["answer_ar"] in {"صح", "خطأ"}]
 
 
 def test_expansion_adds_1008_questions_in_well_sized_categories() -> None:
@@ -39,6 +42,25 @@ def test_expansion_adds_1008_questions_in_well_sized_categories() -> None:
     assert len(extra_counts) == 21
     assert sum(extra_counts.values()) == 1008
     assert set(extra_counts.values()) == {48}
+
+
+def test_true_false_replacement_map_is_complete_and_standalone() -> None:
+    path = (
+        Path(__file__).resolve().parents[1]
+        / "examples"
+        / "questions.arabic.v3.replacements.json"
+    )
+    replacements = json.loads(path.read_text(encoding="utf-8"))["items"]
+
+    assert len(replacements) == 1051
+    assert sum(item["old_prompt_ar"].startswith("صح أم خطأ") for item in replacements) == 1050
+    assert not [
+        item
+        for item in replacements
+        if item["new_prompt_ar"].startswith("صح أم خطأ")
+        or item["new_answer_ar"] in {"صح", "خطأ"}
+        or any(phrase in item["new_prompt_ar"] for phrase in OPTION_DEPENDENT_PHRASES)
+    ]
 
 
 def test_every_question_has_one_matching_correct_option() -> None:

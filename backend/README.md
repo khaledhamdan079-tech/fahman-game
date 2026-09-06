@@ -46,7 +46,8 @@ batch as drafts. Every question must contain one correct option matching
 
 The current Arabic text-only catalogue contains 2,448 questions across 51
 categories. Each category has 16 questions at each of the 200, 400, and 600
-point tiers. Regenerate the import files after editing their source with:
+point tiers. Questions are open-ended and never rely on true/false odds or
+visible answer choices. Regenerate the import files after editing their source with:
 
 ```bash
 python scripts/build_arabic_question_bank.py
