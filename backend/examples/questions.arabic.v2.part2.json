@@ -563,30 +563,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الفيل الأفريقي»؟",
-      "answer_ar": "ما أكبر حيوان بري حي؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «كم حجرة في قلب التمساح؟» هي «الفيل الأفريقي».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ما الغذاء الأشهر للباندا العملاقة؟",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ما أكبر حيوان بري حي؟",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ما أسرع طائر عند الانقضاض؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كم حجرة في قلب التمساح؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -594,30 +584,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الصقر الشاهين»؟",
-      "answer_ar": "ما أسرع طائر عند الانقضاض؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «ما أسرع طائر عند الانقضاض؟» هي «الصقر الشاهين».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ما أسرع طائر عند الانقضاض؟",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أي حيوان ثديي قادر على الطيران الحقيقي؟",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إلى أي مجموعة ينتمي الحوت؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -625,30 +605,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الثدييات»؟",
-      "answer_ar": "إلى أي مجموعة ينتمي الحوت؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «كم ذراعا للأخطبوط؟» هي «الثدييات».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إلى أي مجموعة ينتمي الحوت؟",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ما حقيقة الناب الطويل لحوت الناروال؟",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "كم ذراعا للأخطبوط؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مم يتكون معظم هيكل سمك القرش؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -656,30 +626,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «8 أذرع»؟",
-      "answer_ar": "كم ذراعا للأخطبوط؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «ما أكبر حيوان معروف عاش على الأرض؟» هي «8 أذرع».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كم ذراعا للأخطبوط؟",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ما المميز في حركة عيني الحرباء؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ماذا يخزن الجمل أساسا في سنامه؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ما أكبر حيوان معروف عاش على الأرض؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -687,30 +647,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الدهون»؟",
-      "answer_ar": "ماذا يخزن الجمل أساسا في سنامه؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «ماذا يخزن الجمل أساسا في سنامه؟» هي «الدهون».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أي ثديي من الآتي يضع البيض؟",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "في أي نصف من الكرة الأرضية تعيش طيور البطريق طبيعيا؟",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ما الغذاء الأشهر للباندا العملاقة؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ماذا يخزن الجمل أساسا في سنامه؟",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -718,30 +668,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الخيزران»؟",
-      "answer_ar": "ما الغذاء الأشهر للباندا العملاقة؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «أي حيوان ثديي قادر على الطيران الحقيقي؟» هي «الخيزران».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كم فقرة عنقية في رقبة الزرافة غالبا؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "كم رجلا للنحلة؟",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أي حيوان ثديي قادر على الطيران الحقيقي؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ما الغذاء الأشهر للباندا العملاقة؟",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -749,30 +689,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الخفاش»؟",
-      "answer_ar": "أي حيوان ثديي قادر على الطيران الحقيقي؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «أي حيوان ثديي قادر على الطيران الحقيقي؟» هي «الخفاش».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كم حجرة في قلب التمساح؟",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "أي حيوان ثديي قادر على الطيران الحقيقي؟",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مم يتكون معظم هيكل سمك القرش؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -780,30 +710,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الغضروف»؟",
-      "answer_ar": "مم يتكون معظم هيكل سمك القرش؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «مم يتكون معظم هيكل سمك القرش؟» هي «الغضروف».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ما المميز في حركة عيني الحرباء؟",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ما أكبر حيوان بري حي؟",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مم يتكون معظم هيكل سمك القرش؟",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -811,30 +731,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «تتحركان باستقلال عن بعضهما»؟",
-      "answer_ar": "ما المميز في حركة عيني الحرباء؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «ما المميز في حركة عيني الحرباء؟» هي «تتحركان باستقلال عن بعضهما».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ما أسرع طائر عند الانقضاض؟",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "في أي نصف من الكرة الأرضية تعيش طيور البطريق طبيعيا؟",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ما المميز في حركة عيني الحرباء؟",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ما حقيقة الناب الطويل لحوت الناروال؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -842,30 +752,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «النصف الجنوبي»؟",
-      "answer_ar": "في أي نصف من الكرة الأرضية تعيش طيور البطريق طبيعيا؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «في أي نصف من الكرة الأرضية تعيش طيور البطريق طبيعيا؟» هي «النصف الجنوبي».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ما أكبر حيوان معروف عاش على الأرض؟",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "في أي نصف من الكرة الأرضية تعيش طيور البطريق طبيعيا؟",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "كم رجلا للنحلة؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إلى أي مجموعة ينتمي الحوت؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -873,30 +773,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «6 أرجل»؟",
-      "answer_ar": "كم رجلا للنحلة؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «كم رجلا للنحلة؟» هي «6 أرجل».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كم رجلا للنحلة؟",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "كم ذراعا للأخطبوط؟",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أي ثديي من الآتي يضع البيض؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كم حجرة في قلب التمساح؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -904,30 +794,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «4 حجرات»؟",
-      "answer_ar": "كم حجرة في قلب التمساح؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟» هي «4 حجرات».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كم حجرة في قلب التمساح؟",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "كم فقرة عنقية في رقبة الزرافة غالبا؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ماذا يخزن الجمل أساسا في سنامه؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -935,30 +815,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الأكسولوتل»؟",
-      "answer_ar": "أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟» هي «الأكسولوتل».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ما حقيقة الناب الطويل لحوت الناروال؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ما الغذاء الأشهر للباندا العملاقة؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -966,30 +836,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «سن طويلة»؟",
-      "answer_ar": "ما حقيقة الناب الطويل لحوت الناروال؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «ما حقيقة الناب الطويل لحوت الناروال؟» هي «سن طويلة».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ما حقيقة الناب الطويل لحوت الناروال؟",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ما أكبر حيوان بري حي؟",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ما أكبر حيوان معروف عاش على الأرض؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أي حيوان ثديي قادر على الطيران الحقيقي؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -997,30 +857,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «الحوت الأزرق»؟",
-      "answer_ar": "ما أكبر حيوان معروف عاش على الأرض؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «أي ثديي من الآتي يضع البيض؟» هي «الحوت الأزرق».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مم يتكون معظم هيكل سمك القرش؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ما أسرع طائر عند الانقضاض؟",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ما أكبر حيوان معروف عاش على الأرض؟",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أي ثديي من الآتي يضع البيض؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1028,30 +878,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «خلد الماء»؟",
-      "answer_ar": "أي ثديي من الآتي يضع البيض؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «إلى أي مجموعة ينتمي الحوت؟» هي «خلد الماء».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أي ثديي من الآتي يضع البيض؟",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ما المميز في حركة عيني الحرباء؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "إلى أي مجموعة ينتمي الحوت؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كم فقرة عنقية في رقبة الزرافة غالبا؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1059,30 +899,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «7 فقرات»؟",
-      "answer_ar": "كم فقرة عنقية في رقبة الزرافة غالبا؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟» هي «7 فقرات».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كم فقرة عنقية في رقبة الزرافة غالبا؟",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "في أي نصف من الكرة الأرضية تعيش طيور البطريق طبيعيا؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كم ذراعا للأخطبوط؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1090,30 +920,20 @@
       "category_name_ar": "حيوانات",
       "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
       "question_type": "text",
-      "prompt_ar": "أي سؤال من الآتية إجابته «القطرس الجوال»؟",
-      "answer_ar": "أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟",
+      "prompt_ar": "صح أم خطأ: إجابة السؤال «كم رجلا للنحلة؟» هي «القطرس الجوال».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ما أكبر حيوان بري حي؟",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ماذا يخزن الجمل أساسا في سنامه؟",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كم رجلا للنحلة؟",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4380,30 +4200,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر البرتغالية؟",
-      "answer_ar": "البرازيل",
+      "prompt_ar": "صح أم خطأ: «البرازيل» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر البرتغالية؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "هولندا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "البرازيل",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "جورجيا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "فرنسا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4442,30 +4252,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الإسبانية؟",
-      "answer_ar": "المكسيك",
+      "prompt_ar": "صح أم خطأ: «ألمانيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الإسبانية؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ألمانيا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "هنغاريا",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "تركيا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "المكسيك",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4504,30 +4304,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الفرنسية؟",
-      "answer_ar": "فرنسا",
+      "prompt_ar": "صح أم خطأ: «أرمينيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الفرنسية؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أرمينيا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "فرنسا",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "إندونيسيا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ألمانيا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4566,30 +4356,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الألمانية؟",
-      "answer_ar": "ألمانيا",
+      "prompt_ar": "صح أم خطأ: «ألمانيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الألمانية؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ألمانيا",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "منغوليا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "هولندا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "اليونان",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4628,30 +4408,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الإيطالية؟",
-      "answer_ar": "إيطاليا",
+      "prompt_ar": "صح أم خطأ: «ألبانيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الإيطالية؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إيطاليا",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ألبانيا",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "تركيا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ألمانيا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4690,30 +4460,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر اليابانية؟",
-      "answer_ar": "اليابان",
+      "prompt_ar": "صح أم خطأ: «اليابان» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر اليابانية؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "جورجيا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "إيطاليا",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "إندونيسيا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "اليابان",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4752,30 +4512,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الكورية؟",
-      "answer_ar": "كوريا الجنوبية",
+      "prompt_ar": "صح أم خطأ: «ألمانيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الكورية؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "هنغاريا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ألمانيا",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "اليابان",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كوريا الجنوبية",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4814,30 +4564,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الصينية المعيارية؟",
-      "answer_ar": "الصين",
+      "prompt_ar": "صح أم خطأ: «إندونيسيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الصينية المعيارية؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "فنلندا",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "إندونيسيا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "منغوليا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الصين",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -4876,30 +4616,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر التركية؟",
-      "answer_ar": "تركيا",
+      "prompt_ar": "صح أم خطأ: «تركيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر التركية؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "فنلندا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "اليابان",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "تركيا",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "منغوليا",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4938,30 +4668,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الفارسية؟",
-      "answer_ar": "إيران",
+      "prompt_ar": "صح أم خطأ: «أيسلندا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الفارسية؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الصين",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "هولندا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أيسلندا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إيران",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -5000,30 +4720,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر اليونانية؟",
-      "answer_ar": "اليونان",
+      "prompt_ar": "صح أم خطأ: «إندونيسيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر اليونانية؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كوريا الجنوبية",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "بولندا",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "اليونان",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إندونيسيا",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5062,30 +4772,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الهولندية؟",
-      "answer_ar": "هولندا",
+      "prompt_ar": "صح أم خطأ: «هولندا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الهولندية؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البرازيل",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "فرنسا",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "هولندا",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "هنغاريا",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5124,30 +4824,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر البولندية؟",
-      "answer_ar": "بولندا",
+      "prompt_ar": "صح أم خطأ: «ألمانيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر البولندية؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إيران",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "البرازيل",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "بولندا",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ألمانيا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5186,30 +4876,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر التايلاندية؟",
-      "answer_ar": "تايلاند",
+      "prompt_ar": "صح أم خطأ: «تايلاند» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر التايلاندية؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "تايلاند",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "هنغاريا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "فنلندا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الصين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5248,30 +4928,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الفيتنامية؟",
-      "answer_ar": "فيتنام",
+      "prompt_ar": "صح أم خطأ: «فيتنام» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الفيتنامية؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "فيتنام",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "فرنسا",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "منغوليا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "هنغاريا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5310,30 +4980,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الإندونيسية؟",
-      "answer_ar": "إندونيسيا",
+      "prompt_ar": "صح أم خطأ: «الصين» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الإندونيسية؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إندونيسيا",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "بولندا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "المكسيك",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الصين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5372,30 +5032,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الملايوية؟",
-      "answer_ar": "ماليزيا",
+      "prompt_ar": "صح أم خطأ: «ماليزيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الملايوية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الصين",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "اليابان",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ماليزيا",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ألمانيا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5434,30 +5084,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الهنغارية؟",
-      "answer_ar": "هنغاريا",
+      "prompt_ar": "صح أم خطأ: «هنغاريا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الهنغارية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "جورجيا",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "هولندا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "هنغاريا",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تايلاند",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5496,30 +5136,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الفنلندية؟",
-      "answer_ar": "فنلندا",
+      "prompt_ar": "صح أم خطأ: «فنلندا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الفنلندية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ألمانيا",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "المكسيك",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "فنلندا",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "منغوليا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5558,30 +5188,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الأيسلندية؟",
-      "answer_ar": "أيسلندا",
+      "prompt_ar": "صح أم خطأ: «أيسلندا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الأيسلندية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أيسلندا",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ألبانيا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "بولندا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "هولندا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5620,30 +5240,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الأرمينية؟",
-      "answer_ar": "أرمينيا",
+      "prompt_ar": "صح أم خطأ: «اليابان» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الأرمينية؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "فنلندا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أرمينيا",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "اليابان",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "اليونان",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5682,30 +5292,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الجورجية؟",
-      "answer_ar": "جورجيا",
+      "prompt_ar": "صح أم خطأ: «جورجيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الجورجية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "جورجيا",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "تركيا",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الصين",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ماليزيا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5744,30 +5344,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر الألبانية؟",
-      "answer_ar": "ألبانيا",
+      "prompt_ar": "صح أم خطأ: «ألبانيا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر الألبانية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "منغوليا",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ألبانيا",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "اليونان",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تركيا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5806,30 +5396,20 @@
       "category_name_ar": "لغات ودول",
       "category_description_ar": "لغات رسمية وشائعة حول العالم",
       "question_type": "text",
-      "prompt_ar": "أي دولة من الآتية لغتها الرسمية الأشهر المنغولية؟",
-      "answer_ar": "منغوليا",
+      "prompt_ar": "صح أم خطأ: «منغوليا» إحدى الإجابات الصحيحة للسؤال «أي دولة لغتها الرسمية الأشهر المنغولية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "منغوليا",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "البرازيل",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "كوريا الجنوبية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إيطاليا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5868,30 +5448,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في باريس؟",
-      "answer_ar": "برج إيفل",
+      "prompt_ar": "صح أم خطأ: «برج إيفل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في باريس؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بوابة براندنبورغ",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "برج إيفل",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ساغرادا فاميليا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الأكروبوليس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5930,30 +5500,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في لندن؟",
-      "answer_ar": "ساعة بيغ بن",
+      "prompt_ar": "صح أم خطأ: «الأكروبوليس» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في لندن؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأكروبوليس",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الكولوسيوم",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "ساعة بيغ بن",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برج طوكيو",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5992,30 +5552,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في روما؟",
-      "answer_ar": "الكولوسيوم",
+      "prompt_ar": "صح أم خطأ: «برج بيزا المائل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في روما؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "برج خليفة",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الكولوسيوم",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "برج بيزا المائل",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "جسر البوابة الذهبية",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6054,30 +5604,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في بيزا؟",
-      "answer_ar": "برج بيزا المائل",
+      "prompt_ar": "صح أم خطأ: «برج إيفل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في بيزا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "برج بيزا المائل",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ساغرادا فاميليا",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "برج إيفل",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ساعة بيغ بن",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6116,30 +5656,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في نيويورك؟",
-      "answer_ar": "تمثال الحرية",
+      "prompt_ar": "صح أم خطأ: «تمثال المسيح الفادي» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في نيويورك؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "تمثال المسيح الفادي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ساغرادا فاميليا",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "تمثال الحرية",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سور الصين عند بادالينغ",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -6178,30 +5708,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في سيدني؟",
-      "answer_ar": "دار أوبرا سيدني",
+      "prompt_ar": "صح أم خطأ: «دار أوبرا سيدني» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في سيدني؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ساغرادا فاميليا",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "برجا بتروناس",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "دار أوبرا سيدني",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برج بيزا المائل",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6240,30 +5760,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في دبي؟",
-      "answer_ar": "برج خليفة",
+      "prompt_ar": "صح أم خطأ: «برج إيفل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في دبي؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "متحف اللوفر أبوظبي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "برج إيفل",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "سور الصين عند بادالينغ",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برج خليفة",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -6302,30 +5812,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في أغرا؟",
-      "answer_ar": "تاج محل",
+      "prompt_ar": "صح أم خطأ: «تمثال المسيح الفادي» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في أغرا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "تاج محل",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "تمثال المسيح الفادي",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قصر الحمراء",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ساعة بيغ بن",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6364,30 +5864,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في إسطنبول؟",
-      "answer_ar": "المسجد الأزرق",
+      "prompt_ar": "صح أم خطأ: «المسجد الأزرق» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في إسطنبول؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "متحف اللوفر أبوظبي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ساغرادا فاميليا",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "برج خليفة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "المسجد الأزرق",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -6426,30 +5916,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في برشلونة؟",
-      "answer_ar": "ساغرادا فاميليا",
+      "prompt_ar": "صح أم خطأ: «الكولوسيوم» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في برشلونة؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "المسجد الأزرق",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ماتشو بيتشو",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ساغرادا فاميليا",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الكولوسيوم",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6488,30 +5968,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في برلين؟",
-      "answer_ar": "بوابة براندنبورغ",
+      "prompt_ar": "صح أم خطأ: «الكولوسيوم» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في برلين؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بوابة براندنبورغ",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سور الصين عند بادالينغ",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكولوسيوم",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تاج محل",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6550,30 +6020,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في أثينا؟",
-      "answer_ar": "الأكروبوليس",
+      "prompt_ar": "صح أم خطأ: «برج بيزا المائل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في أثينا؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأكروبوليس",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "برج بيزا المائل",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "برجا بتروناس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برج طوكيو",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6612,30 +6072,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في غرناطة؟",
-      "answer_ar": "قصر الحمراء",
+      "prompt_ar": "صح أم خطأ: «قصر الحمراء» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في غرناطة؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأكروبوليس",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "قصر الحمراء",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكولوسيوم",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سور الصين عند بادالينغ",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6674,30 +6124,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في ريو دي جانيرو؟",
-      "answer_ar": "تمثال المسيح الفادي",
+      "prompt_ar": "صح أم خطأ: «برج إيفل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في ريو دي جانيرو؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "برج إيفل",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ساغرادا فاميليا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مدينة البتراء",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تمثال المسيح الفادي",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -6736,30 +6176,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في طوكيو؟",
-      "answer_ar": "برج طوكيو",
+      "prompt_ar": "صح أم خطأ: «برج طوكيو» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في طوكيو؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "معبد أنغكور وات",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "برج طوكيو",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "جسر البوابة الذهبية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "المسجد الأزرق",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6798,30 +6228,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في بكين؟",
-      "answer_ar": "سور الصين عند بادالينغ",
+      "prompt_ar": "صح أم خطأ: «الكولوسيوم» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في بكين؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "قصر الحمراء",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الكولوسيوم",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "سور الصين عند بادالينغ",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برج سي إن",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -6860,30 +6280,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في سيام ريب؟",
-      "answer_ar": "معبد أنغكور وات",
+      "prompt_ar": "صح أم خطأ: «الأكروبوليس» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في سيام ريب؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "متحف اللوفر أبوظبي",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "تمثال الحرية",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "معبد أنغكور وات",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الأكروبوليس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6922,30 +6332,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في تورونتو؟",
-      "answer_ar": "برج سي إن",
+      "prompt_ar": "صح أم خطأ: «بوابة براندنبورغ» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في تورونتو؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بوابة براندنبورغ",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "برج سي إن",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "تمثال المسيح الفادي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ساعة بيغ بن",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -6984,30 +6384,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في سان فرانسيسكو؟",
-      "answer_ar": "جسر البوابة الذهبية",
+      "prompt_ar": "صح أم خطأ: «برج العرب» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في سان فرانسيسكو؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "برج العرب",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "جسر البوابة الذهبية",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "برج سي إن",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تمثال الحرية",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -7046,30 +6436,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في كوالالمبور؟",
-      "answer_ar": "برجا بتروناس",
+      "prompt_ar": "صح أم خطأ: «الكولوسيوم» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في كوالالمبور؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الكولوسيوم",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "برجا بتروناس",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "معبد أنغكور وات",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تاج محل",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -7108,30 +6488,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي معلم من الآتية يقع في دبي؟",
-      "answer_ar": "برج العرب",
+      "prompt_ar": "صح أم خطأ: «برج العرب» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في دبي؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "المسجد الأزرق",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "بوابة براندنبورغ",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "الأكروبوليس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برج العرب",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -7170,30 +6540,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في أبوظبي؟",
-      "answer_ar": "متحف اللوفر أبوظبي",
+      "prompt_ar": "صح أم خطأ: «بوابة براندنبورغ» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في أبوظبي؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ماتشو بيتشو",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "متحف اللوفر أبوظبي",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "معبد أنغكور وات",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بوابة براندنبورغ",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -7232,30 +6592,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في معان؟",
-      "answer_ar": "مدينة البتراء",
+      "prompt_ar": "صح أم خطأ: «الكولوسيوم» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في معان؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "قصر الحمراء",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الكولوسيوم",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مدينة البتراء",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تاج محل",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -7294,30 +6644,20 @@
       "category_name_ar": "معالم عالمية",
       "category_description_ar": "معالم شهيرة والمدن التي تحتضنها",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في كوسكو؟",
-      "answer_ar": "ماتشو بيتشو",
+      "prompt_ar": "صح أم خطأ: «برج بيزا المائل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في كوسكو؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ساعة بيغ بن",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "دار أوبرا سيدني",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "برج بيزا المائل",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ماتشو بيتشو",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },

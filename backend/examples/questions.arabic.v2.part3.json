@@ -36,30 +36,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ اليابان؟",
-      "answer_ar": "السوشي",
+      "prompt_ar": "صح أم خطأ: «الكسكس» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ اليابان؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "المجبوس",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الموساكا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكسكس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "السوشي",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -98,30 +88,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ إيطاليا؟",
-      "answer_ar": "البيتزا",
+      "prompt_ar": "صح أم خطأ: «الفو» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ إيطاليا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الملوخية",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "البيتزا",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكبسة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الفو",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -160,30 +140,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ إسبانيا؟",
-      "answer_ar": "الباييّا",
+      "prompt_ar": "صح أم خطأ: «الباييّا» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ إسبانيا؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "المجبوس",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الباييّا",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "البرياني",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "السلتة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -222,30 +192,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ كوريا؟",
-      "answer_ar": "الكيمتشي",
+      "prompt_ar": "صح أم خطأ: «الكيمتشي» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ كوريا؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الغولاش",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "التاكو",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "السوفلاكي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الكيمتشي",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -284,30 +244,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ المكسيك؟",
-      "answer_ar": "التاكو",
+      "prompt_ar": "صح أم خطأ: «التاكو» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ المكسيك؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "السيفيتشي",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "التاكو",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "السوشي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "السلتة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -346,30 +296,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ بيرو؟",
-      "answer_ar": "السيفيتشي",
+      "prompt_ar": "صح أم خطأ: «البرياني» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ بيرو؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفلافل",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الغولاش",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "البرياني",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "السيفيتشي",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -408,30 +348,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ اليونان؟",
-      "answer_ar": "الموساكا",
+      "prompt_ar": "صح أم خطأ: «الباد تاي» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ اليونان؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفو",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الباد تاي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "البرياني",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الموساكا",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -470,30 +400,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ هنغاريا؟",
-      "answer_ar": "الغولاش",
+      "prompt_ar": "صح أم خطأ: «الغولاش» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ هنغاريا؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفو",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الغولاش",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الباد تاي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الكسكس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -532,30 +452,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ فيتنام؟",
-      "answer_ar": "الفو",
+      "prompt_ar": "صح أم خطأ: «الفو» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ فيتنام؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفو",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "السوشي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "السيفيتشي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الفلافل",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -594,30 +504,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ تايلاند؟",
-      "answer_ar": "الباد تاي",
+      "prompt_ar": "صح أم خطأ: «الباييّا» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ تايلاند؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الباد تاي",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "المسخن",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الباييّا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "السلتة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -656,30 +556,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ الهند؟",
-      "answer_ar": "البرياني",
+      "prompt_ar": "صح أم خطأ: «البرياني» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ الهند؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البرياني",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "التبولة",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "المجبوس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الهريس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -718,30 +608,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ كندا؟",
-      "answer_ar": "البوتين",
+      "prompt_ar": "صح أم خطأ: «الدولمة» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ كندا؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفلافل",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "البوتين",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكسكس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الدولمة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -780,30 +660,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي طبق من الآتية ارتبط بمطبخ اليونان؟",
-      "answer_ar": "السوفلاكي",
+      "prompt_ar": "صح أم خطأ: «الكبسة» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ اليونان؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "السوفلاكي",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "المسخن",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكسكس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الكبسة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -842,30 +712,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ بلاد الشام؟",
-      "answer_ar": "الفلافل",
+      "prompt_ar": "صح أم خطأ: «الفلافل» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ بلاد الشام؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "السيفيتشي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "السوشي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "الباييّا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الفلافل",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -904,30 +764,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ السعودية؟",
-      "answer_ar": "الكبسة",
+      "prompt_ar": "صح أم خطأ: «البوتين» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ السعودية؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "السوفلاكي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الكبسة",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الموساكا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "البوتين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -966,30 +816,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ الخليج العربي؟",
-      "answer_ar": "المجبوس",
+      "prompt_ar": "صح أم خطأ: «المجبوس» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ الخليج العربي؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الباييّا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "السوفلاكي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "السوشي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "المجبوس",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -1028,30 +868,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ الأردن؟",
-      "answer_ar": "المنسف",
+      "prompt_ar": "صح أم خطأ: «المنسف» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ الأردن؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "المجبوس",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الكيمتشي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "المنسف",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الفلافل",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1090,30 +920,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ المغرب العربي؟",
-      "answer_ar": "الكسكس",
+      "prompt_ar": "صح أم خطأ: «السوشي» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ المغرب العربي؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "المنسف",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الغولاش",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكسكس",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "السوشي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1152,30 +972,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ مصر؟",
-      "answer_ar": "الملوخية",
+      "prompt_ar": "صح أم خطأ: «الملوخية» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ مصر؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البوتين",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "التبولة",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الملوخية",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "البرياني",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1214,30 +1024,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ فلسطين؟",
-      "answer_ar": "المسخن",
+      "prompt_ar": "صح أم خطأ: «المسخن» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ فلسطين؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الباد تاي",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "البرياني",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "المسخن",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الغولاش",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1276,30 +1076,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ لبنان؟",
-      "answer_ar": "التبولة",
+      "prompt_ar": "صح أم خطأ: «الباد تاي» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ لبنان؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفو",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الباد تاي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "التبولة",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الغولاش",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -1338,30 +1128,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ العراق؟",
-      "answer_ar": "الدولمة",
+      "prompt_ar": "صح أم خطأ: «الباد تاي» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ العراق؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الباد تاي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الدولمة",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "السوفلاكي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "السوشي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1400,30 +1180,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ الإمارات؟",
-      "answer_ar": "الهريس",
+      "prompt_ar": "صح أم خطأ: «التبولة» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ الإمارات؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الهريس",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "التبولة",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "السيفيتشي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الكيمتشي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1462,30 +1232,20 @@
       "category_name_ar": "طعام ومطبخ",
       "category_description_ar": "أطباق عالمية وبلدان اشتهرت بها",
       "question_type": "text",
-      "prompt_ar": "أي طبق من الآتية ارتبط بمطبخ اليمن؟",
-      "answer_ar": "السلتة",
+      "prompt_ar": "صح أم خطأ: «الفو» إحدى الإجابات الصحيحة للسؤال «أي طبق ارتبط بمطبخ اليمن؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفو",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "السلتة",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكسكس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الملوخية",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1524,30 +1284,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة تويوتا؟",
-      "answer_ar": "كورولا",
+      "prompt_ar": "صح أم خطأ: «كورولا» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة تويوتا؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كورولا",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "كامارو",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "موديل 3",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "رانغلر",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1586,30 +1336,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة هوندا؟",
-      "answer_ar": "سيفيك",
+      "prompt_ar": "صح أم خطأ: «باترول» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة هوندا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ديفندر",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سيفيك",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "باترول",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "هوراكان",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1648,30 +1388,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة فورد؟",
-      "answer_ar": "موستانغ",
+      "prompt_ar": "صح أم خطأ: «موستانغ» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة فورد؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "موستانغ",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "كورولا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "جوليا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "غولف",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1710,30 +1440,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة شيفروليه؟",
-      "answer_ar": "كامارو",
+      "prompt_ar": "صح أم خطأ: «إمبريزا» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة شيفروليه؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إمبريزا",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "سيفيك",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سبورتاج",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كامارو",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -1772,30 +1492,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة بورشه؟",
-      "answer_ar": "911",
+      "prompt_ar": "صح أم خطأ: «911» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة بورشه؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "شيرون",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "911",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "هوراكان",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كورولا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1834,30 +1544,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة فولكس فاغن؟",
-      "answer_ar": "غولف",
+      "prompt_ar": "صح أم خطأ: «غولف» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة فولكس فاغن؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "موديل 3",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "غيبلي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "غولف",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "رانغلر",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1896,30 +1596,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة بي إم دبليو؟",
-      "answer_ar": "الفئة الثالثة",
+      "prompt_ar": "صح أم خطأ: «إكس سي 90» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة بي إم دبليو؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إكس سي 90",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "توسان",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الفئة الثالثة",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كامارو",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -1958,30 +1648,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة مرسيدس بنز؟",
-      "answer_ar": "الفئة سي",
+      "prompt_ar": "صح أم خطأ: «الفئة سي» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة مرسيدس بنز؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفئة سي",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ديفندر",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "موستانغ",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "جوليا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2020,30 +1700,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة أودي؟",
-      "answer_ar": "A4",
+      "prompt_ar": "صح أم خطأ: «A4» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة أودي؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "توسان",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "إكس سي 90",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "غيبلي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "A4",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -2082,30 +1752,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة فولفو؟",
-      "answer_ar": "إكس سي 90",
+      "prompt_ar": "صح أم خطأ: «إكس سي 90» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة فولفو؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إكس سي 90",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "باترول",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "911",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سبورتاج",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2144,30 +1804,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة مازدا؟",
-      "answer_ar": "إم إكس 5",
+      "prompt_ar": "صح أم خطأ: «A4» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة مازدا؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "باترول",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "إم إكس 5",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "A4",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "موستانغ",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2206,30 +1856,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة نيسان؟",
-      "answer_ar": "باترول",
+      "prompt_ar": "صح أم خطأ: «إم إكس 5» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة نيسان؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "رانغلر",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الفئة الثالثة",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "باترول",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إم إكس 5",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -2268,30 +1908,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة ميتسوبيشي؟",
-      "answer_ar": "باجيرو",
+      "prompt_ar": "صح أم خطأ: «باجيرو» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة ميتسوبيشي؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إمبريزا",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "باجيرو",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "رانغلر",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إكس سي 90",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2330,30 +1960,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة سوبارو؟",
-      "answer_ar": "إمبريزا",
+      "prompt_ar": "صح أم خطأ: «إم إكس 5» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة سوبارو؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الفئة سي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "إمبريزا",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "موديل 3",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إم إكس 5",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2392,30 +2012,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة كيا؟",
-      "answer_ar": "سبورتاج",
+      "prompt_ar": "صح أم خطأ: «سبورتاج» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة كيا؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "هوراكان",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "موستانغ",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "سبورتاج",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سيفيك",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -2454,30 +2064,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة هيونداي؟",
-      "answer_ar": "توسان",
+      "prompt_ar": "صح أم خطأ: «توسان» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة هيونداي؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "توسان",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "إم إكس 5",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "موديل 3",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سيفيك",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2516,30 +2116,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة لاند روفر؟",
-      "answer_ar": "ديفندر",
+      "prompt_ar": "صح أم خطأ: «ديفندر» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة لاند روفر؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ديفندر",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "باترول",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "غيبلي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "شيرون",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2578,30 +2168,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة جيب؟",
-      "answer_ar": "رانغلر",
+      "prompt_ar": "صح أم خطأ: «رانغلر» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة جيب؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "A4",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سيفيك",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "رانغلر",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "إكس سي 90",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -2640,30 +2220,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة تسلا؟",
-      "answer_ar": "موديل 3",
+      "prompt_ar": "صح أم خطأ: «غولف» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة تسلا؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "هوراكان",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "غولف",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "موستانغ",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "موديل 3",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -2702,30 +2272,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة ألفا روميو؟",
-      "answer_ar": "جوليا",
+      "prompt_ar": "صح أم خطأ: «جوليا» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة ألفا روميو؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إكس سي 90",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "باجيرو",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "رانغلر",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "جوليا",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -2764,30 +2324,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة مازيراتي؟",
-      "answer_ar": "غيبلي",
+      "prompt_ar": "صح أم خطأ: «غيبلي» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة مازيراتي؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إمبريزا",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "رانغلر",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "غيبلي",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سيفيك",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -2826,30 +2376,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة لامبورغيني؟",
-      "answer_ar": "هوراكان",
+      "prompt_ar": "صح أم خطأ: «هوراكان» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة لامبورغيني؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "غيبلي",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "هوراكان",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "كورولا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كامارو",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -2888,30 +2428,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة فيراري؟",
-      "answer_ar": "296 جي تي بي",
+      "prompt_ar": "صح أم خطأ: «إكس سي 90» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة فيراري؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "إكس سي 90",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "هوراكان",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "رانغلر",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "296 جي تي بي",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -2950,30 +2480,20 @@
       "category_name_ar": "سيارات",
       "category_description_ar": "طرازات سيارات والشركات التي تصنعها",
       "question_type": "text",
-      "prompt_ar": "أي طراز من الآتية تصنعه شركة بوغاتي؟",
-      "answer_ar": "شيرون",
+      "prompt_ar": "صح أم خطأ: «296 جي تي بي» إحدى الإجابات الصحيحة للسؤال «أي طراز تصنعه شركة بوغاتي؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "شيرون",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "كامارو",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "إكس سي 90",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "296 جي تي بي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3012,30 +2532,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه فيكتور هوغو؟",
-      "answer_ar": "البؤساء",
+      "prompt_ar": "صح أم خطأ: «البؤساء» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه فيكتور هوغو؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الجريمة والعقاب",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "البؤساء",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الإلياذة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الحرب والسلام",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3074,30 +2584,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه ميغيل دي ثيربانتس؟",
-      "answer_ar": "دون كيخوته",
+      "prompt_ar": "صح أم خطأ: «دون كيخوته» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه ميغيل دي ثيربانتس؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مرتفعات وذرينغ",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الحرب والسلام",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "دون كيخوته",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "جين آير",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -3136,30 +2636,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه ليو تولستوي؟",
-      "answer_ar": "الحرب والسلام",
+      "prompt_ar": "صح أم خطأ: «الحرب والسلام» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه ليو تولستوي؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "1984",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الخيميائي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "الحرب والسلام",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "البؤساء",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -3198,30 +2688,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه فيودور دوستويفسكي؟",
-      "answer_ar": "الجريمة والعقاب",
+      "prompt_ar": "صح أم خطأ: «الإلياذة» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه فيودور دوستويفسكي؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "رحلات غاليفر",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الخيميائي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الجريمة والعقاب",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الإلياذة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3260,30 +2740,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه جورج أورويل؟",
-      "answer_ar": "1984",
+      "prompt_ar": "صح أم خطأ: «جين آير» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه جورج أورويل؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "دون كيخوته",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "جين آير",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "عداء الطائرة الورقية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "1984",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -3322,30 +2792,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه غابرييل غارسيا ماركيز؟",
-      "answer_ar": "مئة عام من العزلة",
+      "prompt_ar": "صح أم خطأ: «مئة عام من العزلة» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه غابرييل غارسيا ماركيز؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مئة عام من العزلة",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الجريمة والعقاب",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أوليفر تويست",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "عداء الطائرة الورقية",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3384,30 +2844,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه أنطوان دو سانت إكزوبيري؟",
-      "answer_ar": "الأمير الصغير",
+      "prompt_ar": "صح أم خطأ: «العجوز والبحر» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه أنطوان دو سانت إكزوبيري؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "العجوز والبحر",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "رحلات غاليفر",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الأمير الصغير",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الغريب",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3446,30 +2896,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه جين أوستن؟",
-      "answer_ar": "الكبرياء والتحامل",
+      "prompt_ar": "صح أم خطأ: «البؤساء» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه جين أوستن؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الكبرياء والتحامل",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "البؤساء",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "رحلات غاليفر",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "المسخ",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3508,30 +2948,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه هيرمان ملفيل؟",
-      "answer_ar": "موبي ديك",
+      "prompt_ar": "صح أم خطأ: «البؤساء» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه هيرمان ملفيل؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البؤساء",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الخيميائي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكوميديا الإلهية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "موبي ديك",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -3570,30 +3000,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه مارك توين؟",
-      "answer_ar": "مغامرات توم سوير",
+      "prompt_ar": "صح أم خطأ: «مغامرات توم سوير» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه مارك توين؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "جين آير",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "مغامرات توم سوير",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "فاوست",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الجريمة والعقاب",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3632,30 +3052,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه إرنست همنغواي؟",
-      "answer_ar": "العجوز والبحر",
+      "prompt_ar": "صح أم خطأ: «البؤساء» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه إرنست همنغواي؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "روبنسون كروزو",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "جين آير",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "العجوز والبحر",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "البؤساء",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -3694,30 +3104,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه فرانز كافكا؟",
-      "answer_ar": "المسخ",
+      "prompt_ar": "صح أم خطأ: «المسخ» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه فرانز كافكا؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "المسخ",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "البؤساء",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الخيميائي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مئة عام من العزلة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3756,30 +3156,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه ألبير كامو؟",
-      "answer_ar": "الغريب",
+      "prompt_ar": "صح أم خطأ: «الجريمة والعقاب» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه ألبير كامو؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الغريب",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "فاوست",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مرتفعات وذرينغ",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الجريمة والعقاب",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3818,30 +3208,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه هوميروس؟",
-      "answer_ar": "الإلياذة",
+      "prompt_ar": "صح أم خطأ: «اسم الوردة» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه هوميروس؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الكبرياء والتحامل",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "اسم الوردة",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الإلياذة",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "موبي ديك",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3880,30 +3260,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه دانتي أليغييري؟",
-      "answer_ar": "الكوميديا الإلهية",
+      "prompt_ar": "صح أم خطأ: «الكوميديا الإلهية» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه دانتي أليغييري؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "موبي ديك",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "مئة عام من العزلة",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكوميديا الإلهية",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "اسم الوردة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -3942,30 +3312,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه يوهان غوته؟",
-      "answer_ar": "فاوست",
+      "prompt_ar": "صح أم خطأ: «الكوميديا الإلهية» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه يوهان غوته؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الكوميديا الإلهية",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "دون كيخوته",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "المسخ",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "فاوست",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -4004,30 +3364,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه إميلي برونتي؟",
-      "answer_ar": "مرتفعات وذرينغ",
+      "prompt_ar": "صح أم خطأ: «مرتفعات وذرينغ» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه إميلي برونتي؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الجريمة والعقاب",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الأمير الصغير",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "الغريب",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مرتفعات وذرينغ",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4066,30 +3416,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه شارلوت برونتي؟",
-      "answer_ar": "جين آير",
+      "prompt_ar": "صح أم خطأ: «جين آير» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه شارلوت برونتي؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البؤساء",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "جين آير",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مئة عام من العزلة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الإلياذة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4128,30 +3468,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه تشارلز ديكنز؟",
-      "answer_ar": "أوليفر تويست",
+      "prompt_ar": "صح أم خطأ: «أوليفر تويست» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه تشارلز ديكنز؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الخيميائي",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "أوليفر تويست",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "1984",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الأمير الصغير",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4190,30 +3520,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه دانيال ديفو؟",
-      "answer_ar": "روبنسون كروزو",
+      "prompt_ar": "صح أم خطأ: «1984» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه دانيال ديفو؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "روبنسون كروزو",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "رحلات غاليفر",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الكوميديا الإلهية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "1984",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4252,30 +3572,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه جوناثان سويفت؟",
-      "answer_ar": "رحلات غاليفر",
+      "prompt_ar": "صح أم خطأ: «رحلات غاليفر» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه جوناثان سويفت؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البؤساء",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "جين آير",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "رحلات غاليفر",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "موبي ديك",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4314,30 +3624,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه أومبرتو إيكو؟",
-      "answer_ar": "اسم الوردة",
+      "prompt_ar": "صح أم خطأ: «اسم الوردة» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه أومبرتو إيكو؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مئة عام من العزلة",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الحرب والسلام",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "اسم الوردة",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "رحلات غاليفر",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4376,30 +3676,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه باولو كويلو؟",
-      "answer_ar": "الخيميائي",
+      "prompt_ar": "صح أم خطأ: «1984» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه باولو كويلو؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "1984",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الخيميائي",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "اسم الوردة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الجريمة والعقاب",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4438,30 +3728,20 @@
       "category_name_ar": "أدب عالمي",
       "category_description_ar": "روايات ومسرحيات وكتّاب من الأدب العالمي",
       "question_type": "text",
-      "prompt_ar": "أي عمل من الآتية كتبه خالد حسيني؟",
-      "answer_ar": "عداء الطائرة الورقية",
+      "prompt_ar": "صح أم خطأ: «الإلياذة» إحدى الإجابات الصحيحة للسؤال «أي عمل كتبه خالد حسيني؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "رحلات غاليفر",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الإلياذة",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "عداء الطائرة الورقية",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "روبنسون كروزو",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4500,30 +3780,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه جيمس كاميرون؟",
-      "answer_ar": "تايتانيك",
+      "prompt_ar": "صح أم خطأ: «تايتانيك» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه جيمس كاميرون؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سائق التاكسي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سايكو",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "أميلي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تايتانيك",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4562,30 +3832,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه فرانسيس فورد كوبولا؟",
-      "answer_ar": "العراب",
+      "prompt_ar": "صح أم خطأ: «2001 أوديسة الفضاء» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه فرانسيس فورد كوبولا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سيد الخواتم رفقة الخاتم",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "انفصال نادر وسيمين",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "2001 أوديسة الفضاء",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "العراب",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4624,30 +3884,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه ستيفن سبيلبرغ؟",
-      "answer_ar": "الفك المفترس",
+      "prompt_ar": "صح أم خطأ: «2001 أوديسة الفضاء» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه ستيفن سبيلبرغ؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الساموراي السبعة",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الفك المفترس",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "2001 أوديسة الفضاء",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مدينة الرب",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4686,30 +3936,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه كريستوفر نولان؟",
-      "answer_ar": "بداية",
+      "prompt_ar": "صح أم خطأ: «سبيريتد أواي» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه كريستوفر نولان؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سبيريتد أواي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "طفيلي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "لا لا لاند",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بداية",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4748,30 +3988,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه كوينتن تارانتينو؟",
-      "answer_ar": "خيال رخيص",
+      "prompt_ar": "صح أم خطأ: «2001 أوديسة الفضاء» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه كوينتن تارانتينو؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كل شيء في كل مكان دفعة واحدة",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "2001 أوديسة الفضاء",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "لا لا لاند",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "خيال رخيص",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4810,30 +4040,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه مارتن سكورسيزي؟",
-      "answer_ar": "سائق التاكسي",
+      "prompt_ar": "صح أم خطأ: «سائق التاكسي» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه مارتن سكورسيزي؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سائق التاكسي",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "كل شيء في كل مكان دفعة واحدة",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سايكو",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "انفصال نادر وسيمين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4872,30 +4092,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه ألفريد هيتشكوك؟",
-      "answer_ar": "سايكو",
+      "prompt_ar": "صح أم خطأ: «بداية» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه ألفريد هيتشكوك؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بداية",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "سائق التاكسي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سايكو",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مدينة الرب",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -4934,30 +4144,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه ستانلي كوبريك؟",
-      "answer_ar": "2001 أوديسة الفضاء",
+      "prompt_ar": "صح أم خطأ: «المتاهة» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه ستانلي كوبريك؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سبيريتد أواي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "طفيلي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "المتاهة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "2001 أوديسة الفضاء",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -4996,30 +4196,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه بيتر جاكسون؟",
-      "answer_ar": "سيد الخواتم رفقة الخاتم",
+      "prompt_ar": "صح أم خطأ: «سيد الخواتم رفقة الخاتم» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه بيتر جاكسون؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "نومادلاند",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "خيال رخيص",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "2001 أوديسة الفضاء",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سيد الخواتم رفقة الخاتم",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5058,30 +4248,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه أكيرا كوروساوا؟",
-      "answer_ar": "الساموراي السبعة",
+      "prompt_ar": "صح أم خطأ: «الساموراي السبعة» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه أكيرا كوروساوا؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "2001 أوديسة الفضاء",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الساموراي السبعة",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سايكو",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كل شيء في كل مكان دفعة واحدة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5120,30 +4300,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه سيرجيو ليوني؟",
-      "answer_ar": "الطيب والشرس والقبيح",
+      "prompt_ar": "صح أم خطأ: «الطيب والشرس والقبيح» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه سيرجيو ليوني؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سايكو",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "مدينة الرب",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الطيب والشرس والقبيح",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "نومادلاند",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5182,30 +4352,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه فرناندو ميريليس؟",
-      "answer_ar": "مدينة الرب",
+      "prompt_ar": "صح أم خطأ: «مدينة الرب» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه فرناندو ميريليس؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مدينة الرب",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "لا لا لاند",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "روما",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "تايتانيك",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5244,30 +4404,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه بونغ جون هو؟",
-      "answer_ar": "طفيلي",
+      "prompt_ar": "صح أم خطأ: «طفيلي» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه بونغ جون هو؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بداية",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "مدينة الرب",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "تايتانيك",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "طفيلي",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5306,30 +4456,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه غييرمو ديل تورو؟",
-      "answer_ar": "المتاهة",
+      "prompt_ar": "صح أم خطأ: «المتاهة» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه غييرمو ديل تورو؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الطيب والشرس والقبيح",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "سبيريتد أواي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "المتاهة",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الفك المفترس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5368,30 +4508,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه جان بيير جونيه؟",
-      "answer_ar": "أميلي",
+      "prompt_ar": "صح أم خطأ: «خيال رخيص» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه جان بيير جونيه؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "خيال رخيص",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سايكو",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "أميلي",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كل شيء في كل مكان دفعة واحدة",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5430,30 +4560,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه فلوريان هنكل فون دونرسمارك؟",
-      "answer_ar": "حياة الآخرين",
+      "prompt_ar": "صح أم خطأ: «حياة الآخرين» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه فلوريان هنكل فون دونرسمارك؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مدينة الرب",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "2001 أوديسة الفضاء",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "العراب",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "حياة الآخرين",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5492,30 +4612,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه أصغر فرهادي؟",
-      "answer_ar": "انفصال نادر وسيمين",
+      "prompt_ar": "صح أم خطأ: «المتاهة» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه أصغر فرهادي؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سبيريتد أواي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سائق التاكسي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "انفصال نادر وسيمين",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "المتاهة",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5554,30 +4664,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه ألفونسو كوارون؟",
-      "answer_ar": "روما",
+      "prompt_ar": "صح أم خطأ: «روما» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه ألفونسو كوارون؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بداية",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "روما",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "نومادلاند",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سايكو",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5616,30 +4716,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه هاياو ميازاكي؟",
-      "answer_ar": "سبيريتد أواي",
+      "prompt_ar": "صح أم خطأ: «2001 أوديسة الفضاء» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه هاياو ميازاكي؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "2001 أوديسة الفضاء",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سبيريتد أواي",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "حياة الآخرين",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الطيب والشرس والقبيح",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5678,30 +4768,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه جورج ميلر؟",
-      "answer_ar": "ماد ماكس طريق الغضب",
+      "prompt_ar": "صح أم خطأ: «2001 أوديسة الفضاء» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه جورج ميلر؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ماد ماكس طريق الغضب",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "نومادلاند",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "لا لا لاند",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "2001 أوديسة الفضاء",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5740,30 +4820,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه داميان شازيل؟",
-      "answer_ar": "لا لا لاند",
+      "prompt_ar": "صح أم خطأ: «الساموراي السبعة» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه داميان شازيل؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الساموراي السبعة",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سايكو",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "لا لا لاند",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بداية",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -5802,30 +4872,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه باري جينكينز؟",
-      "answer_ar": "مونلايت",
+      "prompt_ar": "صح أم خطأ: «الطيب والشرس والقبيح» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه باري جينكينز؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مونلايت",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الطيب والشرس والقبيح",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "العراب",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "انفصال نادر وسيمين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5864,30 +4924,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه كلوي تشاو؟",
-      "answer_ar": "نومادلاند",
+      "prompt_ar": "صح أم خطأ: «نومادلاند» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه كلوي تشاو؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "نومادلاند",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الساموراي السبعة",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مونلايت",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سائق التاكسي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -5926,30 +4976,20 @@
       "category_name_ar": "سينما عالمية",
       "category_description_ar": "أفلام عالمية والمخرجون الذين صنعوها",
       "question_type": "text",
-      "prompt_ar": "أي فيلم من الآتية أخرجه دانيال كوان ودانيال شاينرت؟",
-      "answer_ar": "كل شيء في كل مكان دفعة واحدة",
+      "prompt_ar": "صح أم خطأ: «كل شيء في كل مكان دفعة واحدة» إحدى الإجابات الصحيحة للسؤال «أي فيلم أخرجه دانيال كوان ودانيال شاينرت؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كل شيء في كل مكان دفعة واحدة",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "2001 أوديسة الفضاء",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "نومادلاند",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "حياة الآخرين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -8964,30 +8004,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى إسبانيا؟",
-      "answer_ar": "ريال مدريد",
+      "prompt_ar": "صح أم خطأ: «أولمبياكوس» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى إسبانيا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بوكا جونيورز",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الترجي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أولمبياكوس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ريال مدريد",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -9026,30 +8056,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي نادٍ من الخيارات ينتمي إلى إسبانيا؟",
-      "answer_ar": "برشلونة",
+      "prompt_ar": "صح أم خطأ: «برشلونة» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى إسبانيا؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "برشلونة",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "مانشستر يونايتد",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ميلان",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سيلتيك",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9088,30 +8108,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى إنجلترا؟",
-      "answer_ar": "ليفربول",
+      "prompt_ar": "صح أم خطأ: «أياكس» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى إنجلترا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سيلتيك",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ليفربول",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "بنفيكا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أياكس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9150,30 +8160,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي نادٍ من الخيارات ينتمي إلى إنجلترا؟",
-      "answer_ar": "مانشستر يونايتد",
+      "prompt_ar": "صح أم خطأ: «الأهلي» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى إنجلترا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأهلي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "مانشستر يونايتد",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "فلامنغو",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ميلان",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9212,30 +8212,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى ألمانيا؟",
-      "answer_ar": "بايرن ميونخ",
+      "prompt_ar": "صح أم خطأ: «أياكس» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى ألمانيا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أياكس",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الأهلي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "يوفنتوس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بايرن ميونخ",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -9274,30 +8264,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي نادٍ من الخيارات ينتمي إلى ألمانيا؟",
-      "answer_ar": "بوروسيا دورتموند",
+      "prompt_ar": "صح أم خطأ: «الترجي» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى ألمانيا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الهلال",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الترجي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "بوروسيا دورتموند",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بنفيكا",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -9336,30 +8316,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى إيطاليا؟",
-      "answer_ar": "يوفنتوس",
+      "prompt_ar": "صح أم خطأ: «الأهلي» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى إيطاليا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بنفيكا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "يوفنتوس",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الأهلي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بوكا جونيورز",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9398,30 +8368,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي نادٍ من الخيارات ينتمي إلى إيطاليا؟",
-      "answer_ar": "ميلان",
+      "prompt_ar": "صح أم خطأ: «العين» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى إيطاليا؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ميلان",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "مارسيليا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الوداد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "العين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9460,30 +8420,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى فرنسا؟",
-      "answer_ar": "باريس سان جيرمان",
+      "prompt_ar": "صح أم خطأ: «باريس سان جيرمان» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى فرنسا؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بوكا جونيورز",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "باريس سان جيرمان",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الوداد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أولمبياكوس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9522,30 +8472,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي نادٍ من الخيارات ينتمي إلى فرنسا؟",
-      "answer_ar": "مارسيليا",
+      "prompt_ar": "صح أم خطأ: «مارسيليا» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى فرنسا؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "لوس أنجلوس غالاكسي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "مارسيليا",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "بوكا جونيورز",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بوروسيا دورتموند",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9584,30 +8524,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى هولندا؟",
-      "answer_ar": "أياكس",
+      "prompt_ar": "صح أم خطأ: «الأهلي» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى هولندا؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأهلي",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الهلال",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أياكس",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ريال مدريد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9646,30 +8576,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى البرتغال؟",
-      "answer_ar": "بنفيكا",
+      "prompt_ar": "صح أم خطأ: «باريس سان جيرمان» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى البرتغال؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بنفيكا",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "باريس سان جيرمان",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "غلطة سراي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "لوس أنجلوس غالاكسي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9708,30 +8628,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى تركيا؟",
-      "answer_ar": "غلطة سراي",
+      "prompt_ar": "صح أم خطأ: «أياكس» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى تركيا؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "غلطة سراي",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "سيلتيك",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أياكس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "العين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9770,30 +8680,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى اليونان؟",
-      "answer_ar": "أولمبياكوس",
+      "prompt_ar": "صح أم خطأ: «الترجي» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى اليونان؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الترجي",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "يوفنتوس",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أولمبياكوس",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "باريس سان جيرمان",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9832,30 +8732,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى اسكتلندا؟",
-      "answer_ar": "سيلتيك",
+      "prompt_ar": "صح أم خطأ: «الوداد» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى اسكتلندا؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سيلتيك",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "بنفيكا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الوداد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "غلطة سراي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -9894,30 +8784,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى الأرجنتين؟",
-      "answer_ar": "بوكا جونيورز",
+      "prompt_ar": "صح أم خطأ: «أياكس» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى الأرجنتين؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أياكس",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "لوس أنجلوس غالاكسي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "بوكا جونيورز",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مانشستر يونايتد",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -9956,30 +8836,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى البرازيل؟",
-      "answer_ar": "فلامنغو",
+      "prompt_ar": "صح أم خطأ: «فلامنغو» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى البرازيل؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "يوفنتوس",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "بايرن ميونخ",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "باريس سان جيرمان",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "فلامنغو",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -10018,30 +8888,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى المكسيك؟",
-      "answer_ar": "كلوب أمريكا",
+      "prompt_ar": "صح أم خطأ: «كلوب أمريكا» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى المكسيك؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كلوب أمريكا",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "يوفنتوس",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "برشلونة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ميلان",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10080,30 +8940,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى الولايات المتحدة؟",
-      "answer_ar": "لوس أنجلوس غالاكسي",
+      "prompt_ar": "صح أم خطأ: «لوس أنجلوس غالاكسي» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى الولايات المتحدة؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأهلي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "فلامنغو",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "ليفربول",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "لوس أنجلوس غالاكسي",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -10142,30 +8992,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى مصر؟",
-      "answer_ar": "الأهلي",
+      "prompt_ar": "صح أم خطأ: «بوروسيا دورتموند» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى مصر؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأهلي",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "ليفربول",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مانشستر يونايتد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بوروسيا دورتموند",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10204,30 +9044,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى تونس؟",
-      "answer_ar": "الترجي",
+      "prompt_ar": "صح أم خطأ: «أياكس» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى تونس؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أياكس",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "بايرن ميونخ",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "مارسيليا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الترجي",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -10266,30 +9096,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى المغرب؟",
-      "answer_ar": "الوداد",
+      "prompt_ar": "صح أم خطأ: «أياكس» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى المغرب؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "فلامنغو",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "غلطة سراي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أياكس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الوداد",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -10328,30 +9148,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى السعودية؟",
-      "answer_ar": "الهلال",
+      "prompt_ar": "صح أم خطأ: «الهلال» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى السعودية؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الهلال",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أياكس",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "غلطة سراي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "باريس سان جيرمان",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10390,30 +9200,20 @@
       "category_name_ar": "أندية عالمية",
       "category_description_ar": "أندية كرة قدم والدول التي تنتمي إليها",
       "question_type": "text",
-      "prompt_ar": "أي نادٍ من الخيارات ينتمي إلى الإمارات؟",
-      "answer_ar": "العين",
+      "prompt_ar": "صح أم خطأ: «برشلونة» إحدى الإجابات الصحيحة للسؤال «أي نادٍ ينتمي إلى الإمارات؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كلوب أمريكا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "لوس أنجلوس غالاكسي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "العين",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برشلونة",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -10452,30 +9252,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في مدريد؟",
-      "answer_ar": "سانتياغو برنابيو",
+      "prompt_ar": "صح أم خطأ: «سانتياغو برنابيو» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في مدريد؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سانتياغو برنابيو",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الأولمبيكو",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أولد ترافورد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "لا بومبونيرا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10514,30 +9304,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في برشلونة؟",
-      "answer_ar": "كامب نو",
+      "prompt_ar": "صح أم خطأ: «أنفيلد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في برشلونة؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كامب نو",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "الأولمبيكو",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "محمد بن زايد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أنفيلد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10576,30 +9356,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في لندن؟",
-      "answer_ar": "ويمبلي",
+      "prompt_ar": "صح أم خطأ: «ويمبلي» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في لندن؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "لوسيل",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "ويمبلي",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سيغنال إيدونا بارك",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بارك دي برانس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10638,30 +9408,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في ليفربول؟",
-      "answer_ar": "أنفيلد",
+      "prompt_ar": "صح أم خطأ: «أنفيلد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في ليفربول؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سانتياغو برنابيو",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "رادس الأولمبي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "أليانز أرينا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أنفيلد",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -10700,30 +9460,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في مانشستر؟",
-      "answer_ar": "أولد ترافورد",
+      "prompt_ar": "صح أم خطأ: «أولد ترافورد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في مانشستر؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "بارك دي برانس",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "سيغنال إيدونا بارك",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أنفيلد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أولد ترافورد",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -10762,30 +9512,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في ميونخ؟",
-      "answer_ar": "أليانز أرينا",
+      "prompt_ar": "صح أم خطأ: «أليانز أرينا» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في ميونخ؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "محمد بن زايد",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "أليانز أرينا",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سيغنال إيدونا بارك",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أولد ترافورد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10824,30 +9564,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في دورتموند؟",
-      "answer_ar": "سيغنال إيدونا بارك",
+      "prompt_ar": "صح أم خطأ: «سيغنال إيدونا بارك» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في دورتموند؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الملك فهد الدولي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سيغنال إيدونا بارك",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ماراكانا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سوكر سيتي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -10886,30 +9616,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في ميلانو؟",
-      "answer_ar": "سان سيرو",
+      "prompt_ar": "صح أم خطأ: «سان سيرو» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في ميلانو؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الأولمبيكو",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "هزاع بن زايد",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "سان سيرو",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أولد ترافورد",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -10948,30 +9668,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في روما؟",
-      "answer_ar": "الأولمبيكو",
+      "prompt_ar": "صح أم خطأ: «أنفيلد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في روما؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "لوسيل",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الأولمبيكو",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الجوهرة المشعة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أنفيلد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11010,30 +9720,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في باريس؟",
-      "answer_ar": "بارك دي برانس",
+      "prompt_ar": "صح أم خطأ: «بارك دي برانس» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في باريس؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "الملك فهد الدولي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أولد ترافورد",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "بارك دي برانس",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ويمبلي",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -11072,30 +9772,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في أمستردام؟",
-      "answer_ar": "يوهان كرويف أرينا",
+      "prompt_ar": "صح أم خطأ: «يوهان كرويف أرينا» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في أمستردام؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سوكر سيتي",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "كامب نو",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "هزاع بن زايد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "يوهان كرويف أرينا",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -11134,30 +9824,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في لشبونة؟",
-      "answer_ar": "دا لوز",
+      "prompt_ar": "صح أم خطأ: «دا لوز» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في لشبونة؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "دا لوز",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "أنفيلد",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "البيت",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "هزاع بن زايد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11196,30 +9876,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في ريو دي جانيرو؟",
-      "answer_ar": "ماراكانا",
+      "prompt_ar": "صح أم خطأ: «أنفيلد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في ريو دي جانيرو؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "دا لوز",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الجوهرة المشعة",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "ماراكانا",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أنفيلد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11258,30 +9928,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في بوينس آيرس؟",
-      "answer_ar": "لا بومبونيرا",
+      "prompt_ar": "صح أم خطأ: «الأولمبيكو» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في بوينس آيرس؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "لا بومبونيرا",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "برج العرب",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "الأولمبيكو",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "كامب نو",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11320,30 +9980,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في مكسيكو سيتي؟",
-      "answer_ar": "أزتيكا",
+      "prompt_ar": "صح أم خطأ: «برج العرب» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في مكسيكو سيتي؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ماراكانا",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "برج العرب",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أزتيكا",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سوكر سيتي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11382,30 +10032,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في جوهانسبرغ؟",
-      "answer_ar": "سوكر سيتي",
+      "prompt_ar": "صح أم خطأ: «سيغنال إيدونا بارك» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في جوهانسبرغ؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "ويمبلي",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "يوهان كرويف أرينا",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سيغنال إيدونا بارك",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سوكر سيتي",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -11444,30 +10084,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في الخور؟",
-      "answer_ar": "البيت",
+      "prompt_ar": "صح أم خطأ: «أولد ترافورد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في الخور؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البيت",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "هزاع بن زايد",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "لوسيل",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أولد ترافورد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11506,30 +10136,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في لوسيل؟",
-      "answer_ar": "لوسيل",
+      "prompt_ar": "صح أم خطأ: «أنفيلد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في لوسيل؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "أنفيلد",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "بارك دي برانس",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "لوسيل",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "البيت",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -11568,30 +10188,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في جدة؟",
-      "answer_ar": "الجوهرة المشعة",
+      "prompt_ar": "صح أم خطأ: «البيت» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في جدة؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "البيت",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الجوهرة المشعة",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "محمد بن زايد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "بارك دي برانس",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11630,30 +10240,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في الرياض؟",
-      "answer_ar": "الملك فهد الدولي",
+      "prompt_ar": "صح أم خطأ: «الملك فهد الدولي» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في الرياض؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سيغنال إيدونا بارك",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "الملك فهد الدولي",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سانتياغو برنابيو",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "ويمبلي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11692,30 +10292,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في أبوظبي؟",
-      "answer_ar": "محمد بن زايد",
+      "prompt_ar": "صح أم خطأ: «أولد ترافورد» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في أبوظبي؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "محمد بن زايد",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أولد ترافورد",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "يوهان كرويف أرينا",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "الملك فهد الدولي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11754,30 +10344,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في العين؟",
-      "answer_ar": "هزاع بن زايد",
+      "prompt_ar": "صح أم خطأ: «بارك دي برانس» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في العين؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "كامب نو",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "هزاع بن زايد",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "بارك دي برانس",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سيغنال إيدونا بارك",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11816,30 +10396,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في الإسكندرية؟",
-      "answer_ar": "برج العرب",
+      "prompt_ar": "صح أم خطأ: «أليانز أرينا» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في الإسكندرية؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "برج العرب",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أليانز أرينا",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "رادس الأولمبي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سيغنال إيدونا بارك",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11878,30 +10448,20 @@
       "category_name_ar": "ملاعب عالمية",
       "category_description_ar": "ملاعب كرة قدم شهيرة ومدنها",
       "question_type": "text",
-      "prompt_ar": "أي ملعب من الآتية يقع في رادس؟",
-      "answer_ar": "رادس الأولمبي",
+      "prompt_ar": "صح أم خطأ: «أليانز أرينا» إحدى الإجابات الصحيحة للسؤال «أي ملعب يقع في رادس؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "رادس الأولمبي",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "كامب نو",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "محمد بن زايد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أليانز أرينا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -11940,30 +10500,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في دبي؟",
-      "answer_ar": "برج خليفة",
+      "prompt_ar": "صح أم خطأ: «سوق واقف» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في دبي؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سوق واقف",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "قلعة البحرين",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "نافورة الملك فهد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "برج خليفة",
+          "text_ar": "خطأ",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -12002,30 +10552,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في أبوظبي؟",
-      "answer_ar": "جامع الشيخ زايد الكبير",
+      "prompt_ar": "صح أم خطأ: «برج خليفة» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في أبوظبي؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "برج خليفة",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "جامع الشيخ زايد الكبير",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قلعة الزبارة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "قلعة نزوى",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12064,30 +10604,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي معلم من الآتية يقع في دبي؟",
-      "answer_ar": "متحف المستقبل",
+      "prompt_ar": "صح أم خطأ: «متحف المستقبل» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في دبي؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "وادي شاب",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "قلعة الجاهلي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "مركز الملك عبد العزيز التاريخي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "متحف المستقبل",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -12126,30 +10656,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في العين؟",
-      "answer_ar": "قلعة الجاهلي",
+      "prompt_ar": "صح أم خطأ: «قلعة الجاهلي» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في العين؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "قرية رجال ألمع",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "مركز الملك عبد العزيز التاريخي",
-          "is_correct": false,
-          "sort_order": 1
-        },
-        {
-          "text_ar": "قلعة الجاهلي",
+          "text_ar": "صح",
           "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "استاد البيت",
-          "is_correct": false,
-          "sort_order": 3
+          "sort_order": 1
         }
       ]
     },
@@ -12188,30 +10708,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في مدينة الكويت؟",
-      "answer_ar": "مركز الشيخ جابر الأحمد الثقافي",
+      "prompt_ar": "صح أم خطأ: «دار الأوبرا السلطانية» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في مدينة الكويت؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مركز الشيخ جابر الأحمد الثقافي",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "نافورة الملك فهد",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "دار الأوبرا السلطانية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مركز الملك عبد العزيز التاريخي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12250,30 +10760,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي معلم من الآتية يقع في مدينة الكويت؟",
-      "answer_ar": "أبراج الكويت",
+      "prompt_ar": "صح أم خطأ: «أبراج الكويت» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في مدينة الكويت؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "جامع الشيخ زايد الكبير",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "أبراج الكويت",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قلعة البحرين",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "جزيرة فيلكا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12312,30 +10812,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في الكويت؟",
-      "answer_ar": "جزيرة فيلكا",
+      "prompt_ar": "صح أم خطأ: «باب البحرين» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في الكويت؟».",
+      "answer_ar": "خطأ",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "جزيرة فيلكا",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "باب البحرين",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "برج خليفة",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "نافورة الملك فهد",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12374,30 +10864,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "حدّد الإجابة الصحيحة: أي معلم من الآتية يقع في مدينة الكويت؟",
-      "answer_ar": "سوق المباركية",
+      "prompt_ar": "صح أم خطأ: «سوق المباركية» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في مدينة الكويت؟».",
+      "answer_ar": "صح",
       "points": 200,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "متحف المستقبل",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "مسجد الخميس",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "جامع الشيخ زايد الكبير",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سوق المباركية",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -12436,30 +10916,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في الرياض؟",
-      "answer_ar": "مركز الملك عبد العزيز التاريخي",
+      "prompt_ar": "صح أم خطأ: «جزيرة فيلكا» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في الرياض؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "نافورة الملك فهد",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "سوق المباركية",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مركز الملك عبد العزيز التاريخي",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "جزيرة فيلكا",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12498,30 +10968,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في جدة؟",
-      "answer_ar": "نافورة الملك فهد",
+      "prompt_ar": "صح أم خطأ: «استاد البيت» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في جدة؟».",
+      "answer_ar": "خطأ",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "نافورة الملك فهد",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "دار الأوبرا السلطانية",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "حصن جبرين",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "استاد البيت",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12560,30 +11020,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في العلا؟",
-      "answer_ar": "مدائن صالح",
+      "prompt_ar": "صح أم خطأ: «مدائن صالح» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في العلا؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سوق واقف",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "جامع الشيخ زايد الكبير",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مدائن صالح",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "قلعة الزبارة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12622,30 +11072,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في عسير؟",
-      "answer_ar": "قرية رجال ألمع",
+      "prompt_ar": "صح أم خطأ: «قرية رجال ألمع» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في عسير؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "وادي شاب",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "جامع الشيخ زايد الكبير",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قرية رجال ألمع",
-          "is_correct": true,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مركز الملك عبد العزيز التاريخي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12684,30 +11124,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في الدوحة؟",
-      "answer_ar": "متحف الفن الإسلامي",
+      "prompt_ar": "صح أم خطأ: «متحف الفن الإسلامي» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في الدوحة؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "متحف الفن الإسلامي",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "قلعة الجاهلي",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "نافورة الملك فهد",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "شجرة الحياة",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12746,30 +11176,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي معلم من الآتية يقع في الدوحة؟",
-      "answer_ar": "سوق واقف",
+      "prompt_ar": "صح أم خطأ: «سوق واقف» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في الدوحة؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "سوق واقف",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "جامع الشيخ زايد الكبير",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قلعة الجاهلي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سوق المباركية",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12808,30 +11228,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في الخور؟",
-      "answer_ar": "استاد البيت",
+      "prompt_ar": "صح أم خطأ: «استاد البيت» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في الخور؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "قلعة البحرين",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "مدائن صالح",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "أبراج الكويت",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "استاد البيت",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },
@@ -12870,30 +11280,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في الشمال؟",
-      "answer_ar": "قلعة الزبارة",
+      "prompt_ar": "صح أم خطأ: «قلعة الزبارة» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في الشمال؟».",
+      "answer_ar": "صح",
       "points": 400,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "وادي شاب",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "قلعة الزبارة",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سوق المباركية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "سوق واقف",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12932,30 +11332,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في المنامة؟",
-      "answer_ar": "باب البحرين",
+      "prompt_ar": "صح أم خطأ: «باب البحرين» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في المنامة؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "متحف المستقبل",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "باب البحرين",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قرية رجال ألمع",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مدائن صالح",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -12994,30 +11384,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "اختر من الخيارات: أي معلم من الآتية يقع في المنامة؟",
-      "answer_ar": "قلعة البحرين",
+      "prompt_ar": "صح أم خطأ: «قلعة البحرين» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في المنامة؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "قلعة البحرين",
+          "text_ar": "صح",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "قلعة نزوى",
+          "text_ar": "خطأ",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "حصن جبرين",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "مركز الملك عبد العزيز التاريخي",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -13056,30 +11436,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "حدّد الإجابة الصحيحة: أي معلم من الآتية يقع في المنامة؟",
-      "answer_ar": "مسجد الخميس",
+      "prompt_ar": "صح أم خطأ: «حصن جبرين» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في المنامة؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "مسجد الخميس",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "نافورة الملك فهد",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "دار الأوبرا السلطانية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "حصن جبرين",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -13118,30 +11488,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في الصخير؟",
-      "answer_ar": "شجرة الحياة",
+      "prompt_ar": "صح أم خطأ: «سوق المباركية» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في الصخير؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "قلعة نزوى",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "شجرة الحياة",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سوق المباركية",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "وادي شاب",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -13180,30 +11540,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في مسقط؟",
-      "answer_ar": "دار الأوبرا السلطانية",
+      "prompt_ar": "صح أم خطأ: «دار الأوبرا السلطانية» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في مسقط؟».",
+      "answer_ar": "صح",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "شجرة الحياة",
-          "is_correct": false,
+          "text_ar": "صح",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "دار الأوبرا السلطانية",
-          "is_correct": true,
+          "text_ar": "خطأ",
+          "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قلعة البحرين",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "قلعة نزوى",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -13242,30 +11592,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في نزوى؟",
-      "answer_ar": "قلعة نزوى",
+      "prompt_ar": "صح أم خطأ: «أبراج الكويت» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في نزوى؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "قلعة نزوى",
-          "is_correct": true,
+          "text_ar": "صح",
+          "is_correct": false,
           "sort_order": 0
         },
         {
-          "text_ar": "سوق المباركية",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 1
-        },
-        {
-          "text_ar": "سوق واقف",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "أبراج الكويت",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -13304,30 +11644,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في بهلاء؟",
-      "answer_ar": "حصن جبرين",
+      "prompt_ar": "صح أم خطأ: «قلعة الجاهلي» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في بهلاء؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "حصن جبرين",
+          "text_ar": "خطأ",
           "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "مدائن صالح",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "قلعة الجاهلي",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "قلعة نزوى",
-          "is_correct": false,
-          "sort_order": 3
         }
       ]
     },
@@ -13366,30 +11696,20 @@
       "category_name_ar": "الخليج العربي",
       "category_description_ar": "مدن ومعالم من دول مجلس التعاون الخليجي",
       "question_type": "text",
-      "prompt_ar": "أي معلم من الآتية يقع في صور؟",
-      "answer_ar": "وادي شاب",
+      "prompt_ar": "صح أم خطأ: «استاد البيت» إحدى الإجابات الصحيحة للسؤال «أي معلم يقع في صور؟».",
+      "answer_ar": "خطأ",
       "points": 600,
       "options_reveal_timing": "immediate",
       "options": [
         {
-          "text_ar": "استاد البيت",
-          "is_correct": false,
+          "text_ar": "خطأ",
+          "is_correct": true,
           "sort_order": 0
         },
         {
-          "text_ar": "متحف الفن الإسلامي",
+          "text_ar": "صح",
           "is_correct": false,
           "sort_order": 1
-        },
-        {
-          "text_ar": "مدائن صالح",
-          "is_correct": false,
-          "sort_order": 2
-        },
-        {
-          "text_ar": "وادي شاب",
-          "is_correct": true,
-          "sort_order": 3
         }
       ]
     },

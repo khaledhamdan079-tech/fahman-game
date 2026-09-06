@@ -8,6 +8,23 @@ from pathlib import Path
 
 from arabic_question_relations import RELATION_CATEGORIES
 
+OPTION_DEPENDENT_PHRASES = (
+    "من الآتية",
+    "من الخيارات",
+    "أي سؤال من",
+    "اختر من",
+    "حدّد الإجابة الصحيحة",
+    "من التالي",
+    "من التالية",
+    "مما يلي",
+    "كل ما سبق",
+)
+OPTION_ONLY_PREFIXES = (
+    "اختر من الخيارات: ",
+    "حدّد الإجابة الصحيحة: ",
+    "فكّر جيدا: ",
+)
+
 CATEGORIES: dict[str, tuple[str, str]] = {
     "معلومات عامة": (
         "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
@@ -298,6 +315,21 @@ def question_item(
     }
 
 
+def requires_visible_options(prompt: str) -> bool:
+    return any(phrase in prompt for phrase in OPTION_DEPENDENT_PHRASES)
+
+
+def clean_option_dependent_prompt(prompt: str) -> str:
+    cleaned = prompt
+    for prefix in OPTION_ONLY_PREFIXES:
+        cleaned = cleaned.removeprefix(prefix)
+    return cleaned.replace(" من الآتية", "").replace(" من الخيارات", "")
+
+
+def statement_is_true(original_prompt: str) -> bool:
+    return hashlib.sha256(original_prompt.encode("utf-8")).digest()[0] % 2 == 0
+
+
 def parse_relations(raw_pairs: str) -> list[tuple[str, str]]:
     pairs: list[tuple[str, str]] = []
     for raw_pair in raw_pairs.split(";"):
@@ -372,16 +404,20 @@ def add_existing_categories(
             reverse_wrong = [
                 all_prompts[(index + offset) % len(all_prompts)] for offset in (1, 5, 11)
             ]
+            old_prompt = f"أي سؤال من الآتية إجابته «{answer}»؟"
+            is_true = statement_is_true(old_prompt)
+            candidate_prompt = prompt if is_true else sorted(reverse_wrong)[0]
+            correct = "صح" if is_true else "خطأ"
             add_item(
                 items,
                 seen_prompts,
                 question_item(
                     category_name=category_name,
                     description=description,
-                    prompt=f"أي سؤال من الآتية إجابته «{answer}»؟",
-                    answer=prompt,
+                    prompt=f"صح أم خطأ: إجابة السؤال «{candidate_prompt}» هي «{answer}».",
+                    answer=correct,
                     points=points,
-                    wrong_answers=reverse_wrong,
+                    wrong_answers=["خطأ" if correct == "صح" else "صح"],
                 ),
             )
 
@@ -446,9 +482,22 @@ def add_relation_categories(
                 "حدّد الإجابة الصحيحة: ",
                 "فكّر جيدا: ",
             )
-            reverse_prompt = reverse_prefixes[reverse_occurrence] + config["reverse"].format(
+            old_reverse_prompt = reverse_prefixes[reverse_occurrence] + config["reverse"].format(
                 left=left, right=right
             )
+            reverse_prompt = config["reverse"].format(left=left, right=right)
+            reverse_answer = left
+            reverse_wrong_answers = reverse_candidates[:3]
+            if requires_visible_options(old_reverse_prompt):
+                is_true = statement_is_true(old_reverse_prompt)
+                candidate = left if is_true else sorted(reverse_wrong_answers)[0]
+                clean_prompt = clean_option_dependent_prompt(old_reverse_prompt)
+                reverse_prompt = (
+                    f"صح أم خطأ: «{candidate}» إحدى الإجابات الصحيحة "
+                    f"للسؤال «{clean_prompt}»."
+                )
+                reverse_answer = "صح" if is_true else "خطأ"
+                reverse_wrong_answers = ["خطأ" if reverse_answer == "صح" else "صح"]
             add_item(
                 items,
                 seen_prompts,
@@ -456,9 +505,9 @@ def add_relation_categories(
                     category_name=category_name,
                     description=config["description"],
                     prompt=reverse_prompt,
-                    answer=left,
+                    answer=reverse_answer,
                     points=points,
-                    wrong_answers=reverse_candidates[:3],
+                    wrong_answers=reverse_wrong_answers,
                 ),
             )
 
@@ -533,6 +582,14 @@ def build_payload() -> dict[str, object]:
         tier_counts = {points: counts.get((category_name, points), 0) for points in (200, 400, 600)}
         if tier_counts != {200: 16, 400: 16, 600: 16}:
             raise ValueError(f"Unbalanced final category {category_name}: {tier_counts}")
+
+    unsuitable = [
+        str(item["prompt_ar"])
+        for item in items
+        if requires_visible_options(str(item["prompt_ar"]))
+    ]
+    if unsuitable:
+        raise ValueError(f"Option-dependent prompts are not allowed: {unsuitable[:3]}")
 
     return {"publish": True, "items": items}
 
