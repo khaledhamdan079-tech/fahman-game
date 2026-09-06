@@ -76,7 +76,7 @@ class MatchQuestionState(enum.StrEnum):
 
 
 class LifelineType(enum.StrEnum):
-    TWO_ANSWERS = "two_answers"
+    SHOW_OPTIONS = "show_options"
     DOUBLE_POINTS = "double_points"
     BLOCK_OPPONENT = "block_opponent"
 
@@ -100,10 +100,28 @@ class User(TimestampMixin, Base):
     __tablename__ = "users"
 
     id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
-    google_subject: Mapped[str] = mapped_column(String(255), unique=True, nullable=False)
-    email: Mapped[str] = mapped_column(String(320), nullable=False, index=True)
+    google_subject: Mapped[str | None] = mapped_column(String(255), unique=True)
+    email: Mapped[str | None] = mapped_column(String(320), index=True)
     display_name: Mapped[str] = mapped_column(String(160), nullable=False)
     avatar_url: Mapped[str | None] = mapped_column(Text)
+
+
+class DeviceCredential(Base):
+    __tablename__ = "device_credentials"
+
+    id: Mapped[uuid.UUID] = mapped_column(Uuid, primary_key=True, default=uuid.uuid4)
+    user_id: Mapped[uuid.UUID] = mapped_column(
+        ForeignKey("users.id", ondelete="CASCADE"),
+        unique=True,
+        nullable=False,
+        index=True,
+    )
+    installation_id: Mapped[uuid.UUID] = mapped_column(Uuid, unique=True, nullable=False)
+    secret_hash: Mapped[str] = mapped_column(String(64), nullable=False)
+    platform: Mapped[str | None] = mapped_column(String(32))
+    created_at: Mapped[datetime] = mapped_column(server_default=func.now(), nullable=False)
+    last_seen_at: Mapped[datetime] = mapped_column(server_default=func.now(), nullable=False)
+    revoked_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
 
 
 class RefreshToken(Base):

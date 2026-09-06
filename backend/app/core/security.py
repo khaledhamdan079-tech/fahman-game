@@ -68,3 +68,8 @@ def decode_access_token(token: str, settings: Settings) -> UUID:
 
 def hash_refresh_token(token: str) -> str:
     return hashlib.sha256(token.encode("utf-8")).hexdigest()
+
+
+def hash_device_secret(secret: str) -> str:
+    """Hash a high-entropy installation secret before database storage."""
+    return hashlib.sha256(secret.encode("utf-8")).hexdigest()

@@ -16,7 +16,7 @@ licensed scene.
 - Frontend: Flutter, Riverpod, go_router, Dio
 - Backend: Python, FastAPI, SQLAlchemy, Alembic
 - Database: PostgreSQL
-- Authentication: Google Sign-In with server-side ID-token verification
+- Authentication: private per-installation identity with rotating sessions
 - Media: S3-compatible object storage with short-lived playback URLs
 - Deployment: Railway
 
@@ -41,7 +41,7 @@ docs/        Product, UX, architecture, data, API, and delivery specifications
 
 Phases 1–3 are complete and the main Phase 4 journey is implemented. The
 authoritative backend is paired with an Arabic RTL Flutter app that includes
-Google authentication, secure rotating sessions, manual or random category
+Private device authentication, secure rotating sessions, manual or random category
 setup, live match creation, resumable rounds, match history, final results, the
 responsive board, and playable text/image/audio/video questions with timer,
 lifelines, reveal, and scoring. Protected question import and private direct

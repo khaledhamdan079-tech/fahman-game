@@ -317,15 +317,26 @@ async def get_match_state(
             and item.state == LifelineState.USED
             for item in lifelines
         )
-        safe_options = [
-            {"text_ar": item["text_ar"], "sort_order": item["sort_order"]}
-            for item in active_model.options_snapshot
-        ]
+        options_visible = any(
+            item.lifeline_type == LifelineType.SHOW_OPTIONS
+            and item.match_question_id == active_model.id
+            and item.state == LifelineState.USED
+            for item in lifelines
+        )
+        safe_options = (
+            [
+                {"text_ar": item["text_ar"], "sort_order": item["sort_order"]}
+                for item in active_model.options_snapshot
+            ]
+            if options_visible
+            else []
+        )
         active = ActiveQuestion(
             id=active_model.id,
             question_type=active_model.question_type_snapshot,
             prompt_ar=active_model.prompt_snapshot,
             options=safe_options,
+            options_visible=options_visible,
             answer_ar=(
                 active_model.answer_snapshot
                 if active_model.state == MatchQuestionState.REVEALED

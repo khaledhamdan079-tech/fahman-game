@@ -5,7 +5,7 @@
 - Create separate Railway PostgreSQL and API services.
 - Create a private S3-compatible bucket; never expose question media publicly.
 - Configure the bucket CORS rules only for trusted operator origins.
-- Create Google OAuth clients for every shipped Flutter platform.
+- Verify that the secure installation identity survives a normal app update.
 - Generate independent random values for `JWT_SECRET` and `ADMIN_API_KEY`.
 - Confirm every image, audio clip, and video has documented usage rights.
 
@@ -32,7 +32,7 @@
 
 - Build with the deployed endpoint using
   `--dart-define=API_BASE_URL=https://fahman-game-production.up.railway.app/v1`.
-- Supply the correct Google client IDs for each platform.
+- Keep Google client IDs only during the existing-user migration window.
 - Test Arabic layout on a small phone, large phone, tablet, and web browser.
 - Play a complete three-category match with every media type and all lifelines.
 - Interrupt an active question, relaunch, and verify recovery.

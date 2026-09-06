@@ -5,8 +5,8 @@
 ### users
 
 - `id` UUID primary key
-- `google_subject` unique
-- `email`
+- `google_subject` unique, nullable legacy field
+- `email` nullable
 - `display_name`
 - `avatar_url`
 - `created_at`, `updated_at`
@@ -19,6 +19,18 @@
 - `expires_at`
 - `revoked_at`
 - `created_at`
+
+### device_credentials
+
+- `id` UUID primary key
+- `user_id` unique foreign key
+- `installation_id` unique random UUID
+- `secret_hash`
+- `platform`
+- `created_at`, `last_seen_at`, `revoked_at`
+
+The raw installation secret is stored only in the phone's secure storage and
+is never saved by the backend.
 
 ### categories
 
@@ -38,7 +50,8 @@
 - `answer_ar`
 - `points`: `200`, `400`, `600`
 - `media_asset_id` nullable foreign key
-- `options_reveal_timing`: `immediate`, `after_media`
+- `options_reveal_timing`: deprecated authoring metadata; gameplay options are
+  revealed only by the `show_options` lifeline
 - `max_plays` nullable; defaults to 2 for audio/video
 - `status`: `draft`, `published`, `retired`
 - `created_at`, `updated_at`
@@ -137,7 +150,7 @@ that immutable asset version.
 
 - `match_id` foreign key
 - `team_no`
-- `lifeline_type`: `two_answers`, `double_points`, `block_opponent`
+- `lifeline_type`: `show_options`, `double_points`, `block_opponent`
 - `state`: `available`, `armed`, `used`
 - `match_question_id` nullable
 - `used_at` nullable

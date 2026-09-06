@@ -148,6 +148,7 @@ class ActiveQuestionSnapshot {
     required this.type,
     required this.prompt,
     required this.options,
+    required this.optionsVisible,
     required this.points,
     required this.effectivePoints,
     required this.state,
@@ -159,31 +160,35 @@ class ActiveQuestionSnapshot {
     this.maxPlays,
   });
 
-  factory ActiveQuestionSnapshot.fromJson(Map<String, dynamic> json) =>
-      ActiveQuestionSnapshot(
-        id: json['id'] as String,
-        type: json['question_type'] as String,
-        prompt: json['prompt_ar'] as String,
-        options: (json['options'] as List<dynamic>)
-            .map((item) => (item as Map<String, dynamic>)['text_ar'] as String)
-            .toList(),
-        answer: json['answer_ar'] as String?,
-        points: json['points'] as int,
-        effectivePoints: json['effective_points'] as int,
-        state: json['state'] as String,
-        mediaAssetId: json['media_asset_id'] as String?,
-        deadline: json['deadline_at'] == null
-            ? null
-            : DateTime.parse(json['deadline_at'] as String),
-        playCount: json['play_count'] as int,
-        maxPlays: json['max_plays'] as int?,
-        choosingTeam: json['choosing_team_no'] as int,
-      );
+  factory ActiveQuestionSnapshot.fromJson(Map<String, dynamic> json) {
+    final rawOptions = json['options'] as List<dynamic>? ?? const [];
+    return ActiveQuestionSnapshot(
+      id: json['id'] as String,
+      type: json['question_type'] as String,
+      prompt: json['prompt_ar'] as String,
+      options: rawOptions
+          .map((item) => (item as Map<String, dynamic>)['text_ar'] as String)
+          .toList(),
+      optionsVisible: json['options_visible'] as bool? ?? rawOptions.isNotEmpty,
+      answer: json['answer_ar'] as String?,
+      points: json['points'] as int,
+      effectivePoints: json['effective_points'] as int,
+      state: json['state'] as String,
+      mediaAssetId: json['media_asset_id'] as String?,
+      deadline: json['deadline_at'] == null
+          ? null
+          : DateTime.parse(json['deadline_at'] as String),
+      playCount: json['play_count'] as int,
+      maxPlays: json['max_plays'] as int?,
+      choosingTeam: json['choosing_team_no'] as int,
+    );
+  }
 
   final String id;
   final String type;
   final String prompt;
   final List<String> options;
+  final bool optionsVisible;
   final String? answer;
   final int points;
   final int effectivePoints;
@@ -196,6 +201,8 @@ class ActiveQuestionSnapshot {
 
   ActiveQuestionSnapshot copyWith({
     String? answer,
+    List<String>? options,
+    bool? optionsVisible,
     String? state,
     DateTime? deadline,
     int? playCount,
@@ -203,7 +210,8 @@ class ActiveQuestionSnapshot {
     id: id,
     type: type,
     prompt: prompt,
-    options: options,
+    options: options ?? this.options,
+    optionsVisible: optionsVisible ?? this.optionsVisible,
     answer: answer ?? this.answer,
     points: points,
     effectivePoints: effectivePoints,
@@ -287,7 +295,7 @@ class MatchSnapshot {
         .toList(),
     lifelines: [
       for (final team in [1, 2])
-        for (final type in ['two_answers', 'double_points', 'block_opponent'])
+        for (final type in ['show_options', 'double_points', 'block_opponent'])
           LifelineSnapshot(teamNumber: team, type: type, state: 'available'),
     ],
   );

@@ -27,7 +27,7 @@ Status: complete
 - PostgreSQL connection and session management
 - SQLAlchemy models and Alembic migrations
 - Health endpoints
-- Google ID-token verification boundary
+- Private installation-identity boundary
 - JWT access/refresh sessions
 - pytest, Ruff, and type checking
 - Railway Docker configuration
@@ -57,7 +57,7 @@ setup, board, question presentation, multimedia playback, timer, lifelines,
 reveal, scoring, recovery, history, and final results complete
 
 - Arabic RTL theme and navigation
-- Google Sign-In
+- Automatic device session
 - Category and team setup
 - Game board
 - Text/image/audio/video question views
@@ -99,7 +99,7 @@ the launch checklist are ready; live infrastructure is not provisioned yet
 
 ## MVP exit criteria
 
-- A user can sign in with Google.
+- A fresh installation creates and restores its user without sign-in.
 - A complete 3–7 category match can be played and resumed.
 - Questions do not repeat for that user.
 - Text, image, audio, and video questions all work on target devices.

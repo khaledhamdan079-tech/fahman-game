@@ -6,7 +6,9 @@ header and the caller's expected match version.
 
 ## Authentication
 
-- `POST /v1/auth/google` — exchange a verified Google ID token for local tokens
+- `POST /v1/auth/device/session` — create or restore an installation user and issue tokens
+- `POST /v1/auth/device/attach` — attach an existing authenticated user to this installation
+- `POST /v1/auth/google` — temporary migration-only Google token exchange
 - `POST /v1/auth/refresh` — rotate a refresh token
 - `POST /v1/auth/logout` — revoke the current refresh token
 - `GET /v1/auth/me` — current profile

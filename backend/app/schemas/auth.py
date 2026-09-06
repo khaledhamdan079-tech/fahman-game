@@ -10,6 +10,13 @@ class GoogleLoginRequest(BaseModel):
     id_token: str = Field(min_length=20)
 
 
+class DeviceSessionRequest(BaseModel):
+    installation_id: UUID
+    device_secret: str = Field(min_length=32, max_length=256)
+    platform: str | None = Field(default=None, min_length=1, max_length=32)
+    display_name: str = Field(default="لاعب فهمان", min_length=1, max_length=160)
+
+
 class RefreshRequest(BaseModel):
     refresh_token: str = Field(min_length=20)
 
@@ -22,7 +29,7 @@ class UserResponse(BaseModel):
     model_config = ConfigDict(from_attributes=True)
 
     id: UUID
-    email: EmailStr
+    email: EmailStr | None
     display_name: str
     avatar_url: str | None
 

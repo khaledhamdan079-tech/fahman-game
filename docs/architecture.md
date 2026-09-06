@@ -19,7 +19,7 @@ S3-compatible object storage / CDN
 
 ## Backend responsibilities
 
-- Verify Google identity and manage local sessions.
+- Verify private installation credentials and manage local sessions.
 - Return category eligibility for the authenticated user.
 - Atomically reserve questions for a match.
 - Enforce the match and question state machines.
@@ -79,14 +79,14 @@ frontend/lib/
 
 ## Authentication
 
-1. Flutter completes Google Sign-In and receives an ID token.
-2. Flutter sends the ID token to `POST /v1/auth/google`.
-3. FastAPI validates signature, issuer, audience, and expiry.
-4. FastAPI upserts the local user by Google's stable subject identifier.
+1. Flutter generates a random installation UUID and high-entropy secret.
+2. Flutter stores both values in platform secure storage.
+3. Flutter sends them to `POST /v1/auth/device/session`.
+4. FastAPI creates or restores the installation user after checking the secret hash.
 5. FastAPI issues a short-lived access token and a rotating refresh token.
-6. Only a hash of the refresh token is stored.
+6. Only hashes of the installation secret and refresh token are stored.
 
-Google access tokens are not stored.
+IMEI, serial number, MAC address, and other hardware identifiers are never read.
 
 ## Match consistency
 
@@ -127,8 +127,7 @@ require uploaders to provide web/mobile-compatible formats.
 
 - One FastAPI web service built from a Dockerfile
 - One managed PostgreSQL database
-- Environment variables for database, JWT signing, Google client IDs, and
-  object-storage credentials
+- Environment variables for database, JWT signing, and object-storage credentials
 - Pre-deploy Alembic migration command
 - `/health/live` and `/health/ready` endpoints
 - Structured logs to stdout

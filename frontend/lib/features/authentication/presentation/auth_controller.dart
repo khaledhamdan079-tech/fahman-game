@@ -16,7 +16,7 @@ final authRepositoryProvider = Provider<AuthRepository>(
   ),
 );
 
-enum AuthStatus { booting, signedOut, busy, signedIn, demo, error }
+enum AuthStatus { booting, busy, signedIn, demo, error }
 
 class AuthState {
   const AuthState({required this.status, this.user, this.message});
@@ -44,20 +44,12 @@ class AuthController extends Notifier<AuthState> {
   @override
   AuthState build() => const AuthState.booting();
 
-  Future<void> bootstrap() async {
-    if (_didBootstrap) return;
+  Future<bool> bootstrap({bool force = false}) async {
+    if (_didBootstrap && !force) return state.hasAccess;
     _didBootstrap = true;
-    final user = await _repository.restoreSession();
-    state = AuthState(
-      status: user == null ? AuthStatus.signedOut : AuthStatus.signedIn,
-      user: user,
-    );
-  }
-
-  Future<bool> signIn() async {
     state = const AuthState(status: AuthStatus.busy);
     try {
-      final user = await _repository.signInWithGoogle();
+      final user = await _repository.establishDeviceSession();
       state = AuthState(status: AuthStatus.signedIn, user: user);
       return true;
     } on AuthFailure catch (error) {
@@ -65,7 +57,7 @@ class AuthController extends Notifier<AuthState> {
     } catch (_) {
       state = const AuthState(
         status: AuthStatus.error,
-        message: 'تعذر تسجيل الدخول. تأكد من الاتصال وإعدادات Google.',
+        message: 'تعذر تجهيز حساب هذا الهاتف. تحقق من الاتصال وحاول مرة أخرى.',
       );
     }
     return false;
@@ -74,16 +66,13 @@ class AuthController extends Notifier<AuthState> {
   void continueAsDemo() {
     state = const AuthState(
       status: AuthStatus.demo,
-      user: UserProfile(
-        id: 'demo',
-        email: 'demo@fahman.local',
-        displayName: 'ضيف فهمان',
-      ),
+      user: UserProfile(id: 'demo', displayName: 'ضيف فهمان'),
     );
   }
 
   Future<void> signOut() async {
     if (!state.isDemo) await _repository.signOut();
-    state = const AuthState(status: AuthStatus.signedOut);
+    state = const AuthState.booting();
+    _didBootstrap = false;
   }
 }

@@ -70,8 +70,6 @@ class Settings(BaseSettings):
     def validate_runtime(self) -> None:
         if self.is_production and self.jwt_secret.startswith("development-"):
             raise RuntimeError("JWT_SECRET must be replaced in production")
-        if self.is_production and not self.google_client_ids:
-            raise RuntimeError("GOOGLE_CLIENT_IDS must be configured in production")
         if self.is_production and not self.admin_api_key:
             raise RuntimeError("ADMIN_API_KEY must be configured in production")
         if self.is_production and not self.media_storage_configured:

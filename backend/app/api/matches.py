@@ -6,6 +6,7 @@ from uuid import UUID
 from fastapi import APIRouter, Header, status
 
 from app.api.dependencies import CurrentUserDependency, SessionDependency
+from app.core.errors import AppError
 from app.db.models import LifelineType
 from app.schemas.matches import (
     ArmLifelineRequest,
@@ -32,6 +33,15 @@ from app.services.matches import (
 
 router = APIRouter(prefix="/matches", tags=["matches"])
 IdempotencyKey = Annotated[str, Header(alias="Idempotency-Key", min_length=8, max_length=255)]
+
+
+def _lifeline_type(value: str) -> LifelineType:
+    # Keep old APKs usable for one transition release.
+    normalized = "show_options" if value == "two_answers" else value
+    try:
+        return LifelineType(normalized)
+    except ValueError as exc:
+        raise AppError("INVALID_LIFELINE", "The lifeline type is invalid", status_code=422) from exc
 
 
 @router.post("", response_model=MatchStateResponse, status_code=status.HTTP_201_CREATED)
@@ -155,7 +165,7 @@ async def score_match_question(
 @router.post("/{match_id}/lifelines/{lifeline_type}/arm", response_model=MatchStateResponse)
 async def use_lifeline(
     match_id: UUID,
-    lifeline_type: LifelineType,
+    lifeline_type: str,
     payload: ArmLifelineRequest,
     session: SessionDependency,
     user: CurrentUserDependency,
@@ -164,7 +174,7 @@ async def use_lifeline(
     return await arm_lifeline(
         session,
         match_id,
-        lifeline_type,
+        _lifeline_type(lifeline_type),
         payload.match_question_id,
         user.id,
         payload.expected_version,
@@ -175,7 +185,7 @@ async def use_lifeline(
 @router.post("/{match_id}/lifelines/{lifeline_type}/cancel", response_model=MatchStateResponse)
 async def cancel_lifeline(
     match_id: UUID,
-    lifeline_type: LifelineType,
+    lifeline_type: str,
     payload: MatchCommandRequest,
     session: SessionDependency,
     user: CurrentUserDependency,
@@ -184,7 +194,7 @@ async def cancel_lifeline(
     return await cancel_armed_lifeline(
         session,
         match_id,
-        lifeline_type,
+        _lifeline_type(lifeline_type),
         user.id,
         payload.expected_version,
         idempotency_key,

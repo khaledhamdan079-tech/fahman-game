@@ -178,11 +178,20 @@ class _QuestionScreenState extends ConsumerState<QuestionScreen> {
                                 const SizedBox(height: 18),
                               _PromptCard(question: question),
                               const SizedBox(height: 18),
-                              _OptionsGrid(
-                                options: question.options,
-                                answer: revealed ? question.answer : null,
-                              ),
-                              const SizedBox(height: 18),
+                              if (question.optionsVisible) ...[
+                                _OptionsGrid(
+                                  options: question.options,
+                                  answer: revealed ? question.answer : null,
+                                ),
+                                const SizedBox(height: 18),
+                              ] else if (!revealed) ...[
+                                const _HiddenOptionsNotice(),
+                                const SizedBox(height: 18),
+                              ],
+                              if (revealed) ...[
+                                _AnswerCard(answer: question.answer!),
+                                const SizedBox(height: 18),
+                              ],
                               if (!revealed)
                                 _QuestionActions(
                                   match: match,
@@ -611,6 +620,57 @@ class _OptionsGrid extends StatelessWidget {
   );
 }
 
+class _HiddenOptionsNotice extends StatelessWidget {
+  const _HiddenOptionsNotice();
+
+  @override
+  Widget build(BuildContext context) => Container(
+    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+    decoration: BoxDecoration(
+      color: FahmanColors.purple.withValues(alpha: 0.09),
+      borderRadius: BorderRadius.circular(16),
+      border: Border.all(color: FahmanColors.purple.withValues(alpha: 0.22)),
+    ),
+    child: const Row(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Icon(Icons.visibility_off_rounded, color: FahmanColors.purple),
+        SizedBox(width: 9),
+        Flexible(child: Text('الخيارات مخفية — استخدم مساعدة إظهار الخيارات')),
+      ],
+    ),
+  );
+}
+
+class _AnswerCard extends StatelessWidget {
+  const _AnswerCard({required this.answer});
+  final String answer;
+
+  @override
+  Widget build(BuildContext context) => Container(
+    padding: const EdgeInsets.all(18),
+    decoration: BoxDecoration(
+      color: FahmanColors.turquoise.withValues(alpha: 0.16),
+      borderRadius: BorderRadius.circular(20),
+      border: Border.all(color: FahmanColors.turquoise, width: 2),
+    ),
+    child: Column(
+      children: [
+        const Text(
+          'الإجابة الصحيحة',
+          style: TextStyle(fontWeight: FontWeight.w800),
+        ),
+        const SizedBox(height: 6),
+        Text(
+          answer,
+          textAlign: TextAlign.center,
+          style: Theme.of(context).textTheme.headlineSmall,
+        ),
+      ],
+    ),
+  );
+}
+
 class _QuestionActions extends StatelessWidget {
   const _QuestionActions({
     required this.match,
@@ -630,10 +690,10 @@ class _QuestionActions extends StatelessWidget {
         spacing: 9,
         children: [
           _ActionLifeline(
-            icon: Icons.looks_two_rounded,
-            label: 'إجابتان',
-            enabled: _available('two_answers'),
-            onTap: () => onLifeline('two_answers'),
+            icon: Icons.list_alt_rounded,
+            label: 'إظهار الخيارات',
+            enabled: _available('show_options'),
+            onTap: () => onLifeline('show_options'),
           ),
           _ActionLifeline(
             icon: Icons.block_rounded,

@@ -431,9 +431,9 @@ class _LifelineBar extends StatelessWidget {
         ),
         SizedBox(width: compact ? 8 : 16),
         _LifelineBadge(
-          icon: Icons.looks_two_rounded,
-          label: 'إجابتان',
-          used: _isUsed('two_answers'),
+          icon: Icons.list_alt_rounded,
+          label: 'خيارات',
+          used: _isUsed('show_options'),
           compact: compact,
         ),
         _LifelineBadge(

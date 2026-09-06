@@ -146,50 +146,32 @@ class _SignInCard extends ConsumerWidget {
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: [
         Text(
-          'جاهز تثبت إنك فهمان؟',
+          'نجهّز فهمان لهذا الهاتف',
           style: Theme.of(context).textTheme.headlineMedium,
         ),
         const SizedBox(height: 9),
         Text(
-          'سجّل دخولك لنحفظ أسئلتك وجولاتك ونتائجك.',
+          'لا تحتاج إلى تسجيل دخول. سنحفظ جولاتك والأسئلة المستخدمة على معرّف آمن خاص بهذا التثبيت.',
           style: Theme.of(context).textTheme.bodyMedium,
         ),
         const SizedBox(height: 24),
-        FilledButton.icon(
-          onPressed:
-              auth.status == AuthStatus.busy ||
-                  auth.status == AuthStatus.booting
-              ? null
-              : () async {
-                  if (await ref
-                          .read(authControllerProvider.notifier)
-                          .signIn() &&
-                      context.mounted) {
-                    context.go('/home');
-                  }
-                },
-          icon: auth.status == AuthStatus.busy
-              ? const SizedBox.square(
-                  dimension: 20,
-                  child: CircularProgressIndicator(
-                    strokeWidth: 2,
-                    color: Colors.white,
-                  ),
-                )
-              : const Icon(Icons.login_rounded),
-          label: const Text('الدخول باستخدام Google'),
-        ),
-        const SizedBox(height: 12),
-        OutlinedButton.icon(
-          onPressed: auth.status == AuthStatus.busy
-              ? null
-              : () {
-                  ref.read(authControllerProvider.notifier).continueAsDemo();
-                  context.go('/home');
-                },
-          icon: const Icon(Icons.visibility_rounded),
-          label: const Text('استعراض التصميم كتجربة'),
-        ),
+        if (auth.status == AuthStatus.error)
+          FilledButton.icon(
+            onPressed: () async {
+              if (await ref
+                      .read(authControllerProvider.notifier)
+                      .bootstrap(force: true) &&
+                  context.mounted) {
+                context.go('/home');
+              }
+            },
+            icon: const Icon(Icons.refresh_rounded),
+            label: const Text('إعادة المحاولة'),
+          )
+        else
+          const Center(
+            child: CircularProgressIndicator(color: FahmanColors.purple),
+          ),
         if (auth.message != null) ...[
           const SizedBox(height: 16),
           Text(
@@ -202,7 +184,7 @@ class _SignInCard extends ConsumerWidget {
         ],
         const SizedBox(height: 20),
         const Text(
-          'بتسجيل الدخول أنت توافق على حفظ تاريخ اللعب والأسئلة المستخدمة.',
+          'لا نقرأ رقم الهاتف أو IMEI أو أي معرّف عتادي.',
           textAlign: TextAlign.center,
           style: TextStyle(
             fontSize: 11,

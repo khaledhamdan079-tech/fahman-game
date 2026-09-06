@@ -41,18 +41,9 @@ class _HomeScreenState extends ConsumerState<HomeScreen> {
                     children: [
                       const FahmanLogo(compact: true),
                       const Spacer(),
-                      IconButton.filledTonal(
-                        tooltip: 'تسجيل الخروج',
-                        onPressed: () async {
-                          ref
-                              .read(setupControllerProvider.notifier)
-                              .clearMatch();
-                          await ref
-                              .read(authControllerProvider.notifier)
-                              .signOut();
-                          if (context.mounted) context.go('/');
-                        },
-                        icon: const Icon(Icons.logout_rounded),
+                      const Tooltip(
+                        message: 'حساب هذا الهاتف',
+                        child: Icon(Icons.phonelink_lock_rounded),
                       ),
                     ],
                   ),

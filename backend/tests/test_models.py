@@ -6,6 +6,7 @@ from app.db.base import Base
 def test_expected_tables_are_registered() -> None:
     assert set(Base.metadata.tables) == {
         "categories",
+        "device_credentials",
         "match_categories",
         "match_events",
         "match_lifelines",

@@ -20,7 +20,7 @@ Principles:
 
 ```text
 Splash
-  -> Google sign-in
+  -> Automatic installation setup
   -> Home
       -> New match
           -> Choose category count
@@ -32,7 +32,7 @@ Splash
               -> Question
                   -> Media preload
                   -> Play + timer
-                  -> Optional Two answers / Block opponent
+                  -> Optional Show options / Block opponent
                   -> Reveal answer
                   -> Choose scoring team / No one
                   -> Game board

@@ -12,8 +12,7 @@ lifelines, turns, and points.
 ## Included milestone
 
 - RTL Arabic theme and responsive navigation
-- Google Sign-In 7.x integration and secure token storage
-- A reviewable demo mode that needs no credentials
+- Automatic per-installation identity and secure token storage
 - Backend-powered eligible-category selection
 - Team setup and match creation
 - Manual or random eligible-category selection for 3–7 categories
@@ -33,15 +32,13 @@ flutter test
 flutter run --dart-define=API_BASE_URL=http://10.0.2.2:8000/v1
 ```
 
-For real Google sign-in, configure each platform following the
-`google_sign_in` package instructions and provide the appropriate client IDs:
+The app generates a random installation ID and secret on first launch and
+stores them in platform secure storage. No Google or hardware identifier setup
+is required:
 
 ```powershell
 flutter run `
-  --dart-define=API_BASE_URL=https://fahman-game-production.up.railway.app/v1 `
-  --dart-define=GOOGLE_SERVER_CLIENT_ID=238426214810-l3pjs700vjmbfj5cjsg00okfnhdpoggr.apps.googleusercontent.com
+  --dart-define=API_BASE_URL=https://fahman-game-production.up.railway.app/v1
 ```
 
-The registered Android package is `com.fahman.game.fahman`. The current
-Android OAuth client is tied to the local debug signing certificate; create a
-second Android OAuth client for the Play App Signing SHA-1 before publishing.
+The registered Android package is `com.fahman.game.fahman`.

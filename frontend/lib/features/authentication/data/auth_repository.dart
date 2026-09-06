@@ -1,26 +1,25 @@
 import 'package:dio/dio.dart';
-import 'package:fahman/core/config/app_config.dart';
 import 'package:fahman/core/network/api_client.dart';
 import 'package:fahman/core/storage/token_store.dart';
-import 'package:google_sign_in/google_sign_in.dart';
+import 'package:flutter/foundation.dart';
 
 class UserProfile {
   const UserProfile({
     required this.id,
-    required this.email,
+    this.email,
     required this.displayName,
     this.avatarUrl,
   });
 
   factory UserProfile.fromJson(Map<String, dynamic> json) => UserProfile(
     id: json['id'] as String,
-    email: json['email'] as String,
+    email: json['email'] as String?,
     displayName: json['display_name'] as String,
     avatarUrl: json['avatar_url'] as String?,
   );
 
   final String id;
-  final String email;
+  final String? email;
   final String displayName;
   final String? avatarUrl;
 }
@@ -30,35 +29,41 @@ class AuthRepository {
 
   final ApiClient _api;
   final TokenStore _tokens;
-  bool _googleInitialized = false;
+  Future<UserProfile> establishDeviceSession() async {
+    final identity = await _tokens.readOrCreateDeviceIdentity();
+    final payload = {
+      'installation_id': identity.installationId,
+      'device_secret': identity.secret,
+      'platform': defaultTargetPlatform.name,
+      'display_name': 'لاعب فهمان',
+    };
 
-  Future<UserProfile?> restoreSession() async {
-    if (await _tokens.readAccessToken() == null) return null;
-    try {
-      final response = await _api.dio.get<Map<String, dynamic>>('/auth/me');
-      return UserProfile.fromJson(response.data!);
-    } on DioException {
-      await _tokens.clear();
-      return null;
+    if (await _tokens.readAccessToken() != null) {
+      UserProfile? restoredUser;
+      try {
+        final response = await _api.dio.get<Map<String, dynamic>>('/auth/me');
+        restoredUser = UserProfile.fromJson(response.data!);
+      } on DioException {
+        // The refresh interceptor has already tried to recover the old session.
+      }
+      if (restoredUser != null) {
+        // A valid token from the Google version is attached once to this
+        // installation, preserving match history and used questions.
+        try {
+          await _api.dio.post<Map<String, dynamic>>(
+            '/auth/device/attach',
+            data: payload,
+          );
+        } on DioException catch (error) {
+          if (error.response?.statusCode != 409) rethrow;
+        }
+        return restoredUser;
+      }
     }
-  }
 
-  Future<UserProfile> signInWithGoogle() async {
-    await _initializeGoogle();
-    final google = GoogleSignIn.instance;
-    if (!google.supportsAuthenticate()) {
-      throw const AuthFailure(
-        'تسجيل Google من داخل التطبيق متاح على Android وiOS حالياً.',
-      );
-    }
-    final account = await google.authenticate();
-    final idToken = account.authentication.idToken;
-    if (idToken == null) {
-      throw const AuthFailure('لم يرسل Google رمز الهوية. راجع إعدادات OAuth.');
-    }
     final response = await _api.dio.post<Map<String, dynamic>>(
-      '/auth/google',
-      data: {'id_token': idToken},
+      '/auth/device/session',
+      data: payload,
     );
     final data = response.data!;
     await _tokens.save(
@@ -71,21 +76,7 @@ class AuthRepository {
   }
 
   Future<void> signOut() async {
-    await _initializeGoogle();
-    await Future.wait([_tokens.clear(), GoogleSignIn.instance.signOut()]);
-  }
-
-  Future<void> _initializeGoogle() async {
-    if (_googleInitialized) return;
-    await GoogleSignIn.instance.initialize(
-      clientId: AppConfig.googleClientId.isEmpty
-          ? null
-          : AppConfig.googleClientId,
-      serverClientId: AppConfig.googleServerClientId.isEmpty
-          ? null
-          : AppConfig.googleServerClientId,
-    );
-    _googleInitialized = true;
+    await _tokens.clear();
   }
 }
 

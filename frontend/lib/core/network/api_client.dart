@@ -27,6 +27,7 @@ class ApiClient {
               error.response?.statusCode == 401 &&
               request.extra['retried_after_refresh'] != true &&
               !request.path.endsWith('/auth/google') &&
+              !request.path.endsWith('/auth/device/session') &&
               !request.path.endsWith('/auth/refresh');
           if (!shouldRefresh) {
             handler.next(error);

@@ -8,7 +8,7 @@ usage, and match history. Flutter must never calculate authoritative scores or
 advance the turn without a successful API response.
 
 The backend now includes the application package, PostgreSQL models and
-migrations, Google authentication boundary, category availability, atomic
+migrations, installation authentication, category availability, atomic
 question reservation, match commands, lifelines, idempotent scoring, history,
 signed multimedia playback, Docker packaging, and pytest coverage.
 

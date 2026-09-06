@@ -173,7 +173,8 @@ async def test_question_flow_hides_answer_marks_usage_and_scores_once(
     opened = opened_response.json()
     assert opened["active_question"]["prompt_ar"].startswith("سؤال")
     assert opened["active_question"]["answer_ar"] is None
-    assert all("is_correct" not in option for option in opened["active_question"]["options"])
+    assert opened["active_question"]["options_visible"] is False
+    assert opened["active_question"]["options"] == []
     usage_count = await session.scalar(select(func.count(UserQuestionUsage.question_id)))
     assert usage_count == 1
 
@@ -191,6 +192,8 @@ async def test_question_flow_hides_answer_marks_usage_and_scores_once(
     )
     revealed = revealed_response.json()
     assert revealed["active_question"]["answer_ar"] == "الإجابة الصحيحة"
+    assert revealed["active_question"]["options_visible"] is False
+    assert revealed["active_question"]["options"] == []
 
     scored_response = await client.post(
         f"{url}/score",
@@ -213,6 +216,52 @@ async def test_question_flow_hides_answer_marks_usage_and_scores_once(
     history = await client.get("/v1/matches", headers=auth_headers)
     assert history.status_code == 200
     assert history.json()["items"][0]["id"] == match["id"]
+
+
+@pytest.mark.asyncio
+async def test_show_options_lifeline_reveals_safe_options_once(
+    client: AsyncClient,
+    session: AsyncSession,
+    auth_headers: dict[str, str],
+) -> None:
+    match = await create_match(client, auth_headers, await seed_catalogue(session))
+    question = first_question(match)
+    match_url = f"/v1/matches/{match['id']}"
+    question_url = f"{match_url}/questions/{question['id']}"
+    opened = await client.post(
+        f"{question_url}/open",
+        headers={**auth_headers, "Idempotency-Key": "open-for-options-001"},
+        json={"expected_version": 1},
+    )
+
+    shown = await client.post(
+        f"{match_url}/lifelines/show_options/arm",
+        headers={**auth_headers, "Idempotency-Key": "show-options-001"},
+        json={
+            "expected_version": opened.json()["version"],
+            "match_question_id": question["id"],
+        },
+    )
+
+    assert shown.status_code == 200
+    active = shown.json()["active_question"]
+    assert active["options_visible"] is True
+    assert [option["text_ar"] for option in active["options"]] == [
+        "الإجابة الصحيحة",
+        "إجابة أخرى",
+    ]
+    assert all("is_correct" not in option for option in active["options"])
+
+    second = await client.post(
+        f"{match_url}/lifelines/show_options/arm",
+        headers={**auth_headers, "Idempotency-Key": "show-options-002"},
+        json={
+            "expected_version": shown.json()["version"],
+            "match_question_id": question["id"],
+        },
+    )
+    assert second.status_code == 409
+    assert second.json()["error"]["code"] == "LIFELINE_ALREADY_USED"
 
 
 @pytest.mark.asyncio

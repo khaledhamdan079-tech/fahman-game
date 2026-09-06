@@ -79,6 +79,7 @@ class ActiveQuestion(BaseModel):
     question_type: QuestionType
     prompt_ar: str
     options: list[dict[str, object]]
+    options_visible: bool
     answer_ar: str | None
     points: int
     effective_points: int

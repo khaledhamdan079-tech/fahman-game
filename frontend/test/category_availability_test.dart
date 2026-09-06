@@ -61,9 +61,8 @@ void main() {
           'id': 'question-1',
           'question_type': 'audio',
           'prompt_ar': 'لمن هذا الصوت؟',
-          'options': [
-            {'text_ar': 'الخيار الأول', 'sort_order': 0},
-          ],
+          'options': <dynamic>[],
+          'options_visible': false,
           'answer_ar': null,
           'points': 400,
           'effective_points': 400,
@@ -77,7 +76,8 @@ void main() {
       });
 
       expect(match.activeQuestion?.type, 'audio');
-      expect(match.activeQuestion?.options, ['الخيار الأول']);
+      expect(match.activeQuestion?.options, isEmpty);
+      expect(match.activeQuestion?.optionsVisible, isFalse);
       expect(match.activeQuestion?.answer, isNull);
     },
   );

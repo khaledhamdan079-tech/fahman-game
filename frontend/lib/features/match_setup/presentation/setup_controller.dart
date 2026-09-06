@@ -296,6 +296,9 @@ class SetupController extends Notifier<SetupState> {
                     : item,
               )
               .toList(),
+          activeQuestion: type == 'show_options'
+              ? question.copyWith(optionsVisible: true)
+              : question,
         );
       } else {
         match = await ref
@@ -477,6 +480,7 @@ class SetupController extends Notifier<SetupState> {
         type: boardQuestion.type,
         prompt: prompt,
         options: const ['السعودية', 'الجزائر', 'السودان', 'مصر'],
+        optionsVisible: false,
         points: boardQuestion.points,
         effectivePoints: boardQuestion.points * (doublePoints ? 2 : 1),
         state: 'open',

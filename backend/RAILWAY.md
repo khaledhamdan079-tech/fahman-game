@@ -19,7 +19,7 @@ first deployment uses a Dockerfile plus service settings.
 - `APP_ENV=production`
 - `DATABASE_URL=${{Postgres.DATABASE_URL}}`
 - `JWT_SECRET` with at least 32 random bytes
-- `GOOGLE_CLIENT_IDS` as comma-separated Android, iOS, and Web OAuth client IDs
+- `GOOGLE_CLIENT_IDS` only during the temporary Google-to-device migration window
 - `ADMIN_API_KEY` as a long random secret for protected catalogue imports
 - `CORS_ORIGINS` as comma-separated allowed web origins
 - `MEDIA_BUCKET` for the private S3-compatible bucket

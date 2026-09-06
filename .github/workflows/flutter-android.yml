@@ -60,7 +60,6 @@ jobs:
         run: >-
           flutter build apk --debug
           --dart-define=API_BASE_URL=https://fahman-game-production.up.railway.app/v1
-          --dart-define=GOOGLE_SERVER_CLIENT_ID=238426214810-l3pjs700vjmbfj5cjsg00okfnhdpoggr.apps.googleusercontent.com
 
       - name: Upload debug APK
         uses: actions/upload-artifact@v4
