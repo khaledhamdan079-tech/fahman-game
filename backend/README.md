@@ -44,17 +44,18 @@ category/prompt/points duplicates, and can publish immediately or save the
 batch as drafts. Every question must contain one correct option matching
 `answer_ar`; non-text questions must include matching media metadata.
 
-The first Arabic text-only catalogue contains 198 questions across 11
-categories. Each category has six 200-point, six 400-point, and six 600-point
-questions. Regenerate the import file after editing its source with:
+The current Arabic text-only catalogue contains 1,440 questions across 30
+categories. Each category has 16 questions at each of the 200, 400, and 600
+point tiers. Regenerate the import files after editing their source with:
 
 ```bash
 python scripts/build_arabic_question_bank.py
 ```
 
-Then import `examples/questions.arabic.v1.json` through the same protected
-endpoint. The generated answer positions are deterministically shuffled, and
-re-importing the file is safe because duplicate questions are skipped.
+Then import the three `examples/questions.arabic.v2.part*.json` batches through
+the same protected endpoint. Each batch stays under the API's 500-question
+limit. Answer positions are deterministically shuffled, and re-importing the
+files is safe because duplicate questions are skipped.
 
 For a new private media file, upload and verify it first:
 

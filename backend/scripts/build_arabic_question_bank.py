@@ -6,6 +6,8 @@ import json
 import random
 from pathlib import Path
 
+from arabic_question_relations import RELATION_CATEGORIES
+
 CATEGORIES: dict[str, tuple[str, str]] = {
     "معلومات عامة": (
         "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
@@ -263,9 +265,68 @@ CATEGORIES: dict[str, tuple[str, str]] = {
 }
 
 
-def build_payload() -> dict[str, object]:
-    items: list[dict[str, object]] = []
-    seen_prompts: set[tuple[str, str, int]] = set()
+def shuffled_options(prompt: str, answer: str, wrong_answers: list[str]) -> list[dict[str, object]]:
+    options = list(dict.fromkeys([answer, *wrong_answers]))
+    if not 2 <= len(options) <= 4:
+        raise ValueError(f"Question must have 2-4 unique options: {prompt}")
+    seed = int.from_bytes(hashlib.sha256(prompt.encode("utf-8")).digest()[:8])
+    random.Random(seed).shuffle(options)
+    return [
+        {"text_ar": option, "is_correct": option == answer, "sort_order": index}
+        for index, option in enumerate(options)
+    ]
+
+
+def question_item(
+    *,
+    category_name: str,
+    description: str,
+    prompt: str,
+    answer: str,
+    points: int,
+    wrong_answers: list[str],
+) -> dict[str, object]:
+    return {
+        "category_name_ar": category_name,
+        "category_description_ar": description,
+        "question_type": "text",
+        "prompt_ar": prompt,
+        "answer_ar": answer,
+        "points": points,
+        "options_reveal_timing": "immediate",
+        "options": shuffled_options(prompt, answer, wrong_answers),
+    }
+
+
+def parse_relations(raw_pairs: str) -> list[tuple[str, str]]:
+    pairs: list[tuple[str, str]] = []
+    for raw_pair in raw_pairs.split(";"):
+        parts = [part.strip() for part in raw_pair.split("|")]
+        if len(parts) != 2 or not all(parts):
+            raise ValueError(f"Invalid relation: {raw_pair}")
+        pairs.append((parts[0], parts[1]))
+    if len(pairs) != 24:
+        raise ValueError(f"Relation categories require exactly 24 pairs, got {len(pairs)}")
+    if len({left for left, _ in pairs}) != len(pairs):
+        raise ValueError("Relation left-hand values must be unique")
+    return pairs
+
+
+def add_item(
+    items: list[dict[str, object]],
+    seen_prompts: set[tuple[str, str, int]],
+    item: dict[str, object],
+) -> None:
+    key = (str(item["category_name_ar"]), str(item["prompt_ar"]), int(item["points"]))
+    if key in seen_prompts:
+        raise ValueError(f"Duplicate question: {key}")
+    seen_prompts.add(key)
+    items.append(item)
+
+
+def add_existing_categories(
+    items: list[dict[str, object]], seen_prompts: set[tuple[str, str, int]]
+) -> None:
 
     for category_name, (description, raw_questions) in CATEGORIES.items():
         tier_counts = {200: 0, 400: 0, 600: 0}
@@ -287,47 +348,216 @@ def build_payload() -> dict[str, object]:
             if duplicate_key in seen_prompts:
                 raise ValueError(f"Duplicate question: {prompt}")
 
-            options = [answer, *wrong_answers]
-            seed = int.from_bytes(hashlib.sha256(prompt.encode("utf-8")).digest()[:8])
-            random.Random(seed).shuffle(options)
-            items.append(
-                {
-                    "category_name_ar": category_name,
-                    "category_description_ar": description,
-                    "question_type": "text",
-                    "prompt_ar": prompt,
-                    "answer_ar": answer,
-                    "points": points,
-                    "options_reveal_timing": "immediate",
-                    "options": [
-                        {
-                            "text_ar": option,
-                            "is_correct": option == answer,
-                            "sort_order": index,
-                        }
-                        for index, option in enumerate(options)
-                    ],
-                }
+            add_item(
+                items,
+                seen_prompts,
+                question_item(
+                    category_name=category_name,
+                    description=description,
+                    prompt=prompt,
+                    answer=answer,
+                    points=points,
+                    wrong_answers=wrong_answers,
+                ),
             )
             tier_counts[points] += 1
-            seen_prompts.add(duplicate_key)
 
         if tier_counts != {200: 6, 400: 6, 600: 6}:
             raise ValueError(f"Unbalanced tiers in {category_name}: {tier_counts}")
+
+        parsed = [[part.strip() for part in line.split("|")] for line in lines]
+        all_prompts = [row[1] for row in parsed]
+        for index, row in enumerate(parsed):
+            points, prompt, answer = int(row[0]), row[1], row[2]
+            reverse_wrong = [
+                all_prompts[(index + offset) % len(all_prompts)] for offset in (1, 5, 11)
+            ]
+            add_item(
+                items,
+                seen_prompts,
+                question_item(
+                    category_name=category_name,
+                    description=description,
+                    prompt=f"أي سؤال من الآتية إجابته «{answer}»؟",
+                    answer=prompt,
+                    points=points,
+                    wrong_answers=reverse_wrong,
+                ),
+            )
+
+        true_false_indexes = {0, 1, 2, 3, 6, 7, 8, 9, 12, 13, 14, 15}
+        for index in sorted(true_false_indexes):
+            row = parsed[index]
+            points, prompt, answer, wrong_answer = int(row[0]), row[1], row[2], row[3]
+            statement_answer = answer if index % 2 == 0 else wrong_answer
+            correct = "صح" if index % 2 == 0 else "خطأ"
+            add_item(
+                items,
+                seen_prompts,
+                question_item(
+                    category_name=category_name,
+                    description=description,
+                    prompt=f"صح أم خطأ: إجابة «{prompt}» هي «{statement_answer}».",
+                    answer=correct,
+                    points=points,
+                    wrong_answers=["خطأ" if correct == "صح" else "صح"],
+                ),
+            )
+
+
+def add_relation_categories(
+    items: list[dict[str, object]], seen_prompts: set[tuple[str, str, int]]
+) -> None:
+    for category_name, config in RELATION_CATEGORIES.items():
+        pairs = parse_relations(config["pairs"])
+        right_values = list(dict.fromkeys(right for _, right in pairs))
+        for index, (left, right) in enumerate(pairs):
+            points = (200, 400, 600)[index // 8]
+            rng = random.Random(f"{category_name}:{left}:{right}")
+
+            forward_candidates = [value for value in right_values if value != right]
+            rng.shuffle(forward_candidates)
+            forward_prompt = config["forward"].format(left=left, right=right)
+            add_item(
+                items,
+                seen_prompts,
+                question_item(
+                    category_name=category_name,
+                    description=config["description"],
+                    prompt=forward_prompt,
+                    answer=right,
+                    points=points,
+                    wrong_answers=forward_candidates[:3],
+                ),
+            )
+
+            reverse_candidates = [
+                candidate_left
+                for candidate_left, candidate_right in pairs
+                if candidate_right != right and candidate_left != left
+            ]
+            rng.shuffle(reverse_candidates)
+            reverse_occurrence = sum(
+                1 for _, previous_right in pairs[:index] if previous_right == right
+            )
+            reverse_prefixes = (
+                "",
+                "اختر من الخيارات: ",
+                "حدّد الإجابة الصحيحة: ",
+                "فكّر جيدا: ",
+            )
+            reverse_prompt = reverse_prefixes[reverse_occurrence] + config["reverse"].format(
+                left=left, right=right
+            )
+            add_item(
+                items,
+                seen_prompts,
+                question_item(
+                    category_name=category_name,
+                    description=config["description"],
+                    prompt=reverse_prompt,
+                    answer=left,
+                    points=points,
+                    wrong_answers=reverse_candidates[:3],
+                ),
+            )
+
+
+def add_quick_math(
+    items: list[dict[str, object]], seen_prompts: set[tuple[str, str, int]]
+) -> None:
+    category_name = "حساب سريع"
+    description = "عمليات حسابية ذهنية متدرجة الصعوبة"
+    for index in range(16):
+        left, right = 14 + index * 3, 5 + index
+        answer = left + right
+        add_item(
+            items,
+            seen_prompts,
+            question_item(
+                category_name=category_name,
+                description=description,
+                prompt=f"ما ناتج {left} + {right}؟",
+                answer=str(answer),
+                points=200,
+                wrong_answers=[str(answer - 1), str(answer + 1), str(answer + 10)],
+            ),
+        )
+    for index in range(16):
+        left, right = 6 + index, 3 + (index % 7)
+        answer = left * right
+        add_item(
+            items,
+            seen_prompts,
+            question_item(
+                category_name=category_name,
+                description=description,
+                prompt=f"ما ناتج {left} × {right}؟",
+                answer=str(answer),
+                points=400,
+                wrong_answers=[str(answer - right), str(answer + right), str(answer + 2)],
+            ),
+        )
+    for index in range(16):
+        expected_x, coefficient, constant = 4 + index, 2 + (index % 4), 3 + index
+        total = coefficient * expected_x + constant
+        add_item(
+            items,
+            seen_prompts,
+            question_item(
+                category_name=category_name,
+                description=description,
+                prompt=f"إذا كان {coefficient}س + {constant} = {total}، فما قيمة س؟",
+                answer=str(expected_x),
+                points=600,
+                wrong_answers=[str(expected_x - 1), str(expected_x + 1), str(expected_x + 2)],
+            ),
+        )
+
+
+def build_payload() -> dict[str, object]:
+    items: list[dict[str, object]] = []
+    seen_prompts: set[tuple[str, str, int]] = set()
+    add_existing_categories(items, seen_prompts)
+    add_relation_categories(items, seen_prompts)
+    add_quick_math(items, seen_prompts)
+
+    counts: dict[tuple[str, int], int] = {}
+    for item in items:
+        key = (str(item["category_name_ar"]), int(item["points"]))
+        counts[key] = counts.get(key, 0) + 1
+    category_names = {name for name, _ in counts}
+    if len(category_names) != 30:
+        raise ValueError(f"Expected 30 categories, got {len(category_names)}")
+    for category_name in category_names:
+        tier_counts = {points: counts.get((category_name, points), 0) for points in (200, 400, 600)}
+        if tier_counts != {200: 16, 400: 16, 600: 16}:
+            raise ValueError(f"Unbalanced final category {category_name}: {tier_counts}")
 
     return {"publish": True, "items": items}
 
 
 def main() -> None:
     payload = build_payload()
-    output_path = Path(__file__).resolve().parents[1] / "examples" / "questions.arabic.v1.json"
-    output_path.write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-        encoding="utf-8",
-    )
+    output_directory = Path(__file__).resolve().parents[1] / "examples"
+    items = payload["items"]
+    batch_size = 480
+    output_paths: list[Path] = []
+    for batch_index, start in enumerate(range(0, len(items), batch_size), start=1):
+        output_path = output_directory / f"questions.arabic.v2.part{batch_index}.json"
+        output_path.write_text(
+            json.dumps(
+                {"publish": True, "items": items[start : start + batch_size]},
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        output_paths.append(output_path)
     print(
-        f"Wrote {len(payload['items'])} questions across {len(CATEGORIES)} categories "
-        f"to {output_path}"
+        f"Wrote {len(items)} questions across 30 categories "
+        f"to {len(output_paths)} import batches in {output_directory}"
     )
 
 
