@@ -1,3 +1,4 @@
+import 'package:fahman/core/theme/app_theme.dart';
 import 'package:fahman/features/match_setup/presentation/category_selection_screen.dart';
 import 'package:fahman/features/match_setup/presentation/setup_controller.dart';
 import 'package:flutter/material.dart';
@@ -38,7 +39,20 @@ void main() {
           overrides: [
             categoriesProvider.overrideWith((ref) async => demoCategories),
           ],
-          child: MaterialApp.router(routerConfig: router),
+          child: MaterialApp.router(
+            theme: FahmanTheme.light,
+            locale: const Locale('ar'),
+            builder: (context, child) => MediaQuery(
+              data: MediaQuery.of(
+                context,
+              ).copyWith(padding: const EdgeInsets.only(bottom: 24)),
+              child: Directionality(
+                textDirection: TextDirection.rtl,
+                child: child ?? const SizedBox.shrink(),
+              ),
+            ),
+            routerConfig: router,
+          ),
         ),
       );
       await tester.pumpAndSettle();

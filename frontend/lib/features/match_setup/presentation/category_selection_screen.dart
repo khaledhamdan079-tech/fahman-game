@@ -126,51 +126,61 @@ class _LandscapeControls extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) => Container(
-    padding: const EdgeInsets.fromLTRB(12, 6, 10, 10),
     decoration: const BoxDecoration(
       color: Colors.white,
       border: Border(left: BorderSide(color: FahmanColors.line)),
     ),
-    child: Column(
-      crossAxisAlignment: CrossAxisAlignment.stretch,
-      children: [
-        _CountChooser(selected: setup.categoryCount, compact: true),
-        const SizedBox(height: 8),
-        OutlinedButton.icon(
-          onPressed: categories.isEmpty
-              ? null
-              : () => ref
-                    .read(setupControllerProvider.notifier)
-                    .selectRandom(categories),
-          icon: const Icon(Icons.casino_rounded),
-          label: const Text('اختيار عشوائي'),
-        ),
-        const Spacer(),
-        if (setup.error != null) ...[
-          Text(
-            setup.error!,
-            maxLines: 2,
-            overflow: TextOverflow.ellipsis,
-            style: const TextStyle(
-              color: FahmanColors.coral,
-              fontWeight: FontWeight.w800,
+    child: SingleChildScrollView(
+      padding: const EdgeInsets.fromLTRB(12, 6, 10, 6),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        children: [
+          _CountChooser(selected: setup.categoryCount, compact: true),
+          const SizedBox(height: 6),
+          OutlinedButton.icon(
+            style: OutlinedButton.styleFrom(
+              minimumSize: const Size(0, 38),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
             ),
+            onPressed: categories.isEmpty
+                ? null
+                : () => ref
+                      .read(setupControllerProvider.notifier)
+                      .selectRandom(categories),
+            icon: const Icon(Icons.casino_rounded, size: 19),
+            label: const Text('اختيار عشوائي'),
           ),
           const SizedBox(height: 6),
+          if (setup.error != null) ...[
+            Text(
+              setup.error!,
+              maxLines: 2,
+              overflow: TextOverflow.ellipsis,
+              style: const TextStyle(
+                color: FahmanColors.coral,
+                fontWeight: FontWeight.w800,
+              ),
+            ),
+            const SizedBox(height: 4),
+          ],
+          Text(
+            'اخترت ${setup.selected.length} من ${setup.categoryCount}',
+            style: const TextStyle(fontWeight: FontWeight.w800),
+          ),
+          const SizedBox(height: 4),
+          FilledButton.icon(
+            style: FilledButton.styleFrom(
+              minimumSize: const Size(0, 38),
+              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+            ),
+            onPressed: setup.selected.length == setup.categoryCount
+                ? () => context.go('/setup/teams')
+                : null,
+            icon: const Icon(Icons.arrow_back_rounded, size: 19),
+            label: const Text('التالي'),
+          ),
         ],
-        Text(
-          'اخترت ${setup.selected.length} من ${setup.categoryCount}',
-          style: const TextStyle(fontWeight: FontWeight.w800),
-        ),
-        const SizedBox(height: 6),
-        FilledButton.icon(
-          onPressed: setup.selected.length == setup.categoryCount
-              ? () => context.go('/setup/teams')
-              : null,
-          icon: const Icon(Icons.arrow_back_rounded),
-          label: const Text('التالي'),
-        ),
-      ],
+      ),
     ),
   );
 }

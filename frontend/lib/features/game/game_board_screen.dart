@@ -28,18 +28,24 @@ class GameBoardScreen extends ConsumerWidget {
       body: SafeArea(
         child: Stack(
           children: [
-            Column(
-              children: [
-                _BoardHeader(match: match),
-                Expanded(
-                  child: _BoardCategories(
-                    match: match,
-                    onQuestionTap: (question) =>
-                        _openQuestion(context, ref, match, question),
-                  ),
-                ),
-                _LifelineBar(match: match),
-              ],
+            LayoutBuilder(
+              builder: (context, constraints) {
+                final compact = constraints.maxHeight < 500;
+                return Column(
+                  children: [
+                    _BoardHeader(match: match, compact: compact),
+                    Expanded(
+                      child: _BoardCategories(
+                        match: match,
+                        compact: compact,
+                        onQuestionTap: (question) =>
+                            _openQuestion(context, ref, match, question),
+                      ),
+                    ),
+                    _LifelineBar(match: match, compact: compact),
+                  ],
+                );
+              },
             ),
             if (setup.isCreating)
               const Positioned.fill(
@@ -128,16 +134,17 @@ class GameBoardScreen extends ConsumerWidget {
 }
 
 class _BoardHeader extends StatelessWidget {
-  const _BoardHeader({required this.match});
+  const _BoardHeader({required this.match, required this.compact});
   final MatchSnapshot match;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsets.fromLTRB(16, 14, 16, 12),
+    padding: EdgeInsets.fromLTRB(16, compact ? 4 : 14, 16, compact ? 5 : 12),
     child: Row(
       children: [
         const FahmanLogo(compact: true, light: true),
-        const SizedBox(width: 18),
+        SizedBox(width: compact ? 10 : 18),
         Expanded(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
@@ -146,6 +153,7 @@ class _BoardHeader extends StatelessWidget {
                 team: match.teams[0],
                 active: match.currentTeam == 1,
                 color: FahmanColors.coral,
+                compact: compact,
               ),
               const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 10),
@@ -155,6 +163,7 @@ class _BoardHeader extends StatelessWidget {
                 team: match.teams[1],
                 active: match.currentTeam == 2,
                 color: FahmanColors.purple,
+                compact: compact,
               ),
             ],
           ),
@@ -175,16 +184,21 @@ class _ScoreCard extends StatelessWidget {
     required this.team,
     required this.active,
     required this.color,
+    required this.compact,
   });
   final MatchTeamSnapshot team;
   final bool active;
   final Color color;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) => AnimatedContainer(
     duration: const Duration(milliseconds: 220),
-    constraints: const BoxConstraints(minWidth: 122),
-    padding: const EdgeInsets.symmetric(horizontal: 14, vertical: 9),
+    constraints: BoxConstraints(minWidth: compact ? 104 : 122),
+    padding: EdgeInsets.symmetric(
+      horizontal: compact ? 10 : 14,
+      vertical: compact ? 4 : 9,
+    ),
     decoration: BoxDecoration(
       color: active ? color : FahmanColors.midnightSoft,
       borderRadius: BorderRadius.circular(18),
@@ -199,16 +213,13 @@ class _ScoreCard extends StatelessWidget {
           team.name,
           maxLines: 1,
           overflow: TextOverflow.ellipsis,
-          style: const TextStyle(
-            color: Colors.white,
-            fontWeight: FontWeight.w800,
-          ),
+          style: TextStyle(color: Colors.white, fontWeight: FontWeight.w800),
         ),
         Text(
           '${team.score}',
-          style: const TextStyle(
+          style: TextStyle(
             color: Colors.white,
-            fontSize: 24,
+            fontSize: compact ? 19 : 24,
             fontWeight: FontWeight.w900,
             height: 1.1,
           ),
@@ -219,15 +230,20 @@ class _ScoreCard extends StatelessWidget {
 }
 
 class _BoardCategories extends StatelessWidget {
-  const _BoardCategories({required this.match, required this.onQuestionTap});
+  const _BoardCategories({
+    required this.match,
+    required this.compact,
+    required this.onQuestionTap,
+  });
   final MatchSnapshot match;
+  final bool compact;
   final ValueChanged<BoardQuestionSnapshot> onQuestionTap;
 
   @override
   Widget build(BuildContext context) => LayoutBuilder(
     builder: (context, constraints) {
       final columnWidth = (constraints.maxWidth / match.categories.length)
-          .clamp(150.0, 220.0)
+          .clamp(compact ? 135.0 : 150.0, compact ? 200.0 : 220.0)
           .toDouble();
       return SingleChildScrollView(
         scrollDirection: Axis.horizontal,
@@ -240,6 +256,7 @@ class _BoardCategories extends StatelessWidget {
                 width: columnWidth,
                 child: _CategoryColumn(
                   category: category,
+                  compact: compact,
                   onQuestionTap: onQuestionTap,
                 ),
               ),
@@ -251,8 +268,13 @@ class _BoardCategories extends StatelessWidget {
 }
 
 class _CategoryColumn extends StatelessWidget {
-  const _CategoryColumn({required this.category, required this.onQuestionTap});
+  const _CategoryColumn({
+    required this.category,
+    required this.compact,
+    required this.onQuestionTap,
+  });
   final MatchCategorySnapshot category;
+  final bool compact;
   final ValueChanged<BoardQuestionSnapshot> onQuestionTap;
 
   @override
@@ -262,7 +284,7 @@ class _CategoryColumn extends StatelessWidget {
       children: [
         Container(
           width: double.infinity,
-          height: 62,
+          height: compact ? 42 : 62,
           padding: const EdgeInsets.symmetric(horizontal: 8),
           alignment: Alignment.center,
           decoration: const BoxDecoration(
@@ -280,11 +302,12 @@ class _CategoryColumn extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(height: 6),
+        SizedBox(height: compact ? 3 : 6),
         for (final question in category.questions)
           Expanded(
             child: _QuestionTile(
               question: question,
+              compact: compact,
               onTap: () => onQuestionTap(question),
             ),
           ),
@@ -294,8 +317,13 @@ class _CategoryColumn extends StatelessWidget {
 }
 
 class _QuestionTile extends StatelessWidget {
-  const _QuestionTile({required this.question, required this.onTap});
+  const _QuestionTile({
+    required this.question,
+    required this.compact,
+    required this.onTap,
+  });
   final BoardQuestionSnapshot question;
+  final bool compact;
   final VoidCallback onTap;
 
   IconData get mediaIcon => switch (question.type) {
@@ -307,7 +335,7 @@ class _QuestionTile extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsets.only(bottom: 6),
+    padding: EdgeInsets.only(bottom: compact ? 3 : 6),
     child: Material(
       color: ['available', 'prepared'].contains(question.state)
           ? FahmanColors.midnightSoft
@@ -329,14 +357,18 @@ class _QuestionTile extends StatelessWidget {
                     : question.state == 'prepared'
                     ? 'دبل ${question.points}'
                     : '✓',
-                style: const TextStyle(
+                style: TextStyle(
                   color: Colors.white,
-                  fontSize: 21,
+                  fontSize: compact ? 16 : 21,
                   fontWeight: FontWeight.w900,
                 ),
               ),
-              const SizedBox(width: 7),
-              Icon(mediaIcon, color: FahmanColors.turquoise, size: 17),
+              SizedBox(width: compact ? 4 : 7),
+              Icon(
+                mediaIcon,
+                color: FahmanColors.turquoise,
+                size: compact ? 14 : 17,
+              ),
             ],
           ),
         ),
@@ -346,12 +378,13 @@ class _QuestionTile extends StatelessWidget {
 }
 
 class _LifelineBar extends StatelessWidget {
-  const _LifelineBar({required this.match});
+  const _LifelineBar({required this.match, required this.compact});
   final MatchSnapshot match;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) => Container(
-    padding: const EdgeInsets.fromLTRB(16, 10, 16, 14),
+    padding: EdgeInsets.fromLTRB(16, compact ? 4 : 10, 16, compact ? 5 : 14),
     decoration: const BoxDecoration(
       color: Color(0xFF0B1329),
       border: Border(top: BorderSide(color: Colors.white12)),
@@ -366,21 +399,24 @@ class _LifelineBar extends StatelessWidget {
             fontWeight: FontWeight.w900,
           ),
         ),
-        const SizedBox(width: 16),
+        SizedBox(width: compact ? 8 : 16),
         _LifelineBadge(
           icon: Icons.looks_two_rounded,
           label: 'إجابتان',
           used: _isUsed('two_answers'),
+          compact: compact,
         ),
         _LifelineBadge(
           icon: Icons.exposure_plus_2_rounded,
           label: 'دبل',
           used: _isUsed('double_points'),
+          compact: compact,
         ),
         _LifelineBadge(
           icon: Icons.block_rounded,
           label: 'حجب',
           used: _isUsed('block_opponent'),
+          compact: compact,
         ),
       ],
     ),
@@ -399,24 +435,53 @@ class _LifelineBadge extends StatelessWidget {
     required this.icon,
     required this.label,
     required this.used,
+    required this.compact,
   });
   final IconData icon;
   final String label;
   final bool used;
+  final bool compact;
 
   @override
   Widget build(BuildContext context) => Padding(
-    padding: const EdgeInsetsDirectional.only(start: 8),
-    child: Chip(
-      avatar: Icon(
-        icon,
-        size: 17,
-        color: used ? Colors.white38 : FahmanColors.saffron,
-      ),
-      label: Text(used ? '$label ✓' : label),
-      backgroundColor: FahmanColors.midnightSoft,
-      side: BorderSide(color: used ? Colors.white10 : Colors.white24),
-      labelStyle: TextStyle(color: used ? Colors.white38 : Colors.white),
-    ),
+    padding: EdgeInsetsDirectional.only(start: compact ? 5 : 8),
+    child: compact
+        ? Container(
+            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 6),
+            decoration: BoxDecoration(
+              color: FahmanColors.midnightSoft,
+              borderRadius: BorderRadius.circular(12),
+              border: Border.all(color: used ? Colors.white10 : Colors.white24),
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Icon(
+                  icon,
+                  size: 15,
+                  color: used ? Colors.white38 : FahmanColors.saffron,
+                ),
+                const SizedBox(width: 4),
+                Text(
+                  used ? '$label ✓' : label,
+                  style: TextStyle(
+                    color: used ? Colors.white38 : Colors.white,
+                    fontSize: 12,
+                  ),
+                ),
+              ],
+            ),
+          )
+        : Chip(
+            avatar: Icon(
+              icon,
+              size: 17,
+              color: used ? Colors.white38 : FahmanColors.saffron,
+            ),
+            label: Text(used ? '$label ✓' : label),
+            backgroundColor: FahmanColors.midnightSoft,
+            side: BorderSide(color: used ? Colors.white10 : Colors.white24),
+            labelStyle: TextStyle(color: used ? Colors.white38 : Colors.white),
+          ),
   );
 }
