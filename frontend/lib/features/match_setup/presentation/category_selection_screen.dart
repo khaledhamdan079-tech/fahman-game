@@ -24,92 +24,93 @@ class CategorySelectionScreen extends ConsumerWidget {
       body: GameBackground(
         child: SafeArea(
           top: false,
-          child: Column(
-            children: [
-              Padding(
-                padding: const EdgeInsets.fromLTRB(20, 6, 20, 18),
-                child: _CountChooser(selected: setup.categoryCount),
-              ),
-              Expanded(
-                child: categories.when(
-                  loading: () =>
-                      const Center(child: CircularProgressIndicator()),
-                  error: (error, stackTrace) => _LoadError(
-                    onRetry: () => ref.invalidate(categoriesProvider),
-                  ),
-                  data: (items) => Column(
-                    children: [
-                      Padding(
-                        padding: const EdgeInsets.fromLTRB(20, 0, 20, 14),
-                        child: Row(
-                          children: [
-                            Text(
-                              'أو خلّ فهمان يختار',
-                              style: Theme.of(context).textTheme.titleLarge,
-                            ),
-                            const Spacer(),
-                            OutlinedButton.icon(
-                              onPressed: () => ref
-                                  .read(setupControllerProvider.notifier)
-                                  .selectRandom(items),
-                              icon: const Icon(Icons.casino_rounded),
-                              label: const Text('اختيار عشوائي'),
-                            ),
-                          ],
-                        ),
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              final shortLandscape =
+                  constraints.maxWidth > constraints.maxHeight &&
+                  constraints.maxHeight < 480;
+              if (shortLandscape) {
+                final items = switch (categories) {
+                  AsyncData(:final value) => value,
+                  _ => const <CategoryAvailability>[],
+                };
+                return Row(
+                  children: [
+                    SizedBox(
+                      width: constraints.maxWidth < 700 ? 250 : 290,
+                      child: _LandscapeControls(
+                        setup: setup,
+                        categories: items,
                       ),
-                      Expanded(
-                        child: _CategoryGrid(
+                    ),
+                    Expanded(
+                      child: categories.when(
+                        loading: () =>
+                            const Center(child: CircularProgressIndicator()),
+                        error: (error, stackTrace) => _LoadError(
+                          onRetry: () => ref.invalidate(categoriesProvider),
+                        ),
+                        data: (items) => _CategoryGrid(
                           categories: items,
                           selected: setup.selected,
                           maximum: setup.categoryCount,
+                          compact: true,
                         ),
                       ),
-                    ],
-                  ),
-                ),
-              ),
-              Container(
-                padding: const EdgeInsets.fromLTRB(20, 14, 20, 18),
-                decoration: const BoxDecoration(
-                  color: Colors.white,
-                  border: Border(top: BorderSide(color: FahmanColors.line)),
-                ),
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.stretch,
-                  children: [
-                    if (setup.error != null) ...[
-                      Text(
-                        setup.error!,
-                        style: const TextStyle(
-                          color: FahmanColors.coral,
-                          fontWeight: FontWeight.w800,
-                        ),
-                      ),
-                      const SizedBox(height: 8),
-                    ],
-                    Row(
-                      children: [
-                        Expanded(
-                          child: Text(
-                            'اخترت ${setup.selected.length} من ${setup.categoryCount}',
-                            style: const TextStyle(fontWeight: FontWeight.w800),
-                          ),
-                        ),
-                        FilledButton.icon(
-                          onPressed:
-                              setup.selected.length == setup.categoryCount
-                              ? () => context.go('/setup/teams')
-                              : null,
-                          icon: const Icon(Icons.arrow_back_rounded),
-                          label: const Text('التالي'),
-                        ),
-                      ],
                     ),
                   ],
-                ),
-              ),
-            ],
+                );
+              }
+
+              return Column(
+                children: [
+                  Padding(
+                    padding: const EdgeInsets.fromLTRB(20, 6, 20, 18),
+                    child: _CountChooser(selected: setup.categoryCount),
+                  ),
+                  Expanded(
+                    child: categories.when(
+                      loading: () =>
+                          const Center(child: CircularProgressIndicator()),
+                      error: (error, stackTrace) => _LoadError(
+                        onRetry: () => ref.invalidate(categoriesProvider),
+                      ),
+                      data: (items) => Column(
+                        children: [
+                          Padding(
+                            padding: const EdgeInsets.fromLTRB(20, 0, 20, 14),
+                            child: Row(
+                              children: [
+                                Text(
+                                  'أو خلّ فهمان يختار',
+                                  style: Theme.of(context).textTheme.titleLarge,
+                                ),
+                                const Spacer(),
+                                OutlinedButton.icon(
+                                  onPressed: () => ref
+                                      .read(setupControllerProvider.notifier)
+                                      .selectRandom(items),
+                                  icon: const Icon(Icons.casino_rounded),
+                                  label: const Text('اختيار عشوائي'),
+                                ),
+                              ],
+                            ),
+                          ),
+                          Expanded(
+                            child: _CategoryGrid(
+                              categories: items,
+                              selected: setup.selected,
+                              maximum: setup.categoryCount,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                  _SelectionFooter(setup: setup),
+                ],
+              );
+            },
           ),
         ),
       ),
@@ -117,14 +118,119 @@ class CategorySelectionScreen extends ConsumerWidget {
   }
 }
 
+class _LandscapeControls extends ConsumerWidget {
+  const _LandscapeControls({required this.setup, required this.categories});
+
+  final SetupState setup;
+  final List<CategoryAvailability> categories;
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) => Container(
+    padding: const EdgeInsets.fromLTRB(12, 6, 10, 10),
+    decoration: const BoxDecoration(
+      color: Colors.white,
+      border: Border(left: BorderSide(color: FahmanColors.line)),
+    ),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        _CountChooser(selected: setup.categoryCount, compact: true),
+        const SizedBox(height: 8),
+        OutlinedButton.icon(
+          onPressed: categories.isEmpty
+              ? null
+              : () => ref
+                    .read(setupControllerProvider.notifier)
+                    .selectRandom(categories),
+          icon: const Icon(Icons.casino_rounded),
+          label: const Text('اختيار عشوائي'),
+        ),
+        const Spacer(),
+        if (setup.error != null) ...[
+          Text(
+            setup.error!,
+            maxLines: 2,
+            overflow: TextOverflow.ellipsis,
+            style: const TextStyle(
+              color: FahmanColors.coral,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          const SizedBox(height: 6),
+        ],
+        Text(
+          'اخترت ${setup.selected.length} من ${setup.categoryCount}',
+          style: const TextStyle(fontWeight: FontWeight.w800),
+        ),
+        const SizedBox(height: 6),
+        FilledButton.icon(
+          onPressed: setup.selected.length == setup.categoryCount
+              ? () => context.go('/setup/teams')
+              : null,
+          icon: const Icon(Icons.arrow_back_rounded),
+          label: const Text('التالي'),
+        ),
+      ],
+    ),
+  );
+}
+
+class _SelectionFooter extends StatelessWidget {
+  const _SelectionFooter({required this.setup});
+
+  final SetupState setup;
+
+  @override
+  Widget build(BuildContext context) => Container(
+    padding: const EdgeInsets.fromLTRB(20, 14, 20, 18),
+    decoration: const BoxDecoration(
+      color: Colors.white,
+      border: Border(top: BorderSide(color: FahmanColors.line)),
+    ),
+    child: Column(
+      crossAxisAlignment: CrossAxisAlignment.stretch,
+      children: [
+        if (setup.error != null) ...[
+          Text(
+            setup.error!,
+            style: const TextStyle(
+              color: FahmanColors.coral,
+              fontWeight: FontWeight.w800,
+            ),
+          ),
+          const SizedBox(height: 8),
+        ],
+        Row(
+          children: [
+            Expanded(
+              child: Text(
+                'اخترت ${setup.selected.length} من ${setup.categoryCount}',
+                style: const TextStyle(fontWeight: FontWeight.w800),
+              ),
+            ),
+            FilledButton.icon(
+              onPressed: setup.selected.length == setup.categoryCount
+                  ? () => context.go('/setup/teams')
+                  : null,
+              icon: const Icon(Icons.arrow_back_rounded),
+              label: const Text('التالي'),
+            ),
+          ],
+        ),
+      ],
+    ),
+  );
+}
+
 class _CountChooser extends ConsumerWidget {
-  const _CountChooser({required this.selected});
+  const _CountChooser({required this.selected, this.compact = false});
   final int selected;
+  final bool compact;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) => Container(
     width: double.infinity,
-    padding: const EdgeInsets.all(18),
+    padding: EdgeInsets.all(compact ? 12 : 18),
     decoration: BoxDecoration(
       color: FahmanColors.midnight,
       borderRadius: BorderRadius.circular(24),
@@ -140,7 +246,7 @@ class _CountChooser extends ConsumerWidget {
             fontWeight: FontWeight.w900,
           ),
         ),
-        const SizedBox(height: 13),
+        SizedBox(height: compact ? 6 : 13),
         Wrap(
           spacing: 8,
           children: [
@@ -148,6 +254,10 @@ class _CountChooser extends ConsumerWidget {
               ChoiceChip(
                 selected: count == selected,
                 showCheckmark: false,
+                visualDensity: compact ? VisualDensity.compact : null,
+                materialTapTargetSize: compact
+                    ? MaterialTapTargetSize.shrinkWrap
+                    : null,
                 label: Text('$count'),
                 onSelected: (_) =>
                     ref.read(setupControllerProvider.notifier).setCount(count),
@@ -173,19 +283,21 @@ class _CategoryGrid extends ConsumerWidget {
     required this.categories,
     required this.selected,
     required this.maximum,
+    this.compact = false,
   });
   final List<CategoryAvailability> categories;
   final Set<String> selected;
   final int maximum;
+  final bool compact;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) => GridView.builder(
     padding: const EdgeInsets.fromLTRB(20, 0, 20, 24),
-    gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
-      maxCrossAxisExtent: 330,
-      mainAxisExtent: 190,
-      crossAxisSpacing: 14,
-      mainAxisSpacing: 14,
+    gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+      maxCrossAxisExtent: compact ? 260 : 330,
+      mainAxisExtent: compact ? 150 : 190,
+      crossAxisSpacing: compact ? 10 : 14,
+      mainAxisSpacing: compact ? 10 : 14,
     ),
     itemCount: categories.length,
     itemBuilder: (context, index) {
@@ -199,6 +311,7 @@ class _CategoryGrid extends ConsumerWidget {
         disabled: isDisabled,
         icon: _icons[index % _icons.length],
         accent: _accents[index % _accents.length],
+        compact: compact,
         onTap: isDisabled
             ? null
             : () => ref
@@ -234,6 +347,7 @@ class _CategoryCard extends StatelessWidget {
     required this.disabled,
     required this.icon,
     required this.accent,
+    required this.compact,
     required this.onTap,
   });
   final CategoryAvailability category;
@@ -241,6 +355,7 @@ class _CategoryCard extends StatelessWidget {
   final bool disabled;
   final IconData icon;
   final Color accent;
+  final bool compact;
   final VoidCallback? onTap;
 
   @override
@@ -253,7 +368,7 @@ class _CategoryCard extends StatelessWidget {
         onTap: onTap,
         borderRadius: BorderRadius.circular(24),
         child: Container(
-          padding: const EdgeInsets.all(17),
+          padding: EdgeInsets.all(compact ? 12 : 17),
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(24),
             border: Border.all(
@@ -267,8 +382,8 @@ class _CategoryCard extends StatelessWidget {
               Row(
                 children: [
                   Container(
-                    width: 45,
-                    height: 45,
+                    width: compact ? 38 : 45,
+                    height: compact ? 38 : 45,
                     decoration: BoxDecoration(
                       color: selected ? accent : accent.withValues(alpha: 0.14),
                       borderRadius: BorderRadius.circular(15),
@@ -283,7 +398,7 @@ class _CategoryCard extends StatelessWidget {
                     ),
                 ],
               ),
-              const SizedBox(height: 12),
+              SizedBox(height: compact ? 8 : 12),
               Text(
                 category.name,
                 maxLines: 1,
