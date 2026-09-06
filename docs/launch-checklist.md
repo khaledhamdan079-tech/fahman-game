@@ -31,7 +31,7 @@
 ## Flutter release
 
 - Build with the deployed endpoint using
-  `--dart-define=API_BASE_URL=https://YOUR-API/v1`.
+  `--dart-define=API_BASE_URL=https://fahman-game-production.up.railway.app/v1`.
 - Supply the correct Google client IDs for each platform.
 - Test Arabic layout on a small phone, large phone, tablet, and web browser.
 - Play a complete three-category match with every media type and all lifelines.

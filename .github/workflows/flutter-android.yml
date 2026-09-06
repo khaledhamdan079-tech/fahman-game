@@ -1,0 +1,57 @@
+name: Flutter Android
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "frontend/**"
+      - ".github/workflows/flutter-android.yml"
+  pull_request:
+    paths:
+      - "frontend/**"
+      - ".github/workflows/flutter-android.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  test-and-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          flutter-version: "3.35.3"
+          channel: stable
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Analyze
+        run: flutter analyze
+
+      - name: Test
+        run: flutter test
+
+      - name: Build debug APK
+        run: >-
+          flutter build apk --debug
+          --dart-define=API_BASE_URL=https://fahman-game-production.up.railway.app/v1
+          --dart-define=GOOGLE_SERVER_CLIENT_ID=238426214810-l3pjs700vjmbfj5cjsg00okfnhdpoggr.apps.googleusercontent.com
+
+      - name: Upload debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: fahman-debug-apk
+          path: frontend/build/app/outputs/flutter-apk/app-debug.apk
+          if-no-files-found: error
+          retention-days: 14

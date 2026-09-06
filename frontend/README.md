@@ -38,6 +38,10 @@ For real Google sign-in, configure each platform following the
 
 ```powershell
 flutter run `
-  --dart-define=API_BASE_URL=https://YOUR-RAILWAY-DOMAIN/v1 `
-  --dart-define=GOOGLE_SERVER_CLIENT_ID=YOUR-WEB-OAUTH-CLIENT-ID
+  --dart-define=API_BASE_URL=https://fahman-game-production.up.railway.app/v1 `
+  --dart-define=GOOGLE_SERVER_CLIENT_ID=238426214810-l3pjs700vjmbfj5cjsg00okfnhdpoggr.apps.googleusercontent.com
 ```
+
+The registered Android package is `com.fahman.game.fahman`. The current
+Android OAuth client is tied to the local debug signing certificate; create a
+second Android OAuth client for the Play App Signing SHA-1 before publishing.
