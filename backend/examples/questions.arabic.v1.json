@@ -1,0 +1,6143 @@
+{
+  "publish": true,
+  "items": [
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر محيط في العالم؟",
+      "answer_ar": "المحيط الهادئ",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المحيط الهادئ",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المحيط الأطلسي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "المحيط المتجمد الشمالي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "المحيط الهندي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما أسرع حيوان بري؟",
+      "answer_ar": "الفهد",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الغزال",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الفهد",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الأسد",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الحصان",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما عملة اليابان؟",
+      "answer_ar": "الين",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الين",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "اليوان",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الروبية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الوون",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "كم عدد قارات العالم؟",
+      "answer_ar": "سبع قارات",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "سبع قارات",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ست قارات",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "ثماني قارات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "خمس قارات",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما الأداة المستخدمة لقياس درجة الحرارة؟",
+      "answer_ar": "مقياس الحرارة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المجهر",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "البارومتر",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مقياس الحرارة",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "البوصلة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "أي حشرة تنتج العسل؟",
+      "answer_ar": "النحلة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "النملة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الخنفساء",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "النحلة",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الفراشة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما أعلى شلال في العالم؟",
+      "answer_ar": "شلال آنجل",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "شلالات نياجارا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "شلالات فيكتوريا",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "شلال آنجل",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "شلالات الراين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما العنصر الذي رمزه الكيميائي Au؟",
+      "answer_ar": "الذهب",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الفضة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الألومنيوم",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "النحاس",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الذهب",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "أي دولة تشتهر تاريخيا بطواحين الهواء وزهور التوليب؟",
+      "answer_ar": "هولندا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "النمسا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "هولندا",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "سويسرا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "البرتغال",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر عضو في جسم الإنسان؟",
+      "answer_ar": "الجلد",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الرئة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "القلب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الجلد",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الكبد",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "كم قطعة يبدأ بها كل لاعب في الشطرنج؟",
+      "answer_ar": "16 قطعة",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "18 قطعة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "12 قطعة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "14 قطعة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "16 قطعة",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما اللغة الرسمية في البرازيل؟",
+      "answer_ar": "البرتغالية",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "البرتغالية",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الإيطالية",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الإسبانية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الفرنسية",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما أصغر عظمة في جسم الإنسان؟",
+      "answer_ar": "عظمة الركاب",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "عظمة الترقوة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "عظمة الركاب",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "عظمة الكعبرة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "عظمة الفخذ",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "في أي مدينة تُمنح جائزة نوبل للسلام؟",
+      "answer_ar": "أوسلو",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أوسلو",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "كوبنهاغن",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "ستوكهولم",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "جنيف",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة منغوليا؟",
+      "answer_ar": "أولان باتور",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "دوشنبه",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "أولان باتور",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "بشكيك",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "طشقند",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما المضيق الذي يفصل آسيا عن أمريكا الشمالية؟",
+      "answer_ar": "مضيق بيرينغ",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "مضيق ملقا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "مضيق هرمز",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مضيق بيرينغ",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "مضيق جبل طارق",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "من ابتكر الشبكة العالمية World Wide Web؟",
+      "answer_ar": "تيم برنرز لي",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "بيل غيتس",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "تيم برنرز لي",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "آلان تورنغ",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ستيف جوبز",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "معلومات عامة",
+      "category_description_ar": "أسئلة متنوعة في المعرفة اليومية والعالم من حولنا",
+      "question_type": "text",
+      "prompt_ar": "ما اسم أعمق خندق محيطي معروف؟",
+      "answer_ar": "خندق ماريانا",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "خندق ماريانا",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "خندق جاوة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "خندق بيرو وتشيلي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "خندق بورتوريكو",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة مصر؟",
+      "answer_ar": "القاهرة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "القاهرة",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الجيزة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الإسكندرية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الأقصر",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة المملكة العربية السعودية؟",
+      "answer_ar": "الرياض",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الدمام",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "جدة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الرياض",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "مكة المكرمة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة فرنسا؟",
+      "answer_ar": "باريس",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ليون",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "باريس",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "نيس",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "مرسيليا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة الأردن؟",
+      "answer_ar": "عمّان",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الزرقاء",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "عمّان",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "العقبة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "إربد",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة المغرب؟",
+      "answer_ar": "الرباط",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الرباط",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "فاس",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مراكش",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الدار البيضاء",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة دولة الإمارات العربية المتحدة؟",
+      "answer_ar": "أبوظبي",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "العين",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "أبوظبي",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "دبي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الشارقة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما النهر الذي يمر في مدينة بغداد؟",
+      "answer_ar": "دجلة",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "دجلة",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الفرات",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الأردن",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "النيل",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "في أي سلسلة جبلية يقع جبل إيفرست؟",
+      "answer_ar": "الهيمالايا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الهيمالايا",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الأنديز",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الألب",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الأطلس",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر صحراء حارة في العالم؟",
+      "answer_ar": "الصحراء الكبرى",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "صحراء أتاكاما",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الصحراء الكبرى",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "صحراء كالاهاري",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "صحراء غوبي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "أي دولة أوروبية تشبه الخريطة فيها شكل الحذاء؟",
+      "answer_ar": "إيطاليا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "اليونان",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "كرواتيا",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "إيطاليا",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "إسبانيا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما الدولة الجزيرة الواقعة جنوب الهند؟",
+      "answer_ar": "سريلانكا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "مدغشقر",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "مالطا",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "سريلانكا",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "قبرص",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر بحيرة في العالم من حيث المساحة؟",
+      "answer_ar": "بحر قزوين",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "بحيرة سوبيريور",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "بحر قزوين",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "بحيرة بايكال",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "بحيرة فيكتوريا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "في أي دولة تقع صحراء أتاكاما؟",
+      "answer_ar": "تشيلي",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المكسيك",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "تشيلي",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مصر",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "منغوليا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "من أي بحيرة ينبع النيل الأزرق؟",
+      "answer_ar": "بحيرة تانا",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "بحيرة فيكتوريا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "بحيرة تشاد",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "بحيرة تانا",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "بحيرة طبريا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما المضيق الذي يقسم مدينة إسطنبول بين قارتي آسيا وأوروبا؟",
+      "answer_ar": "البوسفور",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "البوسفور",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الدردنيل",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "جبل طارق",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "باب المندب",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر دولة في العالم من حيث المساحة؟",
+      "answer_ar": "روسيا",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الولايات المتحدة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "روسيا",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الصين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "كندا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "إلى أي بحر يصب نهر الدانوب؟",
+      "answer_ar": "البحر الأسود",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "بحر البلطيق",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "بحر إيجه",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "البحر الأدرياتيكي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "البحر الأسود",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "جغرافيا",
+      "category_description_ar": "عواصم ودول وتضاريس وأنهار من أنحاء العالم",
+      "question_type": "text",
+      "prompt_ar": "ما عاصمة أيسلندا؟",
+      "answer_ar": "ريكيافيك",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أوسلو",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ريكيافيك",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "هلسنكي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "تالين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "أي حضارة قديمة بنت أهرامات الجيزة؟",
+      "answer_ar": "الحضارة المصرية القديمة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "حضارة المايا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الحضارة الرومانية",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الحضارة المصرية القديمة",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الحضارة الفينيقية",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي عام انتهت الحرب العالمية الثانية؟",
+      "answer_ar": "1945",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "1945",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "1942",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "1939",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "1950",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "من أول الخلفاء الراشدين؟",
+      "answer_ar": "أبو بكر الصديق",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "علي بن أبي طالب",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "عمر بن الخطاب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "عثمان بن عفان",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أبو بكر الصديق",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي عام سقط جدار برلين؟",
+      "answer_ar": "1989",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "1991",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "1968",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "1989",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "1975",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي دولة نشأت الحضارة الرومانية؟",
+      "answer_ar": "إيطاليا",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "فرنسا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "إسبانيا",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "اليونان",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "إيطاليا",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "أي حدث يمثل بداية التقويم الهجري؟",
+      "answer_ar": "هجرة النبي إلى المدينة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "غزوة بدر",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "فتح مكة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "هجرة النبي إلى المدينة",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "مولد النبي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي عام افتتحت قناة السويس للملاحة؟",
+      "answer_ar": "1869",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "1882",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "1914",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "1869",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "1805",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "من القائد الذي ارتبط اسمه بفتح الأندلس سنة 711م؟",
+      "answer_ar": "طارق بن زياد",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "عقبة بن نافع",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "صلاح الدين الأيوبي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "خالد بن الوليد",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "طارق بن زياد",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي دولة صدرت وثيقة الماغنا كارتا؟",
+      "answer_ar": "إنجلترا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "إيطاليا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "إنجلترا",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "فرنسا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ألمانيا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "من مؤسس الدولة العثمانية؟",
+      "answer_ar": "عثمان الأول",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "سليمان القانوني",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "محمد الفاتح",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "عثمان الأول",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أورخان",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي معركة هُزم نابليون هزيمته الأخيرة؟",
+      "answer_ar": "واترلو",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "السوم",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "واترلو",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "طرف الغار",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أوسترليتز",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "من الخليفة العباسي الذي أسس مدينة بغداد؟",
+      "answer_ar": "أبو جعفر المنصور",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المأمون",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "هارون الرشيد",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أبو جعفر المنصور",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "المعتصم بالله",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي عام وُقعت معاهدة فرساي بعد الحرب العالمية الأولى؟",
+      "answer_ar": "1919",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "1923",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "1918",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "1919",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "1914",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "ما السلالة التي وحدت الصين للمرة الأولى سنة 221 ق.م؟",
+      "answer_ar": "أسرة تشين",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أسرة مينغ",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "أسرة هان",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أسرة تانغ",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أسرة تشين",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "إلى أي حضارة انتمى القائد هانيبال؟",
+      "answer_ar": "قرطاج",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "مقدونيا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "فارس",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "قرطاج",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "روما",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "في أي عام اكتُشف حجر رشيد؟",
+      "answer_ar": "1799",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "1822",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "1815",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "1799",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "1789",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "من آخر الخلفاء العباسيين في بغداد؟",
+      "answer_ar": "المستعصم بالله",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المتوكل على الله",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المستعصم بالله",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "المستنصر بالله",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الناصر لدين الله",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تاريخ",
+      "category_description_ar": "محطات وشخصيات وحضارات صنعت التاريخ",
+      "question_type": "text",
+      "prompt_ar": "ما البركان الذي دمر مدينة بومبي الرومانية؟",
+      "answer_ar": "فيزوف",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "إتنا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "فوجي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كراكاتوا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "فيزوف",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما الاسم الشائع للمركب H2O؟",
+      "answer_ar": "الماء",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الماء",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الهيدروجين",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الأكسجين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الملح",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "أي كوكب يُعرف بالكوكب الأحمر؟",
+      "answer_ar": "المريخ",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المشتري",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المريخ",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الزهرة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "عطارد",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما الغاز الذي يحتاجه الإنسان للتنفس؟",
+      "answer_ar": "الأكسجين",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الأكسجين",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "النيتروجين",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الهيليوم",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ثاني أكسيد الكربون",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "عند كم درجة مئوية يغلي الماء عند مستوى سطح البحر؟",
+      "answer_ar": "100 درجة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "80 درجة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "100 درجة",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "90 درجة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "120 درجة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما القوة التي تجذب الأجسام نحو الأرض؟",
+      "answer_ar": "الجاذبية",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الطفو",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المغناطيسية",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الجاذبية",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الاحتكاك",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما العملية التي تصنع بها النباتات غذاءها باستخدام الضوء؟",
+      "answer_ar": "البناء الضوئي",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "التبخر",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "التنفس",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "البناء الضوئي",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "التخمر",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما قيمة الرقم الهيدروجيني للمحلول المتعادل؟",
+      "answer_ar": "7",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "14",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "5",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "0",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "7",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما وحدة قياس شدة التيار الكهربائي؟",
+      "answer_ar": "الأمبير",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الفولت",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الأوم",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الواط",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الأمبير",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما الغاز الأكثر وفرة في الغلاف الجوي للأرض؟",
+      "answer_ar": "النيتروجين",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الأرجون",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ثاني أكسيد الكربون",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الأكسجين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "النيتروجين",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "أي عضية تُعرف بأنها محطة توليد الطاقة في الخلية؟",
+      "answer_ar": "الميتوكوندريا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "النواة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الريبوسوم",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الميتوكوندريا",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "جهاز غولجي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما السرعة التقريبية للضوء في الفراغ؟",
+      "answer_ar": "300 ألف كيلومتر في الثانية",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "مليون كيلومتر في الثانية",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "3 آلاف كيلومتر في الثانية",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "300 ألف كيلومتر في الثانية",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "30 ألف كيلومتر في الثانية",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "أي فلز يكون سائلا في درجة حرارة الغرفة؟",
+      "answer_ar": "الزئبق",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الحديد",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "النحاس",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الزئبق",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الذهب",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما القيمة التقريبية لعدد أفوغادرو؟",
+      "answer_ar": "6.022 × 10^23",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "6.022 × 10^23",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "9.81 × 10^2",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "3.00 × 10^8",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "1.602 × 10^-19",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما العنصر الذي عدده الذري 26؟",
+      "answer_ar": "الحديد",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الفضة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الكربون",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "النحاس",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الحديد",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما الجسيم الذري ذو الشحنة السالبة؟",
+      "answer_ar": "الإلكترون",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "النيوترون",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الفوتون",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "البروتون",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الإلكترون",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "أي قانون يربط ضغط الغاز بحجمه عند ثبات الحرارة؟",
+      "answer_ar": "قانون بويل",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "قانون أوم",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "قانون نيوتن",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "قانون بويل",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "قانون مندل",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر جزء في دماغ الإنسان؟",
+      "answer_ar": "المخ",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المخ",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "النخاع المستطيل",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الغدة النخامية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "المخيخ",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "علوم",
+      "category_description_ar": "فيزياء وكيمياء وأحياء بأسئلة متدرجة",
+      "question_type": "text",
+      "prompt_ar": "ما نوع الرابطة الكيميائية في كلوريد الصوديوم؟",
+      "answer_ar": "رابطة أيونية",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "رابطة تساهمية",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "رابطة هيدروجينية",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "رابطة فلزية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "رابطة أيونية",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما أقرب نجم إلى الأرض؟",
+      "answer_ar": "الشمس",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الشعرى اليمانية",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "قنطور الأقرب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الشمس",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "النجم القطبي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما القمر الطبيعي لكوكب الأرض؟",
+      "answer_ar": "القمر",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "تيتان",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "غانيميد",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "القمر",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "فوبوس",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر كواكب المجموعة الشمسية؟",
+      "answer_ar": "المشتري",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "زحل",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "نبتون",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "المشتري",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الأرض",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "أي كوكب يشتهر بحلقاته الواضحة؟",
+      "answer_ar": "زحل",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "عطارد",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "زحل",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "المريخ",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الزهرة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما اسم المجرة التي تضم مجموعتنا الشمسية؟",
+      "answer_ar": "درب التبانة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أندروميدا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "سحابة ماجلان الكبرى",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مجرة المثلث",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "درب التبانة",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "من أول إنسان مشى على سطح القمر؟",
+      "answer_ar": "نيل أرمسترونغ",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "نيل أرمسترونغ",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "باز ألدرن",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "جون غلين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "يوري غاغارين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما أسخن كوكب في المجموعة الشمسية؟",
+      "answer_ar": "الزهرة",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الزهرة",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المشتري",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "عطارد",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "المريخ",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "كم قمرا طبيعيا معروفا للمريخ؟",
+      "answer_ar": "قمران",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "قمران",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "قمر واحد",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أربعة أقمار",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ثلاثة أقمار",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "كل كم سنة تقريبا يعود مذنب هالي؟",
+      "answer_ar": "76 سنة",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "76 سنة",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "12 سنة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "120 سنة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "50 سنة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما سرعة الإفلات التقريبية من سطح الأرض؟",
+      "answer_ar": "11.2 كيلومتر في الثانية",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "25 كيلومترا في الثانية",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "11.2 كيلومتر في الثانية",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "7.9 كيلومتر في الثانية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "3 كيلومترات في الثانية",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "أي جرم كان يُعد كوكبا ثم صُنّف كوكبا قزما؟",
+      "answer_ar": "بلوتو",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "بلوتو",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "تيتان",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أوروبا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "سيريوس",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "حول أي جرم تدور محطة الفضاء الدولية؟",
+      "answer_ar": "الأرض",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "القمر",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الأرض",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الشمس مباشرة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "المريخ",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما أقرب مجرة كبيرة إلى درب التبانة؟",
+      "answer_ar": "مجرة أندروميدا",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "مجرة أندروميدا",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "مجرة الدوامة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مجرة المثلث",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "مجرة السيجار",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما اسم الحد الذي لا يستطيع الضوء تجاوزه حول الثقب الأسود؟",
+      "answer_ar": "أفق الحدث",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الغلاف الضوئي",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "أفق الحدث",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "خط الثلج",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الحزام الإشعاعي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما العملية التي تولد معظم طاقة الشمس؟",
+      "answer_ar": "اندماج الهيدروجين النووي",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "انشطار اليورانيوم",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "التفاعل الكيميائي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "اندماج الهيدروجين النووي",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "احتراق الأكسجين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "أي تلسكوب فضائي أُطلق سنة 1990؟",
+      "answer_ar": "هابل",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "تشاندرا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "جيمس ويب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "هابل",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "كيبلر",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "على أي كوكب يقع جبل أوليمبوس مونس؟",
+      "answer_ar": "المريخ",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المريخ",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "عطارد",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الأرض",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الزهرة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "فضاء",
+      "category_description_ar": "كواكب ونجوم واستكشاف الفضاء",
+      "question_type": "text",
+      "prompt_ar": "ما اسم أول قمر صناعي أُطلق إلى الفضاء؟",
+      "answer_ar": "سبوتنيك 1",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "إكسبلورر 1",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "فوستوك 1",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أبولو 11",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "سبوتنيك 1",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كم لاعبا من كل فريق يكونون داخل ملعب كرة السلة؟",
+      "answer_ar": "5 لاعبين",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "5 لاعبين",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "6 لاعبين",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "7 لاعبين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "11 لاعبا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كم لاعبا من كل فريق يكونون داخل ملعب الكرة الطائرة؟",
+      "answer_ar": "6 لاعبين",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "9 لاعبين",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "6 لاعبين",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "5 لاعبين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "7 لاعبين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كم بطولة كبرى غراند سلام في التنس خلال العام؟",
+      "answer_ar": "4 بطولات",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "4 بطولات",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "3 بطولات",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "5 بطولات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "6 بطولات",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كل كم سنة تُقام الألعاب الأولمبية الصيفية عادة؟",
+      "answer_ar": "4 سنوات",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "سنتان",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "3 سنوات",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "5 سنوات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "4 سنوات",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "في أي رياضة تُستخدم الريشة والمضرب؟",
+      "answer_ar": "الريشة الطائرة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الهوكي",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "تنس الطاولة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الإسكواش",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الريشة الطائرة",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "ما طول حوض السباحة الأولمبي؟",
+      "answer_ar": "50 مترا",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "25 مترا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "100 متر",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "50 مترا",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "75 مترا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "ما المسافة الرسمية لسباق الماراثون؟",
+      "answer_ar": "42.195 كيلومترا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "45 كيلومترا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "42.195 كيلومترا",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "50 كيلومترا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "40 كيلومترا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كم مسابقة يتضمن العشاري في ألعاب القوى؟",
+      "answer_ar": "10 مسابقات",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "8 مسابقات",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "12 مسابقة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "10 مسابقات",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "7 مسابقات",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "في أي دولة نشأت رياضة الجودو؟",
+      "answer_ar": "اليابان",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "تايلاند",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "اليابان",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كوريا الجنوبية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الصين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "ما أعلى مجموع ممكن في شوط واحد من السنوكر دون كرة حرة؟",
+      "answer_ar": "147 نقطة",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "147 نقطة",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "180 نقطة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "155 نقطة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "120 نقطة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "بأي رياضة يرتبط سباق طواف فرنسا؟",
+      "answer_ar": "ركوب الدراجات",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الجري",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "التجديف",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "سباق السيارات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ركوب الدراجات",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "من كم جذع يتكون الويكيت في لعبة الكريكيت؟",
+      "answer_ar": "3 جذوع",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "5 جذوع",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "3 جذوع",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "جذعان",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "4 جذوع",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كم نوعا رئيسيا من الأسلحة يوجد في المبارزة الأولمبية؟",
+      "answer_ar": "3 أنواع",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "4 أنواع",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "نوعان",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "5 أنواع",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "3 أنواع",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كم يبعد خط منطقة المرمى في كرة اليد عن المرمى؟",
+      "answer_ar": "6 أمتار",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "9 أمتار",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "6 أمتار",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "7 أمتار",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "5 أمتار",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "أين أُقيمت أول دورة أولمبية حديثة سنة 1896؟",
+      "answer_ar": "أثينا",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "روما",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "باريس",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "لندن",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أثينا",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "كم مسابقة يتضمن السباعي في ألعاب القوى؟",
+      "answer_ar": "7 مسابقات",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "8 مسابقات",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "6 مسابقات",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "10 مسابقات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "7 مسابقات",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "إلى كم نقطة يُلعب الشوط العادي في الكرة الطائرة؟",
+      "answer_ar": "25 نقطة",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "30 نقطة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "25 نقطة",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "21 نقطة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "15 نقطة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "رياضة",
+      "category_description_ar": "ألعاب أولمبية ورياضات فردية وجماعية",
+      "question_type": "text",
+      "prompt_ar": "إلى كم نقطة يُلعب الشوط في الريشة الطائرة بالنظام الحديث؟",
+      "answer_ar": "21 نقطة",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "25 نقطة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "11 نقطة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "15 نقطة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "21 نقطة",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "كم لاعبا يبدأ بهم فريق كرة القدم المباراة داخل الملعب؟",
+      "answer_ar": "11 لاعبا",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "12 لاعبا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "10 لاعبين",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "11 لاعبا",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "9 لاعبين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "كم تبعد نقطة الجزاء عن خط المرمى؟",
+      "answer_ar": "11 مترا",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "11 مترا",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "9 أمتار",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "16 مترا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "12 مترا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "كل كم سنة تقام بطولة كأس العالم للرجال؟",
+      "answer_ar": "4 سنوات",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "3 سنوات",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "سنتان",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "5 سنوات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "4 سنوات",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "أي لاعب يسمح له بلمس الكرة بيديه داخل منطقة جزائه؟",
+      "answer_ar": "حارس المرمى",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "قلب الدفاع",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "أي لاعب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "قائد الفريق",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "حارس المرمى",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "ماذا يعني حصول اللاعب على البطاقة الحمراء؟",
+      "answer_ar": "الطرد من المباراة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "تبديل إجباري",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "إنذار أول",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الطرد من المباراة",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "احتساب ركلة ركنية",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "كم دقيقة مدة المباراة الأصلية دون الوقت الإضافي؟",
+      "answer_ar": "90 دقيقة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "120 دقيقة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "90 دقيقة",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "100 دقيقة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "80 دقيقة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "أين أقيمت أول بطولة لكأس العالم سنة 1930؟",
+      "answer_ar": "الأوروغواي",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الأوروغواي",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "البرازيل",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "إيطاليا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "فرنسا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "ماذا يعني مصطلح هاتريك؟",
+      "answer_ar": "تسجيل لاعب ثلاثة أهداف",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "تسجيل لاعب ثلاثة أهداف",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ثلاث تمريرات حاسمة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الفوز بثلاث مباريات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ثلاث ركلات ركنية",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "أي اتحاد ينظم دوري أبطال أوروبا؟",
+      "answer_ar": "يويفا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "كونميبول",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "يويفا",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كاف",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "فيفا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "في أي دولة يقع ملعب ماراكانا؟",
+      "answer_ar": "البرازيل",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "البرازيل",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الأرجنتين",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "إسبانيا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "المكسيك",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "أي منتخب فاز بكأس العالم 1966؟",
+      "answer_ar": "إنجلترا",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "إيطاليا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "إنجلترا",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "البرازيل",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ألمانيا الغربية",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "ما الاسم الشائع لركلة تُمنح عندما تخرج الكرة من خط المرمى بلمسة مدافع؟",
+      "answer_ar": "ركلة ركنية",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "إسقاط الكرة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ركلة حرة مباشرة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "رمية تماس",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ركلة ركنية",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "ما أول منتخب عربي وأفريقي بلغ نصف نهائي كأس العالم للرجال؟",
+      "answer_ar": "المغرب",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المغرب",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "السنغال",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مصر",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الجزائر",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "من الجهة التي تمنح جائزة الكرة الذهبية؟",
+      "answer_ar": "مجلة فرانس فوتبول",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الاتحاد الأوروبي لكرة القدم",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "اللجنة الأولمبية الدولية",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مجلة فرانس فوتبول",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الاتحاد الدولي لكرة القدم",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "في أي كأس عالم استُخدمت البطاقتان الصفراء والحمراء للمرة الأولى؟",
+      "answer_ar": "كأس العالم 1970",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "كأس العالم 1970",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "كأس العالم 1982",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كأس العالم 1966",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "كأس العالم 1974",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "من أول دولة عربية استضافت كأس العالم للرجال؟",
+      "answer_ar": "قطر",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الإمارات",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المغرب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مصر",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "قطر",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "إلى أي لاعب تُنسب ركلة الجزاء الشهيرة المسماة بانينكا؟",
+      "answer_ar": "أنتونين بانينكا",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أنتونين بانينكا",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "يوهان كرويف",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "فيرينتس بوشكاش",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "فرانز بكنباور",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "كرة القدم",
+      "category_description_ar": "قوانين وبطولات ولحظات من تاريخ كرة القدم",
+      "question_type": "text",
+      "prompt_ar": "ما اسم البطولة الأهم لأندية أمريكا الجنوبية؟",
+      "answer_ar": "كوبا ليبرتادوريس",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "كأس الكونكاكاف الذهبية",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "كوبا ليبرتادوريس",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كوبا أمريكا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "دوري الأمم",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف كتاب الأيام؟",
+      "answer_ar": "طه حسين",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "طه حسين",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "نجيب محفوظ",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "عباس العقاد",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "توفيق الحكيم",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من الشاعر الملقب بشاعر النيل؟",
+      "answer_ar": "حافظ إبراهيم",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "حافظ إبراهيم",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المتنبي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أحمد شوقي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "محمود درويش",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من نقل كتاب كليلة ودمنة إلى العربية وصاغه بأسلوبه؟",
+      "answer_ar": "عبد الله بن المقفع",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "عبد الله بن المقفع",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ابن خلدون",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الجاحظ",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أبو حيان التوحيدي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "إلى أي فن أدبي تنتمي المعلقات؟",
+      "answer_ar": "الشعر",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "المسرح",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الشعر",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الرواية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "المقالة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من الأديب العربي الحائز جائزة نوبل في الأدب سنة 1988؟",
+      "answer_ar": "نجيب محفوظ",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "توفيق الحكيم",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "نجيب محفوظ",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الطيب صالح",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "يوسف إدريس",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "ما اسم المجموعة القصصية التراثية التي تضم حكايات شهرزاد؟",
+      "answer_ar": "ألف ليلة وليلة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "مقامات الحريري",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ألف ليلة وليلة",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كليلة ودمنة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "البخلاء",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف كتاب النبي؟",
+      "answer_ar": "جبران خليل جبران",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ميخائيل نعيمة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "إيليا أبو ماضي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أمين الريحاني",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "جبران خليل جبران",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف رواية موسم الهجرة إلى الشمال؟",
+      "answer_ar": "الطيب صالح",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "إبراهيم الكوني",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "عبد الرحمن منيف",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الطيب صالح",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "غسان كنفاني",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف كتاب البخلاء؟",
+      "answer_ar": "الجاحظ",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ابن المقفع",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المبرد",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الجاحظ",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ابن قتيبة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف كتاب المقدمة الشهير؟",
+      "answer_ar": "ابن خلدون",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ابن خلدون",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المسعودي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "ابن الأثير",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الطبري",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف كتاب الأغاني؟",
+      "answer_ar": "أبو الفرج الأصفهاني",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الأصمعي",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "أبو الفرج الأصفهاني",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أبو تمام",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ابن النديم",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من كتب قصيدة الأطلال التي غنتها أم كلثوم؟",
+      "answer_ar": "إبراهيم ناجي",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "حافظ إبراهيم",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "أحمد رامي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "إبراهيم ناجي",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "بدر شاكر السياب",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من صاحب قصيدة جادك الغيث؟",
+      "answer_ar": "لسان الدين بن الخطيب",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أبو البقاء الرندي",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "المعتمد بن عباد",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "ابن زيدون",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "لسان الدين بن الخطيب",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف رسالة الغفران؟",
+      "answer_ar": "أبو العلاء المعري",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الجاحظ",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ابن حزم",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "أبو حيان التوحيدي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أبو العلاء المعري",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف قصة حي بن يقظان الفلسفية؟",
+      "answer_ar": "ابن طفيل",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ابن طفيل",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الكندي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "ابن رشد",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الفارابي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من جمع مختارات ديوان الحماسة؟",
+      "answer_ar": "أبو تمام",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أبو تمام",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "البحتري",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "المتنبي",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أبو فراس الحمداني",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "من مؤلف كتاب العقد الفريد؟",
+      "answer_ar": "ابن عبد ربه",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الزمخشري",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ابن قتيبة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "ابن عبد ربه",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الثعالبي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "أدب عربي",
+      "category_description_ar": "كتب وشعراء وروائيون من التراث والأدب الحديث",
+      "question_type": "text",
+      "prompt_ar": "لمن تُنسب لامية العرب؟",
+      "answer_ar": "الشنفرى",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الشنفرى",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "امرؤ القيس",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "عنترة بن شداد",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "زهير بن أبي سلمى",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما جمع كلمة كتاب؟",
+      "answer_ar": "كتب",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "كتابات",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "كتب",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كتبة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "مكاتب",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما مضاد كلمة سريع؟",
+      "answer_ar": "بطيء",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "قصير",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "قوي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "قريب",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "بطيء",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما مؤنث كلمة معلم؟",
+      "answer_ar": "معلمة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "معلومة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "معلمون",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "تعليم",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "معلمة",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما الحرف الشمسي في كلمة الشمس؟",
+      "answer_ar": "الشين",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الشين",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الميم",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "اللام",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الألف",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما مرادف كلمة سعيد؟",
+      "answer_ar": "فرح",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "فرح",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "متعب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "حزين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "غاضب",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "أي الكلمات الآتية حرف جر؟",
+      "answer_ar": "في",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "هذا",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "في",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كتب",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "لن",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما صيغة المثنى المرفوع من كلمة كتاب؟",
+      "answer_ar": "كتابان",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "كتابين",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "كتابات",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كتابان",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "كتابون",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما علامة نصب جمع المذكر السالم؟",
+      "answer_ar": "الياء",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الألف",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الواو",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الياء",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الضمة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما الفاعل في جملة كتب الطالب الدرس؟",
+      "answer_ar": "الطالب",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الدرس",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الطالب",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كتب",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ضمير مستتر",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "أي الكلمات الآتية تبدأ بهمزة وصل؟",
+      "answer_ar": "ابن",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "أكرم",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ابن",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "إيمان",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أحمد",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما عمل الحرف لن في الفعل المضارع بعده؟",
+      "answer_ar": "ينصبه",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "يرفعه",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "يجره",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "ينصبه",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "يجزمه دائما",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما البناء للمجهول من الفعل كتب في الماضي؟",
+      "answer_ar": "كُتِبَ",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "كَتَبَ",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "يُكتَبُ",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "اكتب",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "كُتِبَ",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما علامة رفع الأسماء الخمسة؟",
+      "answer_ar": "الواو",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الألف",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الياء",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الضمة المقدرة دائما",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الواو",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "أي الكلمات الآتية ممنوعة من الصرف؟",
+      "answer_ar": "مساجد",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "معلمون",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "مدارسهم",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "كتاب",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "مساجد",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما علامة جزم الفعل المضارع الصحيح الآخر؟",
+      "answer_ar": "السكون",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "السكون",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الضمة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الكسرة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الفتحة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما الجذر الثلاثي لكلمة استغفار؟",
+      "answer_ar": "غ ف ر",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ف ر ر",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "س ت غ",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "غ ي ر",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "غ ف ر",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "ما نوع لا في جملة لا طالبَ مهمل؟",
+      "answer_ar": "لا النافية للجنس",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "لا النافية للجنس",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "لا العاطفة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "لا الناهية",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "لا الزائدة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "اللغة العربية",
+      "category_description_ar": "مفردات ونحو وصرف وبلاغة عربية",
+      "question_type": "text",
+      "prompt_ar": "بماذا يُجر الاسم الممنوع من الصرف إذا لم يُعرّف ولم يُضف؟",
+      "answer_ar": "بالفتحة",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "بالياء",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "بالكسرة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "بالسكون",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "بالفتحة",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ماذا تعني الأحرف CPU في الحاسوب؟",
+      "answer_ar": "وحدة المعالجة المركزية",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "وحدة التخزين الخارجية",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "وحدة المعالجة المركزية",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "مزود الطاقة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "واجهة المستخدم",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ما اللغة المستخدمة أساسا لبناء هيكل صفحات الويب؟",
+      "answer_ar": "HTML",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "C++",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "Python",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "SQL",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "HTML",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "أي شركة تطور نظام أندرويد؟",
+      "answer_ar": "جوجل",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "آبل",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "مايكروسوفت",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "جوجل",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "أدوبي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "مم يتكون النظام الثنائي؟",
+      "answer_ar": "الصفر والواحد",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الحروف فقط",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الأرقام من صفر إلى تسعة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الصفر والواحد",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الثمانية والتسعة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ماذا يُستخدم منفذ USB عادة؟",
+      "answer_ar": "توصيل الأجهزة ونقل البيانات والطاقة",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "توصيل الأجهزة ونقل البيانات والطاقة",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "تشفير الأقراص وحده",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "تبريد المعالج",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "عرض صفحات الويب",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ما المقصود بالتخزين السحابي؟",
+      "answer_ar": "حفظ الملفات على خوادم عبر الإنترنت",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ضغطها دون حفظ",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "حفظها في ذاكرة المعالج فقط",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "حفظ الملفات على خوادم عبر الإنترنت",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "طباعتها على الورق",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "من ابتكر لغة البرمجة بايثون؟",
+      "answer_ar": "غيدو فان روسم",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "دينيس ريتشي",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "لينوس تورفالدس",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "جيمس غوسلينغ",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "غيدو فان روسم",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "من أنشأ نواة لينكس؟",
+      "answer_ar": "لينوس تورفالدس",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "ستيف وزنياك",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ريتشارد ستولمن",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "بيل غيتس",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "لينوس تورفالدس",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "إلى ماذا يشير الحرف S في HTTPS؟",
+      "answer_ar": "آمن",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "سريع",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "قياسي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "آمن",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "بسيط",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "أي نوع من الذاكرة يفقد بياناته عند انقطاع الكهرباء؟",
+      "answer_ar": "RAM",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "SSD",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "RAM",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "القرص الصلب",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ذاكرة القراءة فقط",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ما اللغة الشائعة للاستعلام عن قواعد البيانات العلائقية؟",
+      "answer_ar": "SQL",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "XML",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "SQL",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "Kotlin",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "CSS",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ما الأداة المستخدمة لتتبع إصدارات الشفرة البرمجية؟",
+      "answer_ar": "Git",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "Excel",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "Git",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "Docker",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "Photoshop",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ما الوظيفة الأساسية لنظام DNS؟",
+      "answer_ar": "تحويل أسماء النطاقات إلى عناوين IP",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "تحويل أسماء النطاقات إلى عناوين IP",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "إنشاء كلمات المرور",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "تشفير كل ملفات الجهاز",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "قياس سرعة المعالج",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "كم عدد البتات في عنوان IPv4؟",
+      "answer_ar": "32 بتا",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "32 بتا",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "16 بتا",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "64 بتا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "128 بتا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "في أي عام طُرح أول هاتف آيفون؟",
+      "answer_ar": "2007",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "2012",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "2007",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "2010",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "2001",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "في التشفير المتماثل، كم مفتاحا مشتركا يُستخدم للتشفير وفك التشفير؟",
+      "answer_ar": "مفتاح واحد",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "مفتاح واحد",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "مفتاحان عامان",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "لا يستخدم أي مفتاح",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "ثلاثة مفاتيح",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ما التقنية التي يشتهر بها Docker؟",
+      "answer_ar": "الحاويات البرمجية",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "محركات البحث",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الحاويات البرمجية",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "جداول البيانات",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "تصميم الصور",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "تقنية",
+      "category_description_ar": "حواسيب وإنترنت وبرمجة وأمن معلومات",
+      "question_type": "text",
+      "prompt_ar": "ماذا يعني رمز حالة HTTP 404؟",
+      "answer_ar": "الصفحة أو المورد غير موجود",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "نجح الطلب",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الصفحة أو المورد غير موجود",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "خطأ داخلي في الخادم",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "إعادة توجيه دائمة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر حيوان بري حي؟",
+      "answer_ar": "الفيل الأفريقي",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "وحيد القرن",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "فرس النهر",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الزرافة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الفيل الأفريقي",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "ما أسرع طائر عند الانقضاض؟",
+      "answer_ar": "الصقر الشاهين",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الصقر الشاهين",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "النعامة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "البومة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "النسر الذهبي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "إلى أي مجموعة ينتمي الحوت؟",
+      "answer_ar": "الثدييات",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "البرمائيات",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الأسماك",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الثدييات",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الزواحف",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "كم ذراعا للأخطبوط؟",
+      "answer_ar": "8 أذرع",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "10 أذرع",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "6 أذرع",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "8 أذرع",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "12 ذراعا",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "ماذا يخزن الجمل أساسا في سنامه؟",
+      "answer_ar": "الدهون",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الدهون",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الماء النقي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الهواء",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الدم",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "ما الغذاء الأشهر للباندا العملاقة؟",
+      "answer_ar": "الخيزران",
+      "points": 200,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الخيزران",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الفاكهة فقط",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الأسماك",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "اللحوم",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "أي حيوان ثديي قادر على الطيران الحقيقي؟",
+      "answer_ar": "الخفاش",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "البطريق",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "السنجاب الطائر",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الخفاش",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "النعامة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "مم يتكون معظم هيكل سمك القرش؟",
+      "answer_ar": "الغضروف",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الصدف",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "العظم الصلب",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الكيراتين",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الغضروف",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "ما المميز في حركة عيني الحرباء؟",
+      "answer_ar": "تتحركان باستقلال عن بعضهما",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "تغلقهما عند الصيد",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "ترى بالأبيض والأسود فقط",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "لا تتحركان أبدا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "تتحركان باستقلال عن بعضهما",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "في أي نصف من الكرة الأرضية تعيش طيور البطريق طبيعيا؟",
+      "answer_ar": "النصف الجنوبي",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "النصف الشمالي فقط",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "كلا القطبين بالتساوي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "المناطق الاستوائية فقط",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "النصف الجنوبي",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "كم رجلا للنحلة؟",
+      "answer_ar": "6 أرجل",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "6 أرجل",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "8 أرجل",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "4 أرجل",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "10 أرجل",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "كم حجرة في قلب التمساح؟",
+      "answer_ar": "4 حجرات",
+      "points": 400,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "حجرتان",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "3 حجرات",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "4 حجرات",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "5 حجرات",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "أي حيوان برمائي يشتهر بقدرته الكبيرة على تجديد أطرافه؟",
+      "answer_ar": "الأكسولوتل",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الضفدع السام",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الأكسولوتل",
+          "is_correct": true,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "العلجوم",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "السمندر الناري",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "ما حقيقة الناب الطويل لحوت الناروال؟",
+      "answer_ar": "سن طويلة",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "جزء من الزعنفة",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "قرن عظمي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "عظمة من الفك",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "سن طويلة",
+          "is_correct": true,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "ما أكبر حيوان معروف عاش على الأرض؟",
+      "answer_ar": "الحوت الأزرق",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "الأرجنتينوصور",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الميغالودون",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الحوت الأزرق",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الفيل الأفريقي",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "أي ثديي من الآتي يضع البيض؟",
+      "answer_ar": "خلد الماء",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "خلد الماء",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الخفاش",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "الكوالا",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "الدلفين",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "كم فقرة عنقية في رقبة الزرافة غالبا؟",
+      "answer_ar": "7 فقرات",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "7 فقرات",
+          "is_correct": true,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "18 فقرة",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "12 فقرة",
+          "is_correct": false,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "24 فقرة",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    },
+    {
+      "category_name_ar": "حيوانات",
+      "category_description_ar": "عالم الحيوان وخصائص الكائنات الحية",
+      "question_type": "text",
+      "prompt_ar": "أي طائر بحري يشتهر بأكبر باع جناحين بين الطيور الحية؟",
+      "answer_ar": "القطرس الجوال",
+      "points": 600,
+      "options_reveal_timing": "immediate",
+      "options": [
+        {
+          "text_ar": "البجع الأبيض",
+          "is_correct": false,
+          "sort_order": 0
+        },
+        {
+          "text_ar": "الكندور الأنديزي",
+          "is_correct": false,
+          "sort_order": 1
+        },
+        {
+          "text_ar": "القطرس الجوال",
+          "is_correct": true,
+          "sort_order": 2
+        },
+        {
+          "text_ar": "النسر الأصلع",
+          "is_correct": false,
+          "sort_order": 3
+        }
+      ]
+    }
+  ]
+}
